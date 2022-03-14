@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios",
+        "state": {
+          "branch": "master",
+          "revision": "49669f63e5acad3ac304751a58a878b071931e61",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftUIVisualEffects",
+        "repositoryURL": "https://github.com/lucasbrown/swiftui-visual-effects.git",
+        "state": {
+          "branch": null,
+          "revision": "b26f8cebd55ff60ed8953768aa818dfb005b5838",
+          "version": "1.0.3"
+        }
+      },
+      {
+        "package": "TTProgressHUD",
+        "repositoryURL": "https://github.com/honkmaster/TTProgressHUD",
+        "state": {
+          "branch": "master",
+          "revision": "befbd871987c82cbd598cbb5ab9784962b4d9343",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
