@@ -1,0 +1,672 @@
+{
+    "data":
+        {
+            "entries":
+                [
+                    {
+                        "id": "local-article-1",
+                        "slug": "local-article-1",
+                        "article":
+                            [
+                                {
+                                    "eyebrow":
+                                        [
+                                            {
+                                                "title": "History"
+                                                
+                                            }
+                                        ],
+                                    "title": "Trinity, a Maison emblem and jewelery icon test long artcle",
+                                    "short_title": "Trinity Short Title",
+                                    "featured_asset":
+                                        [
+                                            {
+                                                "url": "https://www.sandrascloset.com/wp-content/uploads/2010/04/14.jpg",
+                                                "width": 2312,
+                                                "height": 3468
+                                                
+                                            }
+                                        ],
+                                    "timestamp": "2020-04-22 20:05:26",
+                                    "author":
+                                        [
+                                            {
+                                                "first_name": "Jane",
+                                                "last_name": "Doe",
+                                                "job_title": "Sales Agent",
+                                                "location": "5th Avenue Mansion"
+                                                
+                                            }
+                                        ],
+                                    "dek": "Created in 1924 by Louis Cartier, the Trinity ring soon became one of the emblems of the Maison and a jewelery icon.",
+                                    "primary_topic":
+                                        [
+                                            {
+                                                "title": "tag1"
+                                                
+                                            }
+                                        ],
+                                    "sub_topics":
+                                        [
+                                            {
+                                                "title": "tag1"
+                                                
+                                            },
+                                            {
+                                                "title": "tags"
+                                            }
+                                        ]
+                                        
+                                }
+                            ],
+                            "key_talking_points":
+                                [
+                                    {
+                                        "title": "Key Talking Points",
+                                        "items":
+                                            [
+                                                {
+                                                    "content": "<p>First ring made of <strong>three interlaced individual bands</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+                                                    
+                                                },
+                                                {
+                                                    "content": "<p>The <em>harmonious interplay between the bands</em> create an expression of attachment. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>"
+                                                    
+                                                },
+                                                {
+                                                    "content": "<p>Relaunched by Cartier in 1981. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+                                                    
+                                                }
+                                            ]
+                                    }
+                            ],
+                            "items":
+                                [
+                                    {
+                                        "article_body": "<p>The Mainson’s registers from 1924 make the first mention of a ring consisting of three inseparably interlaced bands, each made of a different metal: <strong>platinum, pink gold and yellow</strong>. A bracelet with han identical concept was also created the same year.</p>\n<p>The clean-lined design appealed to Elsie de Wolfe, <a href=\"http://cartier-atlas.local/admin/entries/articlePage/%5C\">famouse American interior designer</a>, who would be the first to purchase one.</p>\n<p>News combinations of colors were introduced over the years. <em>While the most emblematic joined yellow, pink and white gold</em>, Cartier also dared to introduce audacious hues, such as green gold.</p>\n<h1>Beyond Timeless</h1>\n<p>A timeless piece, it’s essential design is at the same time femenine and masculine, symbolic and playful. The harmonious interplay between the three bands provides an unprecedented expression of attachment.</p>\n<p>The trio of gold holds a powerful metaphor:</p>\n<ul><li>Pink for love</li><li>White for friendship</li><li>Yellow for faithfulness</li></ul><h1>Beyond Timeless<br /></h1>\n<p>A timeless piece, it’s essential design is at the same time femenine and masculine, symbolic and playful. The harmonious interplay between the three bands provides an unprecedented expression of attachment.</p>\n<p>The trio of gold holds a powerful metaphor:</p>\n<ol><li>Pink for love</li><li>White for friendship</li><li>Yellow for faithfulness</li></ol><p>More than a symbol of love, the pureness of its lines also offers multiple interpretations.</p>"
+                                        
+                                    },
+                                    {
+                                        "content_carousel": [
+                                            {
+                                                "carousel_title": "Content Carousel",
+                                                "carousel_description": "Carousel for Collection Cards",
+                                                "carousel_content_type": "collection",
+                                                "collections": [
+                                                    {
+                                                        "id": "1553",
+                                                        "slug": "new-collection",
+                                                        "collection": [
+                                                            {
+                                                                "eyebrow": [
+                                                                    {
+                                                                        "title": "Designer Spotlight"
+                                                                    }
+                                                                ],
+                                                                "title": "Juste Un Clou",
+                                                                "featured_asset":
+                                                                [
+                                                                    {
+                                                                        "url": "https://i.pinimg.com/originals/fc/2b/36/fc2b36968e673f4aa771c2393301f525.png",
+                                                                        "width": 2312,
+                                                                        "height": 3468
+                                                                        
+                                                                    },
+                                                                    {
+                                                                        "url": "https://cdn.pursuitist.com/wp-content/uploads/2014/10/cartierpantherebracelet.png",
+                                                                        "width": 2312,
+                                                                        "height": 3468
+                                                                        
+                                                                    },
+                                                                    {
+                                                                        "url": "https://i.pinimg.com/originals/fc/2b/36/fc2b36968e673f4aa771c2393301f525.png",
+                                                                        "width": 2312,
+                                                                        "height": 3468
+                                                                        
+                                                                    }
+                                                                ],
+                                                                "timestamp": "2020-04-28 10:33:07",
+                                                                "author": [
+                                                                    {
+                                                                        "first_name": "Dharnell",
+                                                                        "last_name": "Abluyen",
+                                                                        "job_title": "Web Developer",
+                                                                        "location": "Quezon City"
+                                                                    }
+                                                                ],
+                                                                "dek": "The luxury bracelets of the Juste un Clou collection created by Cartier trace the outlines of a style that is both modern and daring.",
+                                                                "article_slug": "article",
+                                                                "article_title": "First ring made of three interlaced individual bands."
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id": "1553",
+                                                        "slug": "new-collection",
+                                                        "collection": [
+                                                            {
+                                                                "eyebrow": [
+                                                                    {
+                                                                        "title": "Designer Spotlight"
+                                                                    }
+                                                                ],
+                                                                "title": "Juste Un Clou",
+                                                                "featured_asset":
+                                                                [
+                                                                    {
+                                                                        "url": "https://i.pinimg.com/originals/fc/2b/36/fc2b36968e673f4aa771c2393301f525.png",
+                                                                        "width": 2312,
+                                                                        "height": 3468
+                                                                        
+                                                                    },
+                                                                    {
+                                                                        "url": "https://cdn.pursuitist.com/wp-content/uploads/2014/10/cartierpantherebracelet.png",
+                                                                        "width": 2312,
+                                                                        "height": 3468
+                                                                        
+                                                                    },
+                                                                ],
+                                                                "timestamp": "2020-04-28 10:33:07",
+                                                                "author": [
+                                                                    {
+                                                                        "first_name": "Dharnell",
+                                                                        "last_name": "Abluyen",
+                                                                        "job_title": "Web Developer",
+                                                                        "location": "Quezon City"
+                                                                    }
+                                                                ],
+                                                                "dek": "The luxury bracelets of the Juste un Clou collection created by Cartier trace the outlines of a style that is both modern and daring.",
+                                                                "article_slug": "article",
+                                                                "article_title": "First ring made of three interlaced individual bands."
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id": "1553",
+                                                        "slug": "new-collection",
+                                                        "collection": [
+                                                            {
+                                                                "eyebrow": [
+                                                                    {
+                                                                        "title": "Designer Spotlight"
+                                                                    }
+                                                                ],
+                                                                "title": "Juste Un Clou",
+                                                                "featured_asset":
+                                                                [
+                                                                    {
+                                                                        "url": "https://i.pinimg.com/originals/fc/2b/36/fc2b36968e673f4aa771c2393301f525.png",
+                                                                        "width": 2312,
+                                                                        "height": 3468
+                                                                        
+                                                                    },
+                                                                ],
+                                                                "timestamp": "2020-04-28 10:33:07",
+                                                                "author": [
+                                                                    {
+                                                                        "first_name": "Dharnell",
+                                                                        "last_name": "Abluyen",
+                                                                        "job_title": "Web Developer",
+                                                                        "location": "Quezon City"
+                                                                    }
+                                                                ],
+                                                                "dek": "The luxury bracelets of the Juste un Clou collection created by Cartier trace the outlines of a style that is both modern and daring.",
+                                                                "article_slug": "article",
+                                                                "article_title": "First ring made of three interlaced individual bands."
+                                                            }
+                                                        ]
+                                                    },
+                                                ],
+                                                "takeaways": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "contentCards": [
+                                            {
+                                                "item": [
+                                                    {
+                                                        "collectionItem": [
+                                                            {
+                                                                "id": "1553",
+                                                                "slug": "new-collection",
+                                                                "collection": [
+                                                                    {
+                                                                        "eyebrow": [
+                                                                            {
+                                                                                "title": "Designer Spotlight"
+                                                                            }
+                                                                        ],
+                                                                        "title": "Juste Un Clou",
+                                                                        "featured_asset":
+                                                                        [
+                                                                            {
+                                                                                "url": "https://i.pinimg.com/originals/fc/2b/36/fc2b36968e673f4aa771c2393301f525.png",
+                                                                                "width": 2312,
+                                                                                "height": 3468
+                                                                                
+                                                                            },
+                                                                            {
+                                                                                "url": "https://cdn.pursuitist.com/wp-content/uploads/2014/10/cartierpantherebracelet.png",
+                                                                                "width": 2312,
+                                                                                "height": 3468
+                                                                                
+                                                                            },
+                                                                            {
+                                                                                "url": "https://i.pinimg.com/originals/fc/2b/36/fc2b36968e673f4aa771c2393301f525.png",
+                                                                                "width": 2312,
+                                                                                "height": 3468
+                                                                                
+                                                                            }
+                                                                        ],
+                                                                        "timestamp": "2020-04-28 10:33:07",
+                                                                        "author": [
+                                                                            {
+                                                                                "first_name": "Dharnell",
+                                                                                "last_name": "Abluyen",
+                                                                                "job_title": "Web Developer",
+                                                                                "location": "Quezon City"
+                                                                            }
+                                                                        ],
+                                                                        "dek": "The luxury bracelets of the Juste un Clou collection created by Cartier trace the outlines of a style that is both modern and daring.",
+                                                                        "article_slug": "new-article",
+                                                                        "article_title": "First ring made of three interlaced individual bands."
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "brief_comment": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "contentCards": [
+                                            {
+                                                "item": [
+                                                    {
+                                                        "collectionItem": [
+                                                            {
+                                                                "id": "1553",
+                                                                "slug": "new-collection",
+                                                                "display_type": "immersive",
+                                                                "collection": [
+                                                                    {
+                                                                        "eyebrow": [
+                                                                            {
+                                                                                "title": "Designer Spotlight"
+                                                                            }
+                                                                        ],
+                                                                        "title": "Juste Un Clou",
+                                                                        "featured_asset":
+                                                                        [
+                                                                            {
+                                                                                "url": "https://i.pinimg.com/originals/fc/2b/36/fc2b36968e673f4aa771c2393301f525.png",
+                                                                                "width": 2312,
+                                                                                "height": 3468
+                                                                                
+                                                                            },
+                                                                            {
+                                                                                "url": "https://cdn.pursuitist.com/wp-content/uploads/2014/10/cartierpantherebracelet.png",
+                                                                                "width": 2312,
+                                                                                "height": 3468
+                                                                                
+                                                                            },
+                                                                            {
+                                                                                "url": "https://i.pinimg.com/originals/fc/2b/36/fc2b36968e673f4aa771c2393301f525.png",
+                                                                                "width": 2312,
+                                                                                "height": 3468
+                                                                                
+                                                                            }
+                                                                        ],
+                                                                        "timestamp": "2020-04-28 10:33:07",
+                                                                        "author": [
+                                                                            {
+                                                                                "first_name": "Dharnell",
+                                                                                "last_name": "Abluyen",
+                                                                                "job_title": "Web Developer",
+                                                                                "location": "Quezon City"
+                                                                            }
+                                                                        ],
+                                                                        "dek": "The luxury bracelets of the Juste un Clou collection created by Cartier trace.",
+                                                                        "article_slug": "new-article",
+                                                                        "article_title": "First ring made of three interlaced individual bands.",
+                                                                        "note": {
+                                                                            "author": {
+                                                                                "first_name": "Cyril",
+                                                                                "last_name": "Arpin",
+                                                                                "job_title": "Ipsum Lorem Role",
+                                                                            },
+                                                                            "content": "Our clients will be talking about this and asking about how this product compares",
+                                                                        },
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "brief_comment": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "quote":
+                                            [
+                                                {
+                                                    "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                                    "full_name": "Jane Doe",
+                                                    "role": "Lorem Ipsum Role"
+                                                    
+                                                },
+                                                {
+                                                    "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                                    "full_name": "Doe Jane",
+                                                    "role": "Lorem Ipsum Role"
+                                                },
+                                                {
+                                                    "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                                    "full_name": "Jane Doe",
+                                                    "role": "Lorem Ipsum Role"
+                                                    
+                                                },
+                                                {
+                                                    "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                                    "full_name": "Doe Jane",
+                                                    "role": "Lorem Ipsum Role"
+                                                }
+                                            ]
+                                    },
+                                    {
+                                        "article_body": "<h1>A favorite amongst artists</h1><p>Cartier Stockholm was first international jeweler to open its doors in the city—and represents our first step into the Scandinavian market. Here’s everything you need to know about the boutique and its importance to the Maison.</p>"
+                                    },
+                                    {
+                                        "article_body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam elementum pulvinar etiam non quam lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada. Ullamcorper morbi tincidunt ornare massa eget egestas. Maecenas pharetra convallis posuere morbi leo. Faucibus a pellentesque sit amet porttitor eget dolor. Odio tempor orci dapibus ultrices in iaculis nunc sed. Viverra orci sagittis eu volutpat odio. Tortor id aliquet lectus proin nibh nisl condimentum. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Est lorem ipsum dolor sit.</p>\n<p>Vestibulum sed arcu non odio euismod lacinia at quis. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Mi eget mauris pharetra et ultrices. Blandit volutpat maecenas volutpat blandit aliquam. Nisi est sit amet facilisis magna etiam tempor. Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Id diam maecenas ultricies mi eget mauris pharetra. Sit amet est placerat in egestas. Nascetur ridiculus mus mauris vitae ultricies leo integer. Sed tempus urna et pharetra. Felis bibendum ut tristique et egestas quis. Tellus in hac habitasse platea dictumst vestibulum rhoncus. Aliquam purus sit amet luctus venenatis lectus.</p>"
+                                        
+                                    },
+                                    {
+                                        "inline_image":
+                                            [
+                                                {
+                                                    "title": "The Duchess",
+                                                    "image":
+                                                        [
+                                                            {
+                                                                "url": "https://img.etimg.com/photo/58625464/1.jpg",
+                                                                "width": 1300,
+                                                                "height": 2310
+                                                            }
+                                                        ],
+                                                    "caption": "The Duchess wearing the Trinity necklace for the opening of an exhibition in 2012.",
+                                                    "credit": "Photograph: Menahem Kahana/Getty Images"
+                                                    
+                                                }
+                                            ]
+                                    },
+                                    {
+                                        "inline_image":
+                                            [
+                                                {
+                                                    "title": null,
+                                                    "image":
+                                                        [
+                                                            {
+                                                                "url": "https://media.giphy.com/media/SiGf4uER1U9sDG0v0Z/giphy.gif",
+                                                                "width": 2310,
+                                                                "height": 1300
+                                                            }
+                                                        ],
+                                                    "caption": "Cartier bracelets all over my arm",
+                                                    "credit": null
+                                                    
+                                                }
+                                            ]
+                                    },
+                                    {
+                                        "key_talking_points":
+                                            [
+                                                {
+                                                    "title": "Key Talking Points",
+                                                    "items":
+                                                        [
+                                                            {
+                                                                "content": "<p>First ring made of <strong>three interlaced individual bands</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+                                                                
+                                                            },
+                                                            {
+                                                                "content": "<p>The <em>harmonious interplay between the bands</em> create an expression of attachment. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>"
+                                                                
+                                                            },
+                                                            {
+                                                                "content": "<p>Relaunched by Cartier in 1981. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+                                                                
+                                                            }
+                                                        ]
+                                                }
+                                        ]
+                                    },
+                                    {
+                                        "inline_gallery": [
+                                            {
+                                                "inlineGalleryTitle": "Title of the Gallery",
+                                                "inlineGalleryTable": [
+                                                    {
+                                                        "image": [
+                                                            {
+                                                                "url": "https://img.etimg.com/photo/58625464/1.jpg",
+                                                                "width": 927,
+                                                                "height": 1400
+                                                            }
+                                                        ],
+                                                        "caption": "Tiger Caption",
+                                                        "credit": "Tiger Credit"
+                                                    },
+                                                    {
+                                                        "image": [
+                                                            {
+                                                                "url": "https://media.giphy.com/media/SiGf4uER1U9sDG0v0Z/giphy.gif",
+                                                                "width": 480,
+                                                                "height": 270
+                                                            }
+                                                        ],
+                                                        "caption": "GIF Caption",
+                                                        "credit": "GIF Credit"
+                                                    },
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "content_carousel": [
+                                            {
+                                                "carousel_title": "Content Carousel",
+                                                "carousel_description": "Carousel for Article Cards",
+                                                "carousel_content_type": "article",
+                                                "articles": [
+                                                    {
+                                                        "id": "1553",
+                                                        "slug": "new-article",
+                                                        "article": [
+                                                            {
+                                                                "eyebrow": [
+                                                                    {
+                                                                        "title": "Designer Spotlight"
+                                                                    }
+                                                                ],
+                                                                "title": "My Article Title 2 Test Long Article Title Test Article",
+                                                                "short_title": "My Article Title",
+                                                                "featured_asset": [],
+                                                                "timestamp": "2020-04-28 10:33:07",
+                                                                "author": [
+                                                                    {
+                                                                        "first_name": "Dharnell",
+                                                                        "last_name": "Abluyen",
+                                                                        "job_title": "Web Developer",
+                                                                        "location": "Quezon City"
+                                                                    }
+                                                                ],
+                                                                "dek": "This is an article description",
+                                                                "primary_topic": [
+                                                                    {
+                                                                        "title": "Primary"
+                                                                    }
+                                                                ],
+                                                                "sub_topics": [
+                                                                    {
+                                                                        "title": "Sub"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id": "1693",
+                                                        "slug": "my-article-title-1",
+                                                        "article": [
+                                                            {
+                                                                "eyebrow": [
+                                                                    {
+                                                                        "title": "Designer Spotlight"
+                                                                    }
+                                                                ],
+                                                                "title": "My Article Title Long Title Test My Article Title Long Title Test ",
+                                                                "short_title": "My Article Title",
+                                                                "featured_asset": [
+                                                                    {
+                                                                        "url": "https://www.sandrascloset.com/wp-content/uploads/2010/04/14.jpg",
+                                                                        "width": 1400,
+                                                                        "height": 927
+                                                                    }
+                                                                ],
+                                                                "timestamp": "2020-04-29 03:35:34",
+                                                                "author": [
+                                                                    {
+                                                                        "first_name": "Dharnell",
+                                                                        "last_name": "Abluyen",
+                                                                        "job_title": "Web Developer",
+                                                                        "location": "Quezon City"
+                                                                    }
+                                                                ],
+                                                                "dek": "Desc",
+                                                                "primary_topic": [
+                                                                    {
+                                                                        "title": "topic"
+                                                                    }
+                                                                ],
+                                                                "sub_topics": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "takeaways": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "contentCards": [
+                                            {
+                                                "item": [
+                                                    {
+                                                        "articleCardItem": [
+                                                            {
+                                                                "id": "1553",
+                                                                "slug": "new-article",
+                                                                "article": [
+                                                                    {
+                                                                        "eyebrow": [
+                                                                            {
+                                                                                "title": "Designer Spotlight"
+                                                                            }
+                                                                        ],
+                                                                        "title": "My Article Title 2 Long Title Test My Article Title 2 Long Title Test",
+                                                                        "short_title": "My Article Title 2",
+                                                                        "featured_asset": [],
+                                                                        "timestamp": "2020-04-28 10:33:07",
+                                                                        "author": [
+                                                                            {
+                                                                                "first_name": "Dharnell",
+                                                                                "last_name": "Abluyen",
+                                                                                "job_title": "Web Developer",
+                                                                                "location": "Quezon City"
+                                                                            }
+                                                                        ],
+                                                                        "dek": "This is an article description"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "brief_comment": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "contentCards": [
+                                            {
+                                                "item": [
+                                                    {
+                                                        "articleCardItem": [
+                                                            {
+                                                                "id": "1553",
+                                                                "slug": "new-article",
+                                                                "display_type": "immersive",
+                                                                "article": [
+                                                                    {
+                                                                        "eyebrow": [
+                                                                            {
+                                                                                "title": "Designer Spotlight"
+                                                                            }
+                                                                        ],
+                                                                        "title": "My Article Title 2 Long Title Test My Article Title 2 Long Title Test My Article Title 2 Long Title Test ",
+                                                                        "short_title": "My Article Title 2",
+                                                                        "featured_asset": [],
+                                                                        "timestamp": "2020-04-28 10:33:07",
+                                                                        "author": [
+                                                                            {
+                                                                                "first_name": "Dharnell",
+                                                                                "last_name": "Abluyen",
+                                                                                "job_title": "Web Developer",
+                                                                                "location": "Quezon City"
+                                                                            }
+                                                                        ],
+                                                                        "dek": "This is an article description"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ],
+                                                "brief_comment": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "video": [
+                                            {
+                                                "title": "Craft CMS Tutorial",
+                                                "url": [
+                                                    {
+                                                        "link": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/craft.mp4",
+                                                        "thumbnail": [
+                                                            {
+                                                                "url": "https://miro.medium.com/max/760/1*6tbamSHfYTUyu4gI_twKdg.jpeg",
+                                                                "width": 2312,
+                                                                "height": 3468
+                                                                
+                                                            }
+                                                        ],
+                                                        "duration": "3:23 min"
+                                                    }
+                                                ],
+                                                "caption": "A lesson to learn",
+                                                "credit": "Dharnell Abluyen"
+                                            }
+                                        ]
+                                    }
+                                    
+                                ]
+                    }
+            ]
+        }
+}

@@ -1,0 +1,29 @@
+{
+    "article_hero": {
+        "eyebrow": "History",
+        "title": "Trinity, a Mainson emblem and jewelery icon",
+        "featured_asset": "https://www.sandrascloset.com/wp-content/uploads/2010/04/14.jpg",
+        "timestamp": "2020-04-02 12:24:26",
+        "author": {
+            "first_name": "Jane",
+            "last_name": "Doe",
+            "role": "Lorem Ipsum Role",
+            "location": "5th Avenue Mansion",
+        },
+        "dek": "Created in 1924 by Louis Cartier, the Trinity ring soon became one of the emblems of the Maison and a jewelery icon.",
+        "key_talking_points": {
+            "title": "Key Takeaways",
+            "items": [
+                {
+                    "content": "First ring made of three interlaced individual bands. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                },
+                {
+                    "content": "The harmonious interplay between the bands create an expression of attachment. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex."
+                },
+                {
+                    "content": "Relaunched by Cartier in 1981. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                },
+            ]
+        },
+    }
+}

@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:json"
+      name = "json">
+      <FileRef
+         location = "group:article_hero.json">
+      </FileRef>
+      <FileRef
+         location = "group:key_talking_points.json">
+      </FileRef>
+      <FileRef
+         location = "group:quote.json">
+      </FileRef>
+      <FileRef
+         location = "group:article.json">
+      </FileRef>
+      <FileRef
+         location = "group:boutique_brief.json">
+      </FileRef>
+      <FileRef
+         location = "group:takeaway_card.json">
+      </FileRef>
+      <FileRef
+         location = "group:takeaway.json">
+      </FileRef>
+      <FileRef
+         location = "group:user.json">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:swiftui-starter.xcodeproj">
    </FileRef>

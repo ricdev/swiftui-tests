@@ -1,0 +1,408 @@
+{
+    "data": {
+        "entries": [
+            {
+                "id": "1342",
+                "slug": "my-article-title",
+                "article": [
+                    {
+                        "eyebrow": [
+                            {
+                                "title": "Designer Spotlight"
+                            }
+                        ],
+                        "title": "My Article Title",
+                        "featured_asset": [
+                            {
+                                "url": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/penguin.jpg",
+                                "width": 2312,
+                                "height": 3468
+                            }
+                        ],
+                        "timestamp": "2020-04-23 00:37:17",
+                        "author": [
+                            {
+                                "first_name": "Dharnell",
+                                "last_name": "Abluyen",
+                                "job_title": "Web Developer",
+                                "location": "Quezon City"
+                            }
+                        ],
+                        "dek": "Created in 1924 by Louis Cartier, the Trinity ring soon became one of the emblems of the Maison and a jewelery icon.",
+                        "primary_topic": [
+                            {
+                                "title": "tag1"
+                            }
+                        ],
+                        "sub_topics": [
+                            {
+                                "title": "tag1"
+                            },
+                            {
+                                "title": "tags"
+                            }
+                        ]
+                    }
+                ],
+                "key_talking_points": [
+                    {
+                        "title": "Hero Key Talking",
+                        "items": [
+                            {
+                                "content": "<p>First ring made of <strong>three interlaced individual bands</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+                            },
+                            {
+                                "content": "<p>The <em>harmonious interplay between the bands</em> create an expression of attachment. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>"
+                            },
+                            {
+                                "content": "<p>Relaunched by Cartier in 1981. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+                            }
+                        ]
+                    }
+                ],
+                "items": [
+                    {
+                        "article_body": "<p><strong>Cupcake</strong> ipsum dolor sit amet, <strong><em>consectetur</em></strong> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br /><br /></p>\n<p><strong><em>Soufflé</em></strong> ut <em><strong>perspiciatis</strong></em> unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. <strong><a href=\"$DEFAULT_SITE_URL/articles/my-article-title\">Neque</a></strong> porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>"
+                    },
+                    {
+                        "inline_image": [
+                            {
+                                "title": "First Inline Image",
+                                "image": [
+                                    {
+                                        "url": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/gorilla.jpg",
+                                        "width": 2310,
+                                        "height": 1300
+                                    }
+                                ],
+                                "caption": "The Tarzan's father",
+                                "credit": "Dharnell Abluyen"
+                            }
+                        ]
+                    },
+                    {
+                        "key_talking_points": [
+                            {
+                                "title": "Key Takeaways",
+                                "items": [
+                                    {
+                                        "content": "<p>First ring made of <strong>three interlaced individual bands</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>"
+                                    },
+                                    {
+                                        "content": "<p>The <em>harmonious interplay between the bands</em> create an expression of attachment. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>"
+                                    },
+                                    {
+                                        "content": "<p>Relaunched by Cartier in 1981. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "article_body": "<p>The Mainson’s registers from 1924 make the first mention of a ring consisting of three inseparably interlaced bands, each made of a different metal: <strong>platinum, pink gold and yellow</strong>. A bracelet with han identical concept was also created the same year.</p>\n<p>The clean-lined design appealed to Elsie de Wolfe, <a href=\"http://cartier-atlas.local/admin/entries/articlePage/%5C\">famouse American interior designer</a>, who would be the first to purchase one.</p>\n<p>News combinations of colors were introduced over the years. <em>While the most emblematic joined yellow, pink and white gold</em>, Cartier also dared to introduce audacious hues, such as green gold.</p>\n<h1>Beyond Timeless</h1>\n<p>A timeless piece, it’s essential design is at the same time femenine and masculine, symbolic and playful. The harmonious interplay between the three bands provides an unprecedented expression of attachment.</p>\n<p>The trio of gold holds a powerful metaphor:</p>\n<ul><li>Pink for love</li><li>White for friendship</li><li>Yellow for faithfulness</li></ul><h1>Beyond Timeless<br /></h1>\n<p>A timeless piece, it’s essential design is at the same time femenine and masculine, symbolic and playful. The harmonious interplay between the three bands provides an unprecedented expression of attachment.</p>\n<p>The trio of gold holds a powerful metaphor:</p>\n<ol><li>Pink for love</li><li>White for friendship</li><li>Yellow for faithfulness</li></ol><p>More than a symbol of love, the pureness of its lines also offers multiple interpretations.</p>"
+                    },
+                    {
+                        "quote": [
+                            {
+                                "content": "New Quote Content 1",
+                                "full_name": "Jane Doe",
+                                "role": "Lorem Ipsum Role"
+                            },
+                            {
+                                "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                "full_name": "Doe Jane",
+                                "role": "Ipsum Lorem Role"
+                            },
+                            {
+                                "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                "full_name": "Doe Jane",
+                                "role": "Ipsum Lorem Role"
+                            },
+                            {
+                                "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                "full_name": "Doe Jane",
+                                "role": "Ipsum Lorem Role"
+                            },
+                            {
+                                "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                "full_name": "Doe Jane",
+                                "role": "Ipsum Lorem Role"
+                            },
+                            {
+                                "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                "full_name": "Doe Jane",
+                                "role": "Ipsum Lorem Role"
+                            },
+                            {
+                                "content": "Iconic? Perennial? Ubiquitous? None of these seems strong enough to describe the Panthére within the design oeuvre of Cartier.",
+                                "full_name": "Doe Jane",
+                                "role": "Ipsum Lorem Role"
+                            }
+                        ]
+                    },
+                    {
+                        "article_body": "<h1>A favorite amongst artists</h1>\n<p>Cartier Stockholm was first international jeweler to open its doors in the city—and represents our first step into the Scandinavian market. Here’s everything you need to know about the boutique and its importance to the Maison.</p>"
+                    },
+                    {
+                        "inline_image": [
+                            {
+                                "title": "The tiger Inline Image",
+                                "image": [
+                                    {
+                                        "url": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/tiger.jpg",
+                                        "width": 1400,
+                                        "height": 927
+                                    }
+                                ],
+                                "caption": "Inline Image Caption",
+                                "credit": "Inline Image Credit"
+                            }
+                        ]
+                    },
+                    {
+                        "inline_gallery": [
+                            {
+                                "inlineGalleryTitle": "Title of the Gallery",
+                                "inlineGalleryTable": [
+                                    {
+                                        "image": [
+                                            {
+                                                "url": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/tiger.jpg",
+                                                "width": 1400,
+                                                "height": 927
+                                            }
+                                        ],
+                                        "caption": "Tiger Caption",
+                                        "credit": "Tiger Credit"
+                                    },
+                                    {
+                                        "image": [
+                                            {
+                                                "url": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/giphy.gif",
+                                                "width": 480,
+                                                "height": 270
+                                            }
+                                        ],
+                                        "caption": "GIF Caption",
+                                        "credit": "GIF Credit"
+                                    },
+                                    {
+                                        "image": [
+                                            {
+                                                "url": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/penguin.jpg",
+                                                "width": 2312,
+                                                "height": 3468
+                                            }
+                                        ],
+                                        "caption": "Penguin",
+                                        "credit": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "quote": [
+                            {
+                                "content": "Single Quote",
+                                "full_name": "Dharnell Abluyen",
+                                "role": "Role playing"
+                            }
+                        ]
+                    },
+                    {
+                        "article_body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis risus sed vulputate odio. Est ullamcorper eget nulla facilisi etiam. Nisi vitae suscipit tellus mauris a diam maecenas. Aliquet nibh praesent tristique magna sit amet purus gravida. Ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Diam phasellus vestibulum lorem sed. Sem et tortor consequat id porta nibh venenatis. Molestie a iaculis at erat pellentesque adipiscing commodo. Risus commodo viverra maecenas accumsan lacus vel facilisis. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Mi quis hendrerit dolor magna. Eget nunc scelerisque viverra mauris in. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Diam donec adipiscing tristique risus nec feugiat in fermentum.</p>\n<p>Consequat ac felis donec et odio. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum. Sed faucibus turpis in eu mi bibendum. Elementum eu facilisis sed odio morbi quis commodo. Neque gravida in fermentum et sollicitudin ac orci phasellus egestas. Consequat mauris nunc congue nisi vitae suscipit tellus. Convallis posuere morbi leo urna molestie at elementum. Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque. Arcu cursus vitae congue mauris rhoncus aenean. Sed odio morbi quis commodo odio. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. A iaculis at erat pellentesque adipiscing commodo elit at. Elementum curabitur vitae nunc sed velit dignissim.</p>\n<p>Nullam non nisi est sit amet facilisis magna. At augue eget arcu dictum. Nulla malesuada pellentesque elit eget gravida cum. Ornare aenean euismod elementum nisi quis. Orci sagittis eu volutpat odio facilisis. Tincidunt lobortis feugiat vivamus at augue eget arcu. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Molestie a iaculis at erat. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Enim tortor at auctor urna nunc id. Pellentesque diam volutpat commodo sed egestas egestas fringilla. Risus quis varius quam quisque id diam vel quam. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Sagittis vitae et leo duis ut diam quam. Pulvinar elementum integer enim neque volutpat. Enim blandit volutpat maecenas volutpat blandit aliquam etiam. Porta non pulvinar neque laoreet suspendisse.</p>"
+                    },
+                    {
+                        "content_carousel": [
+                            {
+                                "carousel_title": "Content Carousel",
+                                "carousel_description": "Carousel for Article Cards",
+                                "carousel_content_type": "article",
+                                "articles": [
+                                    {
+                                        "id": "1553",
+                                        "slug": "new-article",
+                                        "article": [
+                                            {
+                                                "eyebrow": [
+                                                    {
+                                                        "title": "Designer Spotlight"
+                                                    }
+                                                ],
+                                                "title": "My Article Title 2",
+                                                "featured_asset": [],
+                                                "timestamp": "2020-04-28 10:33:07",
+                                                "author": [
+                                                    {
+                                                        "first_name": "Dharnell",
+                                                        "last_name": "Abluyen",
+                                                        "job_title": "Web Developer",
+                                                        "location": "Quezon City"
+                                                    }
+                                                ],
+                                                "dek": "This is an article description",
+                                                "primary_topic": [
+                                                    {
+                                                        "title": "Primary"
+                                                    }
+                                                ],
+                                                "sub_topics": [
+                                                    {
+                                                        "title": "Sub"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "1693",
+                                        "slug": "my-article-title-1",
+                                        "article": [
+                                            {
+                                                "eyebrow": [
+                                                    {
+                                                        "title": "Designer Spotlight"
+                                                    }
+                                                ],
+                                                "title": "My Article Title",
+                                                "featured_asset": [
+                                                    {
+                                                        "url": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/tiger.jpg",
+                                                        "width": 1400,
+                                                        "height": 927
+                                                    }
+                                                ],
+                                                "timestamp": "2020-04-29 03:35:34",
+                                                "author": [
+                                                    {
+                                                        "first_name": "Dharnell",
+                                                        "last_name": "Abluyen",
+                                                        "job_title": "Web Developer",
+                                                        "location": "Quezon City"
+                                                    }
+                                                ],
+                                                "dek": "Desc",
+                                                "primary_topic": [
+                                                    {
+                                                        "title": "topic"
+                                                    }
+                                                ],
+                                                "sub_topics": []
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "takeaways": []
+                            }
+                        ]
+                    },
+                    {
+                        "contentCards": [
+                            {
+                                "item": [
+                                    {
+                                        "articleCardItem": [
+                                            {
+                                                "id": "1553",
+                                                "slug": "new-article",
+                                                "article": [
+                                                    {
+                                                        "eyebrow": [
+                                                            {
+                                                                "title": "Designer Spotlight"
+                                                            }
+                                                        ],
+                                                        "title": "My Article Title 2",
+                                                        "featured_asset": [],
+                                                        "timestamp": "2020-04-28 10:33:07",
+                                                        "author": [
+                                                            {
+                                                                "first_name": "Dharnell",
+                                                                "last_name": "Abluyen",
+                                                                "job_title": "Web Developer",
+                                                                "location": "Quezon City"
+                                                            }
+                                                        ],
+                                                        "dek": "This is an article description"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "brief_comment": null
+                            }
+                        ]
+                    },
+                    {
+                        "video": [
+                            {
+                                "title": "Craft CMS Tutorial",
+                                "duration": "test",
+                                "thumbnail": [
+                                    {
+                                        "url": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/penguin.jpg",
+                                        "width": 2312,
+                                        "height": 3468
+                                    }
+                                ],
+                                "url": [
+                                    {
+                                        "link": "https://development-q5nzhaa-cxivdkc6sysr2.eu-4.platformsh.site/uploads/craft.mp4"
+                                    }
+                                ],
+                                "caption": "A lesson to learn",
+                                "credit": "Dharnell Abluyen"
+                            }
+                        ]
+                    },
+                    {
+                        "contentCards": [
+                            {
+                                "item": [
+                                    {}
+                                ],
+                                "brief_comment": null
+                            }
+                        ]
+                    },
+                    {
+                        "contentCards": [
+                            {
+                                "item": [
+                                    {
+                                        "takeawayItem": [
+                                            {
+                                                "takeaway_title": "New Takeaway",
+                                                "timestamp": "2020-05-05 09:25:50",
+                                                "type": [
+                                                    {
+                                                        "title": "Inside The Sale"
+                                                    }
+                                                ],
+                                                "image": [],
+                                                "content": "<p>This is takeaway body</p>",
+                                                "primary_topic": [
+                                                    {
+                                                        "title": "teset"
+                                                    }
+                                                ],
+                                                "sub_topic": [
+                                                    {
+                                                        "title": "sub"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "brief_comment": null
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

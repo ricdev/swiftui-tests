@@ -1,0 +1,133 @@
+{
+    "takeaway": {
+        "takeaway_types" : [
+            {
+                "title": "Did you know",
+                "slug": "1",
+                "id": "1"
+            },
+            {
+                "title": "Sales Tip",
+                "slug": "2",
+                "id": "2"
+            },
+            {
+                "title": "Shout-out",
+                "slug": "3",
+                "id": "3"
+            },
+            {
+                "title": "Takeaway",
+                "slug": "4",
+                "id": "4"
+            },
+            {
+                "title": "The Red Carpet",
+                "slug": "5",
+                "id": "5"
+            },
+            {
+                "title": "Speak Cartier",
+                "slug": "6",
+                "id": "6"
+            },
+        ],
+        "takeaway_topics": [
+            {
+                "title": "Accessories",
+                "slug": "1",
+                "id": "1"
+            },
+            {
+                "title": "Antiques",
+                "slug": "2",
+                "id": "2"
+            },
+            {
+                "title": "Art of Selling",
+                "slug": "3",
+                "id": "3"
+            },
+            {
+                "title": "Boutique Selling",
+                "slug": "4",
+                "id": "4"
+            },
+            {
+                "title": "Cartier DNA",
+                "slug": "5",
+                "id": "5"
+            },
+            {
+                "title": "Celebrities",
+                "slug": "6",
+                "id": "6"
+            },
+            {
+                "title": "Client Experience",
+                "slug": "7",
+                "id": "7"
+            },
+            {
+                "title": "Craftsmanship",
+                "slug": "8",
+                "id": "8"
+            },
+            {
+                "title": "Eyewear",
+                "slug": "9",
+                "id": "9"
+            },
+            {
+                "title": "Fragrance",
+                "slug": "10",
+                "id": "10"
+            },
+            {
+                "title": "Gemology",
+                "slug": "11",
+                "id": "11"
+            },
+            {
+                "title": "High Jewelry",
+                "slug": "12",
+                "id": "12"
+            },
+            {
+                "title": "Jewelry",
+                "slug": "13",
+                "id": "13"
+            },
+            {
+                "title": "Learning & Development",
+                "slug": "14",
+                "id": "14"
+            },
+            {
+                "title": "Leather Goods",
+                "slug": "13",
+                "id": "13"
+            },
+            {
+                "title": "Maison History",
+                "slug": "14",
+                "id": "14"
+            },
+            {
+                "title": "Product Launch",
+                "slug": "15",
+                "id": "15"
+            },
+            {
+                "title": "Retail Operations",
+                "slug": "16",
+                "id": "16"
+            },
+            {
+                "title": "Watchmaking",
+                "slug": "17",
+                "id": "17"
+            },
+        ]
+    }
+}

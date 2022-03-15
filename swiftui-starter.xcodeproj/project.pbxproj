@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C388DA027E071F400EE07A4 /* FancyCutProB7-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */; };
+		0C388DA127E071F400EE07A4 /* FancyCutProB7-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */; };
+		0C388DA227E071F400EE07A4 /* FancyCutProB7-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */; };
+		0C388DA327E071F400EE07A4 /* FancyCutProB7-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9927E071F300EE07A4 /* FancyCutProB7-RegularItalic.otf */; };
+		0C388DA427E071F400EE07A4 /* FancyCutProB7-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9A27E071F300EE07A4 /* FancyCutProB7-Thin.otf */; };
+		0C388DA527E071F400EE07A4 /* FancyCutProB7-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9B27E071F300EE07A4 /* FancyCutProB7-ThinItalic.otf */; };
+		0C388DA627E071F400EE07A4 /* FancyCutProB7-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9C27E071F400EE07A4 /* FancyCutProB7-LightItalic.otf */; };
+		0C388DA727E071F400EE07A4 /* FancyCutProB7-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9D27E071F400EE07A4 /* FancyCutProB7-Regular.otf */; };
+		0C388DA827E071F400EE07A4 /* FancyCutProB7-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9E27E071F400EE07A4 /* FancyCutProB7-Medium.otf */; };
+		0C388DA927E071F400EE07A4 /* FancyCutProB7-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9F27E071F400EE07A4 /* FancyCutProB7-Bold.otf */; };
+		0C388DB427E0720000EE07A4 /* FancyCutExtProB7-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DAA27E0720000EE07A4 /* FancyCutExtProB7-RegularItalic.otf */; };
+		0C388DB527E0720000EE07A4 /* FancyCutExtProB7-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DAB27E0720000EE07A4 /* FancyCutExtProB7-Light.otf */; };
+		0C388DB627E0720000EE07A4 /* FancyCutExtProB7-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DAC27E0720000EE07A4 /* FancyCutExtProB7-ThinItalic.otf */; };
+		0C388DB727E0720000EE07A4 /* FancyCutExtProB7-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DAD27E0720000EE07A4 /* FancyCutExtProB7-MediumItalic.otf */; };
+		0C388DB827E0720000EE07A4 /* FancyCutExtProB7-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DAE27E0720000EE07A4 /* FancyCutExtProB7-Regular.otf */; };
+		0C388DB927E0720000EE07A4 /* FancyCutExtProB7-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DAF27E0720000EE07A4 /* FancyCutExtProB7-BoldItalic.otf */; };
+		0C388DBA27E0720000EE07A4 /* FancyCutExtProB7-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DB027E0720000EE07A4 /* FancyCutExtProB7-LightItalic.otf */; };
+		0C388DBB27E0720000EE07A4 /* FancyCutExtProB7-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DB127E0720000EE07A4 /* FancyCutExtProB7-Bold.otf */; };
+		0C388DBC27E0720000EE07A4 /* FancyCutExtProB7-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DB227E0720000EE07A4 /* FancyCutExtProB7-Thin.otf */; };
+		0C388DBD27E0720000EE07A4 /* FancyCutExtProB7-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DB327E0720000EE07A4 /* FancyCutExtProB7-Medium.otf */; };
+		0C388DC827E0720C00EE07A4 /* FancyCutCondProB7-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DBE27E0720B00EE07A4 /* FancyCutCondProB7-Light.otf */; };
+		0C388DC927E0720C00EE07A4 /* FancyCutCondProB7-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DBF27E0720B00EE07A4 /* FancyCutCondProB7-Medium.otf */; };
+		0C388DCA27E0720C00EE07A4 /* FancyCutCondProB7-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DC027E0720B00EE07A4 /* FancyCutCondProB7-LightItalic.otf */; };
+		0C388DCB27E0720C00EE07A4 /* FancyCutCondProB7-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DC127E0720B00EE07A4 /* FancyCutCondProB7-MediumItalic.otf */; };
+		0C388DCC27E0720C00EE07A4 /* FancyCutCondProB7-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DC227E0720B00EE07A4 /* FancyCutCondProB7-BoldItalic.otf */; };
+		0C388DCD27E0720C00EE07A4 /* FancyCutCondProB7-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DC327E0720B00EE07A4 /* FancyCutCondProB7-ThinItalic.otf */; };
+		0C388DCE27E0720C00EE07A4 /* FancyCutCondProB7-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DC427E0720C00EE07A4 /* FancyCutCondProB7-Regular.otf */; };
+		0C388DCF27E0720C00EE07A4 /* FancyCutCondProB7-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DC527E0720C00EE07A4 /* FancyCutCondProB7-Thin.otf */; };
+		0C388DD027E0720C00EE07A4 /* FancyCutCondProB7-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DC627E0720C00EE07A4 /* FancyCutCondProB7-RegularItalic.otf */; };
+		0C388DD127E0720C00EE07A4 /* FancyCutCondProB7-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DC727E0720C00EE07A4 /* FancyCutCondProB7-Bold.otf */; };
+		0C388DE527E0728400EE07A4 /* BrilliantCutProB7-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DDF27E0728400EE07A4 /* BrilliantCutProB7-Black.otf */; };
+		0C388DE627E0728400EE07A4 /* BrilliantCutProB7-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DE027E0728400EE07A4 /* BrilliantCutProB7-Bold.otf */; };
+		0C388DE727E0728400EE07A4 /* BrilliantCutProB7-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DE127E0728400EE07A4 /* BrilliantCutProB7-Thin.otf */; };
+		0C388DE827E0728400EE07A4 /* BrilliantCutProB7-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DE227E0728400EE07A4 /* BrilliantCutProB7-Medium.otf */; };
+		0C388DE927E0728400EE07A4 /* BrilliantCutProB7-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DE327E0728400EE07A4 /* BrilliantCutProB7-Light.otf */; };
+		0C388DEA27E0728400EE07A4 /* BrilliantCutProB7-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388DE427E0728400EE07A4 /* BrilliantCutProB7-Regular.otf */; };
 		0C4F462027DEFD060001BED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F461F27DEFD060001BED9 /* AppDelegate.swift */; };
 		0C4F462427DEFD060001BED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F462327DEFD060001BED9 /* ViewController.swift */; };
 		0C4F462927DEFD080001BED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F462827DEFD080001BED9 /* Assets.xcassets */; };
@@ -49,6 +85,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-MediumItalic.otf"; sourceTree = "<group>"; };
+		0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-BoldItalic.otf"; sourceTree = "<group>"; };
+		0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-Light.otf"; sourceTree = "<group>"; };
+		0C388D9927E071F300EE07A4 /* FancyCutProB7-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-RegularItalic.otf"; sourceTree = "<group>"; };
+		0C388D9A27E071F300EE07A4 /* FancyCutProB7-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-Thin.otf"; sourceTree = "<group>"; };
+		0C388D9B27E071F300EE07A4 /* FancyCutProB7-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-ThinItalic.otf"; sourceTree = "<group>"; };
+		0C388D9C27E071F400EE07A4 /* FancyCutProB7-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-LightItalic.otf"; sourceTree = "<group>"; };
+		0C388D9D27E071F400EE07A4 /* FancyCutProB7-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-Regular.otf"; sourceTree = "<group>"; };
+		0C388D9E27E071F400EE07A4 /* FancyCutProB7-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-Medium.otf"; sourceTree = "<group>"; };
+		0C388D9F27E071F400EE07A4 /* FancyCutProB7-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-Bold.otf"; sourceTree = "<group>"; };
+		0C388DAA27E0720000EE07A4 /* FancyCutExtProB7-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-RegularItalic.otf"; sourceTree = "<group>"; };
+		0C388DAB27E0720000EE07A4 /* FancyCutExtProB7-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-Light.otf"; sourceTree = "<group>"; };
+		0C388DAC27E0720000EE07A4 /* FancyCutExtProB7-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-ThinItalic.otf"; sourceTree = "<group>"; };
+		0C388DAD27E0720000EE07A4 /* FancyCutExtProB7-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-MediumItalic.otf"; sourceTree = "<group>"; };
+		0C388DAE27E0720000EE07A4 /* FancyCutExtProB7-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-Regular.otf"; sourceTree = "<group>"; };
+		0C388DAF27E0720000EE07A4 /* FancyCutExtProB7-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-BoldItalic.otf"; sourceTree = "<group>"; };
+		0C388DB027E0720000EE07A4 /* FancyCutExtProB7-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-LightItalic.otf"; sourceTree = "<group>"; };
+		0C388DB127E0720000EE07A4 /* FancyCutExtProB7-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-Bold.otf"; sourceTree = "<group>"; };
+		0C388DB227E0720000EE07A4 /* FancyCutExtProB7-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-Thin.otf"; sourceTree = "<group>"; };
+		0C388DB327E0720000EE07A4 /* FancyCutExtProB7-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutExtProB7-Medium.otf"; sourceTree = "<group>"; };
+		0C388DBE27E0720B00EE07A4 /* FancyCutCondProB7-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-Light.otf"; sourceTree = "<group>"; };
+		0C388DBF27E0720B00EE07A4 /* FancyCutCondProB7-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-Medium.otf"; sourceTree = "<group>"; };
+		0C388DC027E0720B00EE07A4 /* FancyCutCondProB7-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-LightItalic.otf"; sourceTree = "<group>"; };
+		0C388DC127E0720B00EE07A4 /* FancyCutCondProB7-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-MediumItalic.otf"; sourceTree = "<group>"; };
+		0C388DC227E0720B00EE07A4 /* FancyCutCondProB7-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-BoldItalic.otf"; sourceTree = "<group>"; };
+		0C388DC327E0720B00EE07A4 /* FancyCutCondProB7-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-ThinItalic.otf"; sourceTree = "<group>"; };
+		0C388DC427E0720C00EE07A4 /* FancyCutCondProB7-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-Regular.otf"; sourceTree = "<group>"; };
+		0C388DC527E0720C00EE07A4 /* FancyCutCondProB7-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-Thin.otf"; sourceTree = "<group>"; };
+		0C388DC627E0720C00EE07A4 /* FancyCutCondProB7-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-RegularItalic.otf"; sourceTree = "<group>"; };
+		0C388DC727E0720C00EE07A4 /* FancyCutCondProB7-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutCondProB7-Bold.otf"; sourceTree = "<group>"; };
+		0C388DDF27E0728400EE07A4 /* BrilliantCutProB7-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrilliantCutProB7-Black.otf"; sourceTree = "<group>"; };
+		0C388DE027E0728400EE07A4 /* BrilliantCutProB7-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrilliantCutProB7-Bold.otf"; sourceTree = "<group>"; };
+		0C388DE127E0728400EE07A4 /* BrilliantCutProB7-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrilliantCutProB7-Thin.otf"; sourceTree = "<group>"; };
+		0C388DE227E0728400EE07A4 /* BrilliantCutProB7-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrilliantCutProB7-Medium.otf"; sourceTree = "<group>"; };
+		0C388DE327E0728400EE07A4 /* BrilliantCutProB7-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrilliantCutProB7-Light.otf"; sourceTree = "<group>"; };
+		0C388DE427E0728400EE07A4 /* BrilliantCutProB7-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrilliantCutProB7-Regular.otf"; sourceTree = "<group>"; };
 		0C4F461C27DEFD060001BED9 /* swiftui-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C4F461F27DEFD060001BED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C4F462327DEFD060001BED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +184,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C388D8927E0718A00EE07A4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0C388DDE27E0727900EE07A4 /* BriilliantCutPro */,
+				0C388D9527E071E300EE07A4 /* FancyCutPro */,
+				0C388D9427E071DC00EE07A4 /* FancyCutExt */,
+				0C388D9327E071D400EE07A4 /* FancyCutCond */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0C388D9327E071D400EE07A4 /* FancyCutCond */ = {
+			isa = PBXGroup;
+			children = (
+				0C388DC727E0720C00EE07A4 /* FancyCutCondProB7-Bold.otf */,
+				0C388DC227E0720B00EE07A4 /* FancyCutCondProB7-BoldItalic.otf */,
+				0C388DBE27E0720B00EE07A4 /* FancyCutCondProB7-Light.otf */,
+				0C388DC027E0720B00EE07A4 /* FancyCutCondProB7-LightItalic.otf */,
+				0C388DBF27E0720B00EE07A4 /* FancyCutCondProB7-Medium.otf */,
+				0C388DC127E0720B00EE07A4 /* FancyCutCondProB7-MediumItalic.otf */,
+				0C388DC427E0720C00EE07A4 /* FancyCutCondProB7-Regular.otf */,
+				0C388DC627E0720C00EE07A4 /* FancyCutCondProB7-RegularItalic.otf */,
+				0C388DC527E0720C00EE07A4 /* FancyCutCondProB7-Thin.otf */,
+				0C388DC327E0720B00EE07A4 /* FancyCutCondProB7-ThinItalic.otf */,
+			);
+			path = FancyCutCond;
+			sourceTree = "<group>";
+		};
+		0C388D9427E071DC00EE07A4 /* FancyCutExt */ = {
+			isa = PBXGroup;
+			children = (
+				0C388DB127E0720000EE07A4 /* FancyCutExtProB7-Bold.otf */,
+				0C388DAF27E0720000EE07A4 /* FancyCutExtProB7-BoldItalic.otf */,
+				0C388DAB27E0720000EE07A4 /* FancyCutExtProB7-Light.otf */,
+				0C388DB027E0720000EE07A4 /* FancyCutExtProB7-LightItalic.otf */,
+				0C388DB327E0720000EE07A4 /* FancyCutExtProB7-Medium.otf */,
+				0C388DAD27E0720000EE07A4 /* FancyCutExtProB7-MediumItalic.otf */,
+				0C388DAE27E0720000EE07A4 /* FancyCutExtProB7-Regular.otf */,
+				0C388DAA27E0720000EE07A4 /* FancyCutExtProB7-RegularItalic.otf */,
+				0C388DB227E0720000EE07A4 /* FancyCutExtProB7-Thin.otf */,
+				0C388DAC27E0720000EE07A4 /* FancyCutExtProB7-ThinItalic.otf */,
+			);
+			path = FancyCutExt;
+			sourceTree = "<group>";
+		};
+		0C388D9527E071E300EE07A4 /* FancyCutPro */ = {
+			isa = PBXGroup;
+			children = (
+				0C388D9F27E071F400EE07A4 /* FancyCutProB7-Bold.otf */,
+				0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */,
+				0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */,
+				0C388D9C27E071F400EE07A4 /* FancyCutProB7-LightItalic.otf */,
+				0C388D9E27E071F400EE07A4 /* FancyCutProB7-Medium.otf */,
+				0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */,
+				0C388D9D27E071F400EE07A4 /* FancyCutProB7-Regular.otf */,
+				0C388D9927E071F300EE07A4 /* FancyCutProB7-RegularItalic.otf */,
+				0C388D9A27E071F300EE07A4 /* FancyCutProB7-Thin.otf */,
+				0C388D9B27E071F300EE07A4 /* FancyCutProB7-ThinItalic.otf */,
+			);
+			path = FancyCutPro;
+			sourceTree = "<group>";
+		};
+		0C388DDE27E0727900EE07A4 /* BriilliantCutPro */ = {
+			isa = PBXGroup;
+			children = (
+				0C388DDF27E0728400EE07A4 /* BrilliantCutProB7-Black.otf */,
+				0C388DE027E0728400EE07A4 /* BrilliantCutProB7-Bold.otf */,
+				0C388DE327E0728400EE07A4 /* BrilliantCutProB7-Light.otf */,
+				0C388DE227E0728400EE07A4 /* BrilliantCutProB7-Medium.otf */,
+				0C388DE427E0728400EE07A4 /* BrilliantCutProB7-Regular.otf */,
+				0C388DE127E0728400EE07A4 /* BrilliantCutProB7-Thin.otf */,
+			);
+			path = BriilliantCutPro;
+			sourceTree = "<group>";
+		};
 		0C4F461327DEFD060001BED9 = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +327,7 @@
 		0C4F465D27DF4DD30001BED9 /* Asset */ = {
 			isa = PBXGroup;
 			children = (
+				0C388D8927E0718A00EE07A4 /* Fonts */,
 				0C4F465E27DF4DE00001BED9 /* Lottie */,
 			);
 			path = Asset;
@@ -352,9 +500,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C388DCC27E0720C00EE07A4 /* FancyCutCondProB7-BoldItalic.otf in Resources */,
+				0C388DB827E0720000EE07A4 /* FancyCutExtProB7-Regular.otf in Resources */,
+				0C388DE927E0728400EE07A4 /* BrilliantCutProB7-Light.otf in Resources */,
+				0C388DA027E071F400EE07A4 /* FancyCutProB7-MediumItalic.otf in Resources */,
+				0C388DCA27E0720C00EE07A4 /* FancyCutCondProB7-LightItalic.otf in Resources */,
+				0C388DB527E0720000EE07A4 /* FancyCutExtProB7-Light.otf in Resources */,
+				0C388DBB27E0720000EE07A4 /* FancyCutExtProB7-Bold.otf in Resources */,
+				0C388DD127E0720C00EE07A4 /* FancyCutCondProB7-Bold.otf in Resources */,
+				0C388DBC27E0720000EE07A4 /* FancyCutExtProB7-Thin.otf in Resources */,
 				0C4F466027DF4E150001BED9 /* bg-dark.json in Resources */,
+				0C388DA927E071F400EE07A4 /* FancyCutProB7-Bold.otf in Resources */,
+				0C388DCB27E0720C00EE07A4 /* FancyCutCondProB7-MediumItalic.otf in Resources */,
+				0C388DD027E0720C00EE07A4 /* FancyCutCondProB7-RegularItalic.otf in Resources */,
+				0C388DCD27E0720C00EE07A4 /* FancyCutCondProB7-ThinItalic.otf in Resources */,
+				0C388DB727E0720000EE07A4 /* FancyCutExtProB7-MediumItalic.otf in Resources */,
+				0C388DB627E0720000EE07A4 /* FancyCutExtProB7-ThinItalic.otf in Resources */,
+				0C388DA227E071F400EE07A4 /* FancyCutProB7-Light.otf in Resources */,
+				0C388DC927E0720C00EE07A4 /* FancyCutCondProB7-Medium.otf in Resources */,
+				0C388DC827E0720C00EE07A4 /* FancyCutCondProB7-Light.otf in Resources */,
+				0C388DE827E0728400EE07A4 /* BrilliantCutProB7-Medium.otf in Resources */,
+				0C388DB927E0720000EE07A4 /* FancyCutExtProB7-BoldItalic.otf in Resources */,
+				0C388DA127E071F400EE07A4 /* FancyCutProB7-BoldItalic.otf in Resources */,
+				0C388DCF27E0720C00EE07A4 /* FancyCutCondProB7-Thin.otf in Resources */,
+				0C388DA627E071F400EE07A4 /* FancyCutProB7-LightItalic.otf in Resources */,
+				0C388DA427E071F400EE07A4 /* FancyCutProB7-Thin.otf in Resources */,
+				0C388DA527E071F400EE07A4 /* FancyCutProB7-ThinItalic.otf in Resources */,
 				0C4F462C27DEFD080001BED9 /* LaunchScreen.storyboard in Resources */,
+				0C388DA827E071F400EE07A4 /* FancyCutProB7-Medium.otf in Resources */,
+				0C388DBD27E0720000EE07A4 /* FancyCutExtProB7-Medium.otf in Resources */,
+				0C388DB427E0720000EE07A4 /* FancyCutExtProB7-RegularItalic.otf in Resources */,
+				0C388DE727E0728400EE07A4 /* BrilliantCutProB7-Thin.otf in Resources */,
+				0C388DBA27E0720000EE07A4 /* FancyCutExtProB7-LightItalic.otf in Resources */,
 				0C4F462927DEFD080001BED9 /* Assets.xcassets in Resources */,
+				0C388DA327E071F400EE07A4 /* FancyCutProB7-RegularItalic.otf in Resources */,
+				0C388DCE27E0720C00EE07A4 /* FancyCutCondProB7-Regular.otf in Resources */,
+				0C388DA727E071F400EE07A4 /* FancyCutProB7-Regular.otf in Resources */,
+				0C388DE627E0728400EE07A4 /* BrilliantCutProB7-Bold.otf in Resources */,
+				0C388DE527E0728400EE07A4 /* BrilliantCutProB7-Black.otf in Resources */,
+				0C388DEA27E0728400EE07A4 /* BrilliantCutProB7-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
