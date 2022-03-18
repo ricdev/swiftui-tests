@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C303B7927E4BE9E0018CECE /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B7827E4BE9E0018CECE /* EndPoint.swift */; };
+		0C303B7B27E4BECB0018CECE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B7A27E4BECB0018CECE /* NetworkManager.swift */; };
+		0C303B7D27E4BEFA0018CECE /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B7C27E4BEFA0018CECE /* EndPointType.swift */; };
+		0C303B7F27E4BF0E0018CECE /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B7E27E4BF0E0018CECE /* Router.swift */; };
+		0C303B8127E4BF470018CECE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8027E4BF470018CECE /* HTTPMethod.swift */; };
+		0C303B8327E4BF6E0018CECE /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8227E4BF6E0018CECE /* HTTPTask.swift */; };
+		0C303B8527E4BF840018CECE /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8427E4BF840018CECE /* NetworkLogger.swift */; };
+		0C303B8727E4BFA30018CECE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8627E4BFA30018CECE /* ParameterEncoding.swift */; };
+		0C303B8927E4BFB60018CECE /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8827E4BFB60018CECE /* URLParameterEncoding.swift */; };
+		0C303B8B27E4BFD10018CECE /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8A27E4BFD10018CECE /* JSONParameterEncoder.swift */; };
+		0C303B8D27E4C1980018CECE /* Boutiques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8C27E4C1980018CECE /* Boutiques.swift */; };
 		0C388DA027E071F400EE07A4 /* FancyCutProB7-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */; };
 		0C388DA127E071F400EE07A4 /* FancyCutProB7-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */; };
 		0C388DA227E071F400EE07A4 /* FancyCutProB7-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */; };
@@ -85,6 +96,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C303B7827E4BE9E0018CECE /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		0C303B7A27E4BECB0018CECE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0C303B7C27E4BEFA0018CECE /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		0C303B7E27E4BF0E0018CECE /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0C303B8027E4BF470018CECE /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		0C303B8227E4BF6E0018CECE /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		0C303B8427E4BF840018CECE /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		0C303B8627E4BFA30018CECE /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		0C303B8827E4BFB60018CECE /* URLParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		0C303B8A27E4BFD10018CECE /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		0C303B8C27E4C1980018CECE /* Boutiques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boutiques.swift; sourceTree = "<group>"; };
 		0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-MediumItalic.otf"; sourceTree = "<group>"; };
 		0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-BoldItalic.otf"; sourceTree = "<group>"; };
 		0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-Light.otf"; sourceTree = "<group>"; };
@@ -184,6 +206,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C303B7327E4BE3E0018CECE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B7727E4BE640018CECE /* EndPoint */,
+				0C303B7627E4BE5B0018CECE /* Manager */,
+				0C303B7527E4BE540018CECE /* Service */,
+				0C303B7427E4BE4B0018CECE /* Encoding */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0C303B7427E4BE4B0018CECE /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B8627E4BFA30018CECE /* ParameterEncoding.swift */,
+				0C303B8827E4BFB60018CECE /* URLParameterEncoding.swift */,
+				0C303B8A27E4BFD10018CECE /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		0C303B7527E4BE540018CECE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B7C27E4BEFA0018CECE /* EndPointType.swift */,
+				0C303B7E27E4BF0E0018CECE /* Router.swift */,
+				0C303B8027E4BF470018CECE /* HTTPMethod.swift */,
+				0C303B8227E4BF6E0018CECE /* HTTPTask.swift */,
+				0C303B8427E4BF840018CECE /* NetworkLogger.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0C303B7627E4BE5B0018CECE /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B7A27E4BECB0018CECE /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0C303B7727E4BE640018CECE /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B7827E4BE9E0018CECE /* EndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
 		0C388D8927E0718A00EE07A4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +330,14 @@
 			path = BriilliantCutPro;
 			sourceTree = "<group>";
 		};
+		0C388DFD27E0880F00EE07A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B8C27E4C1980018CECE /* Boutiques.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0C4F461327DEFD060001BED9 = {
 			isa = PBXGroup;
 			children = (
@@ -285,7 +364,9 @@
 		0C4F461E27DEFD060001BED9 /* swiftui-starter */ = {
 			isa = PBXGroup;
 			children = (
+				0C303B7327E4BE3E0018CECE /* Networking */,
 				0C4F461F27DEFD060001BED9 /* AppDelegate.swift */,
+				0C388DFD27E0880F00EE07A4 /* Models */,
 				0C4F465A27DF46FA0001BED9 /* UI */,
 				0C4F466927DF5A8D0001BED9 /* Extensions */,
 				0C4F466327DF4E8C0001BED9 /* Components */,
@@ -632,13 +713,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C303B8527E4BF840018CECE /* NetworkLogger.swift in Sources */,
+				0C303B7B27E4BECB0018CECE /* NetworkManager.swift in Sources */,
+				0C303B7F27E4BF0E0018CECE /* Router.swift in Sources */,
+				0C303B8927E4BFB60018CECE /* URLParameterEncoding.swift in Sources */,
+				0C303B7927E4BE9E0018CECE /* EndPoint.swift in Sources */,
 				0C4F465227DF02680001BED9 /* ProfileView.swift in Sources */,
+				0C303B8D27E4C1980018CECE /* Boutiques.swift in Sources */,
+				0C303B7D27E4BEFA0018CECE /* EndPointType.swift in Sources */,
+				0C303B8127E4BF470018CECE /* HTTPMethod.swift in Sources */,
 				0C4F462427DEFD060001BED9 /* ViewController.swift in Sources */,
+				0C303B8327E4BF6E0018CECE /* HTTPTask.swift in Sources */,
 				0C4F466D27DF5AFA0001BED9 /* Utils.swift in Sources */,
 				0C4F465027DF00B90001BED9 /* ImagePicker.swift in Sources */,
 				0C4F467427DF70CF0001BED9 /* AsyncImage.swift in Sources */,
 				0C4F466527DF4EA60001BED9 /* BackgroundView.swift in Sources */,
 				0C4F467127DF5E860001BED9 /* TimerView.swift in Sources */,
+				0C303B8B27E4BFD10018CECE /* JSONParameterEncoder.swift in Sources */,
+				0C303B8727E4BFA30018CECE /* ParameterEncoding.swift in Sources */,
 				0C4F462027DEFD060001BED9 /* AppDelegate.swift in Sources */,
 				0C4F466F27DF5B280001BED9 /* LottieView.swift in Sources */,
 				0C4F466B27DF5AA80001BED9 /* UIView+Extensions.swift in Sources */,
