@@ -16,15 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let networkManager = NetworkManager()
-        networkManager.getBoutiques() { boutiques, error in
-            guard let boutiques = boutiques else { return }
-            for boutique in boutiques {
-                print(" data: \(boutique)")
-            }
-            print("  error: \(String(describing: error))")
-        }
-        
         let splashViewModel: SplashViewModel = SplashViewModel(title: "Sample")
         let contentView = SplashView(viewModel: splashViewModel)
         let rootViewController = UIHostingController(rootView: contentView)

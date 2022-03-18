@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+ swiftui-starter
+
+ Created by Ricardo Monteverde on 3/14/22.
+  
+*/
+
+// General
+"general.init.error" = "init has not been implemented";

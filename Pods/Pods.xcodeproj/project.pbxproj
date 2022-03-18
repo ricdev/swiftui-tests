@@ -6,25 +6,51 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftGen;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		059C84C5ABC62799F913CEC0AB852EBF /* Pods-swiftui-starter-swiftui-starterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D14CF4C72251ECC5B14D88BE78B38CE5 /* Pods-swiftui-starter-swiftui-starterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E107F030010049EA73EABBE2E8935B1 /* Pods-swiftui-starter-swiftui-starterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97672B00B932153DFF7ACEBBFD0CBEC /* Pods-swiftui-starter-swiftui-starterUITests-dummy.m */; };
 		12D31F9F570C42A0FC1DFDA237B38A88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		28932B6D6F6819D196E6954BAE7475A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5C4BF0F06F9CECBEBE0DC99B433C00D6 /* Pods-swiftui-starter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5844B8308AC0B627F00D8E535CE8F0 /* Pods-swiftui-starter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CA416995886F26E2209830575C6C952 /* Pods-swiftui-starter-swiftui-starterUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97672B00B932153DFF7ACEBBFD0CBEC /* Pods-swiftui-starter-swiftui-starterUITests-dummy.m */; };
+		265BAEC5C04E23BE4CD7E552734590ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		619DE24EA50B67A21FFA14D9591A6763 /* Pods-swiftui-starter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD59DA24408B78AC328A5B9C23BD876F /* Pods-swiftui-starter-dummy.m */; };
 		659AD08645AA29533BD13A4D2F1AAC99 /* Pods-swiftui-starterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBA8848AB17772F162EF8369A08398D /* Pods-swiftui-starterTests-dummy.m */; };
-		6ED8926506A116AE4EBD6B617DF3E9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67FB403C7E1682FFE5B67E42518A6C7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A0D28FBB5BFCDA800E9860566E452C67 /* Pods-swiftui-starterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B22A14D078C7E1452232CBF1E56F1B /* Pods-swiftui-starterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E134C499B086E3EE24636D6E15D548BE /* Pods-swiftui-starter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD59DA24408B78AC328A5B9C23BD876F /* Pods-swiftui-starter-dummy.m */; };
+		C601E25E91F592D5518B7951F87B100B /* Pods-swiftui-starter-swiftui-starterUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D14CF4C72251ECC5B14D88BE78B38CE5 /* Pods-swiftui-starter-swiftui-starterUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FDBDB6462F5EB446639956AF0C5234 /* Pods-swiftui-starter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5844B8308AC0B627F00D8E535CE8F0 /* Pods-swiftui-starter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FCDE6B2F338E1F5289240F6AC345A0C4 /* PBXContainerItemProxy */ = {
+		413DBEECA99C6CB7D63F32F14B606918 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C48C053D9F8740E2C27D64A0D9CB2388;
 			remoteInfo = "Pods-swiftui-starter";
+		};
+		6A49B5C1AD37E27AE27DAE2CB9FE573B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
+		};
+		AD3D95F10989C4B4067E7586287C3AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
+			remoteInfo = SwiftGen;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -50,6 +76,7 @@
 		99BABDF5ECBF0784BDB83CCB640B797A /* Pods-swiftui-starter-swiftui-starterUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftui-starter-swiftui-starterUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0AD60811579DB9513352A8712531C3D /* Pods-swiftui-starter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftui-starter.debug.xcconfig"; sourceTree = "<group>"; };
+		B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
 		BFB2C1A6FEFA9C58C5989708A9F7E4E9 /* Pods-swiftui-starter-swiftui-starterUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swiftui-starter-swiftui-starterUITests.modulemap"; sourceTree = "<group>"; };
 		C6B22A14D078C7E1452232CBF1E56F1B /* Pods-swiftui-starterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swiftui-starterTests-umbrella.h"; sourceTree = "<group>"; };
 		C97672B00B932153DFF7ACEBBFD0CBEC /* Pods-swiftui-starter-swiftui-starterUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftui-starter-swiftui-starterUITests-dummy.m"; sourceTree = "<group>"; };
@@ -58,17 +85,10 @@
 		EF5844B8308AC0B627F00D8E535CE8F0 /* Pods-swiftui-starter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swiftui-starter-umbrella.h"; sourceTree = "<group>"; };
 		F143D5784B1E7A4FB814619B1C2D08B5 /* Pods-swiftui-starterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftui-starterTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FD59DA24408B78AC328A5B9C23BD876F /* Pods-swiftui-starter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftui-starter-dummy.m"; sourceTree = "<group>"; };
+		FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		78E697C0D43ADB6945392B2C93ACB76F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28932B6D6F6819D196E6954BAE7475A7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7D98873FC2FB9317B56A23D435A80E2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,17 +97,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF25F9A67A7AAE4FCB6D15C68292B28C /* Frameworks */ = {
+		AF430348DCBB6DBDFC71654AFB6899A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ED8926506A116AE4EBD6B617DF3E9BE /* Foundation.framework in Frameworks */,
+				265BAEC5C04E23BE4CD7E552734590ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8B4C483887B557811A5EB25D6E024F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FB403C7E1682FFE5B67E42518A6C7D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08DF4A29620F30ECCD85AE71F22FD52C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				878C176E7A3E3DF8BAB24F0858DEDDDD /* SwiftGen */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		326AABC4F8342ADCCF7B96C3790454FD /* Pods-swiftui-starterTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +148,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		878C176E7A3E3DF8BAB24F0858DEDDDD /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */,
+			);
+			name = SwiftGen;
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
 		8EFF076C056168A93D239ACBF8210626 /* Pods-swiftui-starter-swiftui-starterUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,11 +173,22 @@
 			path = "Target Support Files/Pods-swiftui-starter-swiftui-starterUITests";
 			sourceTree = "<group>";
 		};
+		AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */,
+				B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGen";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				08DF4A29620F30ECCD85AE71F22FD52C /* Pods */,
 				F095FA077B2257C63C552C3A11D89BFB /* Products */,
 				F29C6D3FE40C706D90C18A0D91DBA3F4 /* Targets Support Files */,
 			);
@@ -193,19 +249,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1934A2859546F4C7C9086616EE8FDB0C /* Headers */ = {
+		2B6D67E2CD555EE1FD5E4CE976AB10B1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				059C84C5ABC62799F913CEC0AB852EBF /* Pods-swiftui-starter-swiftui-starterUITests-umbrella.h in Headers */,
+				F4FDBDB6462F5EB446639956AF0C5234 /* Pods-swiftui-starter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A11A56178009F13523FA54C92A079D4E /* Headers */ = {
+		C9DC35AEF15E429B83723BDB4B0F999C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C4BF0F06F9CECBEBE0DC99B433C00D6 /* Pods-swiftui-starter-umbrella.h in Headers */,
+				C601E25E91F592D5518B7951F87B100B /* Pods-swiftui-starter-swiftui-starterUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,16 +270,17 @@
 /* Begin PBXNativeTarget section */
 		6ADB186910C54BEA239E167A1D27987E /* Pods-swiftui-starter-swiftui-starterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C5469CDFD262F3C773A98E5694450F7 /* Build configuration list for PBXNativeTarget "Pods-swiftui-starter-swiftui-starterUITests" */;
+			buildConfigurationList = 767B1FC682057D44B597C8279A0A3EC3 /* Build configuration list for PBXNativeTarget "Pods-swiftui-starter-swiftui-starterUITests" */;
 			buildPhases = (
-				1934A2859546F4C7C9086616EE8FDB0C /* Headers */,
-				C3A11B9ABD6B71315DF2562780F965A1 /* Sources */,
-				FF25F9A67A7AAE4FCB6D15C68292B28C /* Frameworks */,
-				94822EFF98E70827D4EA4301030D280B /* Resources */,
+				C9DC35AEF15E429B83723BDB4B0F999C /* Headers */,
+				3230A38334E8C74CD3E63DBE24D60943 /* Sources */,
+				AF430348DCBB6DBDFC71654AFB6899A8 /* Frameworks */,
+				0A6411E935EA21F64CCC7C5834699295 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4281E01B0EBF724003E1F072F11F8B27 /* PBXTargetDependency */,
 			);
 			name = "Pods-swiftui-starter-swiftui-starterUITests";
 			productName = Pods_swiftui_starter_swiftui_starterUITests;
@@ -232,16 +289,17 @@
 		};
 		C48C053D9F8740E2C27D64A0D9CB2388 /* Pods-swiftui-starter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51A06EF8E4C39296FB4B750B4A5C22FC /* Build configuration list for PBXNativeTarget "Pods-swiftui-starter" */;
+			buildConfigurationList = 18EE336C63A44F6420591A94F72FAD7D /* Build configuration list for PBXNativeTarget "Pods-swiftui-starter" */;
 			buildPhases = (
-				A11A56178009F13523FA54C92A079D4E /* Headers */,
-				F6493158DB569036EA1BA2CD188CDF3B /* Sources */,
-				78E697C0D43ADB6945392B2C93ACB76F /* Frameworks */,
-				FF24163EF244BEAA9886BA38A84F49C1 /* Resources */,
+				2B6D67E2CD555EE1FD5E4CE976AB10B1 /* Headers */,
+				72139E3F6C39ADFE5BAA213321AB6FBA /* Sources */,
+				DB8B4C483887B557811A5EB25D6E024F /* Frameworks */,
+				6BFBB5178A3DC281D101D3580B5A9797 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3B31A7483E6AB16DCAAC1DD61525BB58 /* PBXTargetDependency */,
 			);
 			name = "Pods-swiftui-starter";
 			productName = Pods_swiftui_starter;
@@ -260,7 +318,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				140046101638135A27BC6A23890DF08A /* PBXTargetDependency */,
+				BC9A411085626723F663AB44A06E34BA /* PBXTargetDependency */,
 			);
 			name = "Pods-swiftui-starterTests";
 			productName = Pods_swiftui_starterTests;
@@ -292,11 +350,19 @@
 				C48C053D9F8740E2C27D64A0D9CB2388 /* Pods-swiftui-starter */,
 				6ADB186910C54BEA239E167A1D27987E /* Pods-swiftui-starter-swiftui-starterUITests */,
 				FBD3A6D71E4B7DD0D361762A99B2DBD7 /* Pods-swiftui-starterTests */,
+				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0A6411E935EA21F64CCC7C5834699295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		109AA9C4B3D8D7EC741B58182A170341 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,14 +370,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94822EFF98E70827D4EA4301030D280B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF24163EF244BEAA9886BA38A84F49C1 /* Resources */ = {
+		6BFBB5178A3DC281D101D3580B5A9797 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,11 +380,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C3A11B9ABD6B71315DF2562780F965A1 /* Sources */ = {
+		3230A38334E8C74CD3E63DBE24D60943 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E107F030010049EA73EABBE2E8935B1 /* Pods-swiftui-starter-swiftui-starterUITests-dummy.m in Sources */,
+				1CA416995886F26E2209830575C6C952 /* Pods-swiftui-starter-swiftui-starterUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72139E3F6C39ADFE5BAA213321AB6FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619DE24EA50B67A21FFA14D9591A6763 /* Pods-swiftui-starter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,22 +404,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6493158DB569036EA1BA2CD188CDF3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E134C499B086E3EE24636D6E15D548BE /* Pods-swiftui-starter-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		140046101638135A27BC6A23890DF08A /* PBXTargetDependency */ = {
+		3B31A7483E6AB16DCAAC1DD61525BB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = 6A49B5C1AD37E27AE27DAE2CB9FE573B /* PBXContainerItemProxy */;
+		};
+		4281E01B0EBF724003E1F072F11F8B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGen;
+			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
+			targetProxy = AD3D95F10989C4B4067E7586287C3AE1 /* PBXContainerItemProxy */;
+		};
+		BC9A411085626723F663AB44A06E34BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-swiftui-starter";
 			target = C48C053D9F8740E2C27D64A0D9CB2388 /* Pods-swiftui-starter */;
-			targetProxy = FCDE6B2F338E1F5289240F6AC345A0C4 /* PBXContainerItemProxy */;
+			targetProxy = 413DBEECA99C6CB7D63F32F14B606918 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,7 +466,7 @@
 			};
 			name = Release;
 		};
-		0BEEEE9723BD018739F07DA4949E534D /* Release */ = {
+		02444D9EBB6C11C602BD21410A6C4892 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F63170DF23004FF5D1AAE47B20E2F6D /* Pods-swiftui-starter-swiftui-starterUITests.release.xcconfig */;
 			buildSettings = {
@@ -433,44 +504,23 @@
 			};
 			name = Release;
 		};
-		1AA543A0A23F51A4D92B6DB4D5FB891E /* Debug */ = {
+		2202230BF25CAB2FDC609A71D79055BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0AD60811579DB9513352A8712531C3D /* Pods-swiftui-starter.debug.xcconfig */;
+			baseConfigurationReference = FD691AE7128F940D3B179941FCEC2F54 /* SwiftGen.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		549F1DB86B33AA89E38E6EE1F8E57C91 /* Debug */ = {
+		7A6005466B355D805C9093C4E789CD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A0CE6F42D26FCFA888A45CB77F5627D /* Pods-swiftui-starter-swiftui-starterUITests.debug.xcconfig */;
 			buildSettings = {
@@ -573,44 +623,6 @@
 			};
 			name = Debug;
 		};
-		90DD2E35D9A4E1D1272302F04DDDBEB3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E133C46CD0498EE18C59008CC6F1E58 /* Pods-swiftui-starter.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -710,14 +722,106 @@
 			};
 			name = Debug;
 		};
+		C2DDA15C10E097CF6926B78B2C2A6ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E133C46CD0498EE18C59008CC6F1E58 /* Pods-swiftui-starter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C38FA9621EF28AC305AF8119098C40F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AD60811579DB9513352A8712531C3D /* Pods-swiftui-starter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF3B4AB84D0F77E437676BAFB9C2086C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C5469CDFD262F3C773A98E5694450F7 /* Build configuration list for PBXNativeTarget "Pods-swiftui-starter-swiftui-starterUITests" */ = {
+		18EE336C63A44F6420591A94F72FAD7D /* Build configuration list for PBXNativeTarget "Pods-swiftui-starter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				549F1DB86B33AA89E38E6EE1F8E57C91 /* Debug */,
-				0BEEEE9723BD018739F07DA4949E534D /* Release */,
+				C38FA9621EF28AC305AF8119098C40F6 /* Debug */,
+				C2DDA15C10E097CF6926B78B2C2A6ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -731,11 +835,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51A06EF8E4C39296FB4B750B4A5C22FC /* Build configuration list for PBXNativeTarget "Pods-swiftui-starter" */ = {
+		767B1FC682057D44B597C8279A0A3EC3 /* Build configuration list for PBXNativeTarget "Pods-swiftui-starter-swiftui-starterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1AA543A0A23F51A4D92B6DB4D5FB891E /* Debug */,
-				90DD2E35D9A4E1D1272302F04DDDBEB3 /* Release */,
+				7A6005466B355D805C9093C4E789CD39 /* Debug */,
+				02444D9EBB6C11C602BD21410A6C4892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -745,6 +849,15 @@
 			buildConfigurations = (
 				A883FCE6B8C7E00070F2A9DBF958008A /* Debug */,
 				021EDBC083F0700C6652E491F8688A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB296D1C543ACA89207838196BB823E7 /* Build configuration list for PBXAggregateTarget "SwiftGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2202230BF25CAB2FDC609A71D79055BB /* Debug */,
+				CF3B4AB84D0F77E437676BAFB9C2086C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

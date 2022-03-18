@@ -18,6 +18,10 @@
 		0C303B8927E4BFB60018CECE /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8827E4BFB60018CECE /* URLParameterEncoding.swift */; };
 		0C303B8B27E4BFD10018CECE /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8A27E4BFD10018CECE /* JSONParameterEncoder.swift */; };
 		0C303B8D27E4C1980018CECE /* Boutiques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B8C27E4C1980018CECE /* Boutiques.swift */; };
+		0C303B9327E4CE940018CECE /* Localizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B9227E4CE940018CECE /* Localizations.swift */; };
+		0C303B9627E4CE9B0018CECE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C303B9427E4CE9B0018CECE /* Localizable.strings */; };
+		0C303B9B27E4CF4B0018CECE /* AppAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B9A27E4CF4B0018CECE /* AppAssets.swift */; };
+		0C303B9D27E4D1050018CECE /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0C303B9C27E4D1050018CECE /* swiftgen.yml */; };
 		0C388DA027E071F400EE07A4 /* FancyCutProB7-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */; };
 		0C388DA127E071F400EE07A4 /* FancyCutProB7-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */; };
 		0C388DA227E071F400EE07A4 /* FancyCutProB7-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */; };
@@ -107,6 +111,10 @@
 		0C303B8827E4BFB60018CECE /* URLParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
 		0C303B8A27E4BFD10018CECE /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 		0C303B8C27E4C1980018CECE /* Boutiques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boutiques.swift; sourceTree = "<group>"; };
+		0C303B9227E4CE940018CECE /* Localizations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizations.swift; sourceTree = "<group>"; };
+		0C303B9527E4CE9B0018CECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0C303B9A27E4CF4B0018CECE /* AppAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssets.swift; sourceTree = "<group>"; };
+		0C303B9C27E4D1050018CECE /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
 		0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-MediumItalic.otf"; sourceTree = "<group>"; };
 		0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-BoldItalic.otf"; sourceTree = "<group>"; };
 		0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-Light.otf"; sourceTree = "<group>"; };
@@ -255,6 +263,31 @@
 			path = EndPoint;
 			sourceTree = "<group>";
 		};
+		0C303B8F27E4CE3D0018CECE /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B9227E4CE940018CECE /* Localizations.swift */,
+				0C303B9427E4CE9B0018CECE /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		0C303B9827E4CF270018CECE /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B9927E4CF310018CECE /* Styles */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		0C303B9927E4CF310018CECE /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				0C303B9A27E4CF4B0018CECE /* AppAssets.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		0C388D8927E0718A00EE07A4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +397,8 @@
 		0C4F461E27DEFD060001BED9 /* swiftui-starter */ = {
 			isa = PBXGroup;
 			children = (
+				0C303B9827E4CF270018CECE /* Globals */,
+				0C303B8F27E4CE3D0018CECE /* Localization */,
 				0C303B7327E4BE3E0018CECE /* Networking */,
 				0C4F461F27DEFD060001BED9 /* AppDelegate.swift */,
 				0C388DFD27E0880F00EE07A4 /* Models */,
@@ -374,6 +409,7 @@
 				0C4F462327DEFD060001BED9 /* ViewController.swift */,
 				0C4F462827DEFD080001BED9 /* Assets.xcassets */,
 				0C4F462A27DEFD080001BED9 /* LaunchScreen.storyboard */,
+				0C303B9C27E4D1050018CECE /* swiftgen.yml */,
 				0C4F462D27DEFD080001BED9 /* Info.plist */,
 			);
 			path = "swiftui-starter";
@@ -477,6 +513,7 @@
 				0C4F461827DEFD060001BED9 /* Sources */,
 				0C4F461927DEFD060001BED9 /* Frameworks */,
 				0C4F461A27DEFD060001BED9 /* Resources */,
+				0C303B8E27E4CCD40018CECE /* Run Swiftgen */,
 			);
 			buildRules = (
 			);
@@ -586,6 +623,7 @@
 				0C388DE927E0728400EE07A4 /* BrilliantCutProB7-Light.otf in Resources */,
 				0C388DA027E071F400EE07A4 /* FancyCutProB7-MediumItalic.otf in Resources */,
 				0C388DCA27E0720C00EE07A4 /* FancyCutCondProB7-LightItalic.otf in Resources */,
+				0C303B9627E4CE9B0018CECE /* Localizable.strings in Resources */,
 				0C388DB527E0720000EE07A4 /* FancyCutExtProB7-Light.otf in Resources */,
 				0C388DBB27E0720000EE07A4 /* FancyCutExtProB7-Bold.otf in Resources */,
 				0C388DD127E0720C00EE07A4 /* FancyCutCondProB7-Bold.otf in Resources */,
@@ -616,6 +654,7 @@
 				0C4F462927DEFD080001BED9 /* Assets.xcassets in Resources */,
 				0C388DA327E071F400EE07A4 /* FancyCutProB7-RegularItalic.otf in Resources */,
 				0C388DCE27E0720C00EE07A4 /* FancyCutCondProB7-Regular.otf in Resources */,
+				0C303B9D27E4D1050018CECE /* swiftgen.yml in Resources */,
 				0C388DA727E071F400EE07A4 /* FancyCutProB7-Regular.otf in Resources */,
 				0C388DE627E0728400EE07A4 /* BrilliantCutProB7-Bold.otf in Resources */,
 				0C388DE527E0728400EE07A4 /* BrilliantCutProB7-Black.otf in Resources */,
@@ -640,6 +679,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0C303B8E27E4CCD40018CECE /* Run Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftgen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$PODS_ROOT/SwiftGen/bin/swiftgen\n";
+		};
 		3483FA5567821CB1C80FA102 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -719,6 +776,8 @@
 				0C303B8927E4BFB60018CECE /* URLParameterEncoding.swift in Sources */,
 				0C303B7927E4BE9E0018CECE /* EndPoint.swift in Sources */,
 				0C4F465227DF02680001BED9 /* ProfileView.swift in Sources */,
+				0C303B9B27E4CF4B0018CECE /* AppAssets.swift in Sources */,
+				0C303B9327E4CE940018CECE /* Localizations.swift in Sources */,
 				0C303B8D27E4C1980018CECE /* Boutiques.swift in Sources */,
 				0C303B7D27E4BEFA0018CECE /* EndPointType.swift in Sources */,
 				0C303B8127E4BF470018CECE /* HTTPMethod.swift in Sources */,
@@ -771,6 +830,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0C303B9427E4CE9B0018CECE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C303B9527E4CE9B0018CECE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		0C4F462A27DEFD080001BED9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -6,6 +6,7 @@ target 'swiftui-starter' do
   use_frameworks!
 
   # Pods for swiftui-starter
+  pod 'SwiftGen', '~> 6.0'
 
   target 'swiftui-starterTests' do
     inherit! :search_paths

@@ -39,7 +39,7 @@ struct SplashView: View {
     private var tapButton: some View {
         Button(action: {
             self.viewModel.fetchData()
-        }, label: { Text("Submit") })
+        }, label: { Text(L10n.General.Init.error) })
     }
     
     private var titleView: some View {

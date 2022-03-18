@@ -1,0 +1,11 @@
+strings:
+  inputs: swiftui-starter/Localization/en.lproj/Localizable.strings
+  filter: .+\.strings$
+  outputs:
+    templateName: structured-swift4
+    output: swiftui-starter/Localization/Localizations.swift
+xcassets:
+    inputs: swiftui-starter/Assets.xcassets
+    outputs:
+        templateName: swift4
+        output: swiftui-starter/Globals/Styles/AppAssets.swift
