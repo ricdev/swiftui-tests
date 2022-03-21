@@ -9,11 +9,11 @@ import Combine
 import SwiftUI
 
 struct TimerView: View {
-    
+
     @State var secondsElapsed = 0
     @State var timer: Timer.TimerPublisher = Timer.publish(every: 1, on: .main, in: .common)
-    @State var connectedTimer: Cancellable? = nil
-    
+    @State var connectedTimer: Cancellable?
+
     var body: some View {
         VStack {
             Text("\(self.secondsElapsed) seconds elapsed")
@@ -35,23 +35,23 @@ struct TimerView: View {
             print("time: \(self.secondsElapsed)")
         }
     }
-    
+
     func instantiateTimer() {
         self.timer = Timer.publish(every: 1, on: .main, in: .common)
         self.connectedTimer = self.timer.connect()
         return
     }
-        
+
     func cancelTimer() {
         self.connectedTimer?.cancel()
         return
     }
-        
+
     func resetCounter() {
         self.secondsElapsed = 0
         return
     }
-        
+
     func restartTimer() {
         self.secondsElapsed = 0
         self.cancelTimer()

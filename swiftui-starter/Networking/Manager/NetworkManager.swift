@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum NetworkResponse:String {
+enum NetworkResponse: String {
     case success
     case authenticationError = "You need to be authenticated first."
     case badRequest = "Bad request"
@@ -17,23 +17,23 @@ enum NetworkResponse:String {
     case unableToDecode = "We could not decode the response."
 }
 
-enum Result<String>{
+enum Result<String> {
     case success
     case failure(String)
 }
 
 struct NetworkManager {
-    static let environment : NetworkEnvironment = .development
+    static let environment: NetworkEnvironment = .development
     static let APIKey = "2696829a81b1b5827d515ff121700838"
     let router = Router<EndpointApi>()
-    
-    func getBoutiques(completion: @escaping (_ boutiques: [Boutiques]?,_ error: String?)->()){
+
+    func getBoutiques(completion: @escaping (_ boutiques: [Boutiques]?, _ error: String?) -> Void) {
         router.request(.boutiques(id: 0)) { data, response, error in
-            
+
             if error != nil {
                 completion(nil, "Please check your network connection.")
             }
-            
+
             if let response = response as? HTTPURLResponse {
                 let result = self.handleNetworkResponse(response)
                 switch result {
@@ -47,8 +47,8 @@ struct NetworkManager {
                         let jsonData = try JSONSerialization.jsonObject(with: responseData, options: .mutableContainers)
                         print(jsonData)
                         let apiResponse = try JSONDecoder().decode(BoutiquesApiResponseDTO.self, from: responseData)
-                        completion(apiResponse.items,nil)
-                    }catch {
+                        completion(apiResponse.items, nil)
+                    } catch {
                         print(error)
                         completion(nil, NetworkResponse.unableToDecode.rawValue)
                     }
@@ -58,8 +58,8 @@ struct NetworkManager {
             }
         }
     }
-    
-    fileprivate func handleNetworkResponse(_ response: HTTPURLResponse) -> Result<String>{
+
+    fileprivate func handleNetworkResponse(_ response: HTTPURLResponse) -> Result<String> {
         switch response.statusCode {
         case 200...299: return .success
         case 401...500: return .failure(NetworkResponse.authenticationError.rawValue)

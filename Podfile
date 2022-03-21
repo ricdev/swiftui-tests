@@ -7,6 +7,7 @@ target 'swiftui-starter' do
 
   # Pods for swiftui-starter
   pod 'SwiftGen', '~> 6.0'
+  pod 'SwiftLint', '~> 0.45.0'
 
   target 'swiftui-starterTests' do
     inherit! :search_paths

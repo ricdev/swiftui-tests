@@ -8,37 +8,37 @@
 import Foundation
 
 struct Boutiques {
-    
+
     enum BoutiqueType: String, Decodable {
         case articleCard = "article_card"
         case briefArticleCard = "brief_article_card"
     }
-    
+
     let type: BoutiqueType
     let content: BoutiqueContent
 }
 
 extension Boutiques: Decodable {
-    
+
     enum CodingKeys: String, CodingKey {
-        case type = "type"
-        case content = "content"
+        case type
+        case content
     }
-    
+
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
+
         type = try container.decode(BoutiqueType.self, forKey: .type)
         content = try container.decode(BoutiqueContent.self, forKey: .content)
     }
 }
 
 struct BoutiqueContent {
-    
+
     enum BoutiqueContentType: String, Decodable {
-        case immersive = "immersive"
+        case immersive
     }
-    
+
     let id: String
     let slug: String
     let eyebrow: String
@@ -51,7 +51,7 @@ struct BoutiqueContent {
 }
 
 extension BoutiqueContent: Decodable {
-    
+
     enum CodingKeys: String, CodingKey {
         case id
         case slug
@@ -63,10 +63,10 @@ extension BoutiqueContent: Decodable {
         case dek
 //        case note
     }
-    
+
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
+
         id = try container.decode(String.self, forKey: .id)
         slug = try container.decode(String.self, forKey: .slug)
         type = try container.decode(BoutiqueContentType.self, forKey: .type)
@@ -86,10 +86,10 @@ struct BoutiqueContentNote {
 }
 
 extension BoutiqueContentNote: Decodable {
-    
+
     enum CodingKeys: String, CodingKey {
 //        case author = "author"
-        case content = "content"
+        case content
     }
 
     init(from decoder: Decoder) throws {
@@ -109,20 +109,20 @@ struct BoutiqueContentNoteAuthor {
 }
 
 extension BoutiqueContentNoteAuthor: Decodable {
-    
+
     enum CodingKeys: String, CodingKey {
         case firstName = "first_name"
         case lastName = "last_name"
         case jobTitle = "job_title"
     }
-    
+
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
+
         firstName = try container.decode(String.self, forKey: .firstName)
         lastName = try container.decode(String.self, forKey: .lastName)
         jobTitle = try container.decode(String.self, forKey: .jobTitle)
-        
+
     }
 }
 
@@ -131,14 +131,14 @@ struct BoutiquesApiResponseDTO {
 }
 
 extension BoutiquesApiResponseDTO: Decodable {
-    
+
     private enum CodingKeys: String, CodingKey {
-        case items = "items"
+        case items
     }
-    
+
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        
+
         items = try container.decode([Boutiques].self, forKey: .items)
     }
 }

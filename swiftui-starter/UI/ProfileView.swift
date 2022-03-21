@@ -19,9 +19,9 @@ struct ProfileView: View {
     @State private var image: Image?
     @State private var selectedImage: UIImage?
     @State private var showingImagePicker = false
-    
+
     var employee: Employee
-    
+
     struct ProfilePicture: View {
         var imageName: String
 
@@ -46,9 +46,9 @@ struct ProfileView: View {
             }
         }
     }
-    
+
     var body: some View {
-        VStack(alignment: .leading)  {
+        VStack(alignment: .leading) {
             ProfilePicture(imageName: employee.profilePicture)
             Text(employee.name)
                 .font(.largeTitle)
@@ -56,11 +56,11 @@ struct ProfileView: View {
             Text(employee.jobTitle)
                 .foregroundColor(.secondary)
             EmailAddress(address: employee.emailAddress)
-            
+
             image?
                 .resizable()
                 .scaledToFit()
-            
+
             Button("Select Image") {
                 showingImagePicker = true
             }
@@ -69,19 +69,19 @@ struct ProfileView: View {
             ImagePicker(image: $selectedImage)
         }
         .onChange(of: selectedImage) { _ in loadImage()
-            
+
         }
     }
-    
+
     func loadImage() {
         guard let selectedImage = selectedImage else { return }
         image = Image(uiImage: selectedImage)
-        
     }
 }
 
 struct ProfileView_Previews: PreviewProvider {
 
+    // swiftlint:disable line_length
     static var previews: some View {
         ProfileView(employee: Employee(name: "John Doe", jobTitle: "Agent 007", emailAddress: "agent007@brittishintelligence.com", profilePicture: "https://raw.githubusercontent.com/ricdev/swiftui-tests/main/image.jpeg"))
     }

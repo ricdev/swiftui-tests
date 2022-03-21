@@ -8,7 +8,7 @@
 import XCTest
 @testable import swiftui_starter
 
-class swiftui_starterTests: XCTestCase {
+class SwiftuiStarterTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -29,7 +29,7 @@ class swiftui_starterTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
+
     func testURLEncoding() {
         guard let url = URL(string: "https:www.google.com/") else {
             XCTAssertTrue(false, "Could not instantiate url")
@@ -42,7 +42,7 @@ class swiftui_starterTests: XCTestCase {
             "Email": "test@gmail.com",
             "Subscribe": true
         ]
-        
+
         do {
             let encoder = URLParameterEncoder()
             try encoder.encode(urlRequest: &urlRequest, with: parameters)
@@ -53,13 +53,14 @@ class swiftui_starterTests: XCTestCase {
 
             let expectedURL = "https:www.google.com/?Name=test&Email=test%2540gmail.com&UserID=1&Subscribe=true"
             XCTAssertEqual(fullURL.absoluteString.sorted(), expectedURL.sorted())
-        }catch {
-            
+        } catch {
+
         }
     }
 
     func testAPI_getBoutiques() {
-        
+
+        // swiftlint:disable empty_parentheses_with_trailing_closure
         let networkManager = NetworkManager()
         networkManager.getBoutiques() { boutiques, error in
             guard let boutiques = boutiques else { return }
