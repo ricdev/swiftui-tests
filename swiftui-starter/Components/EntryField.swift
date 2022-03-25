@@ -1,8 +1,8 @@
 //
-//  ToolboxView.swift
+//  EntryField.swift
 //  swiftui-starter
 //
-//  Created by Ricardo Monteverde on 3/24/22.
+//  Created by Ricardo Monteverde on 3/25/22.
 //
 
 import SwiftUI
@@ -40,7 +40,7 @@ struct EntryField: View {
 }
 
 // swiftlint:disable line_length
-struct ContentView_Previews: PreviewProvider {
+struct EntryField_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(ColorScheme.allCases, id: \.self) {
             VStack {
@@ -48,8 +48,8 @@ struct ContentView_Previews: PreviewProvider {
                 EntryField(systemName: "envelope", placeHolder: "Email Address", prompt: "", field: .constant("user@gmail.com"))
                 EntryField(systemName: "envelope", placeHolder: "Email Address", prompt: "Email is invalid.", field: .constant("user@gmail.com"))
                 EntryField(systemName: "lock", placeHolder: "Password", prompt: "", field: .constant(""), isSecure: true)
-                EntryField(systemName: "lock", placeHolder: "Password", prompt: "", field: .constant("user@gmail.com"), isSecure: true)
-                EntryField(systemName: "lock", placeHolder: "Password", prompt: "Password is invalid.", field: .constant("user@gmail.com"), isSecure: true)
+                EntryField(systemName: "lock", placeHolder: "Password", prompt: "", field: .constant("Test123"), isSecure: true)
+                EntryField(systemName: "lock", placeHolder: "Password", prompt: "Password is invalid.", field: .constant("Test123"), isSecure: true)
             }.padding().preferredColorScheme($0)
         }
     }

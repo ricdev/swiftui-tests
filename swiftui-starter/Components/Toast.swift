@@ -117,7 +117,7 @@ struct Toast<Presenting>: View where Presenting: View {
             }
         }
         return GeometryReader { geometry in
-            ZStack(alignment: .top) {
+            ZStack(alignment: .bottom) {
                 self.presenting()
                 ZStack {
                     Capsule()
@@ -136,6 +136,7 @@ struct Toast<Presenting>: View where Presenting: View {
                 .frame(width: geometry.size.width / 1.25, height: geometry.size.height / 15)
                 .overlay(RoundedRectangle(cornerRadius: geometry.size.height / 15).stroke(self.secondaryColor, lineWidth: 1))
                 .opacity(self.isShowing ? 1 : 0)
+                .padding(.bottom, geometry.size.height / 10)
             }
         }
     }

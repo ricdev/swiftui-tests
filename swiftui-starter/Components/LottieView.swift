@@ -41,3 +41,11 @@ struct LottieView: UIViewRepresentable {
 
     func updateUIView(_ uiView: UIViewType, context: UIViewRepresentableContext<LottieView>) { }
 }
+
+struct LottieView_Previews: PreviewProvider {
+    static var previews: some View {
+        ForEach(ColorScheme.allCases, id: \.self) {
+            LottieView(name: "bg-dark", loopMode: .loop).edgesIgnoringSafeArea(.all).preferredColorScheme($0)
+        }
+    }
+}

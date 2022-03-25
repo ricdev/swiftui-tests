@@ -23,16 +23,6 @@ class LoginOptionViewModel: ObservableObject {
     }
 }
 
-struct RedButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .padding(.vertical, 16)
-            .font(FontFamily.BrilliantCutProB7.bold.textStyle(.caption))
-            .foregroundColor(.white)
-            .background(Color(AppColor.red))
-    }
-}
-
 class AtlasLoginFormViewModel: ObservableObject {
 //    @Published
 }
@@ -68,8 +58,6 @@ struct LoginOptionView: View {
         VStack(spacing: 16) {
             Button {
                 self.viewModel.setLoginOption(selectedLoginType: .atlas)
-
-                // TODO: Eliminate additional line
                 self.selected = self.viewModel.selectedLoginType
             } label: {
                 HStack {
@@ -81,8 +69,6 @@ struct LoginOptionView: View {
 
             Button {
                 self.viewModel.setLoginOption(selectedLoginType: .faceTouch)
-
-                // TODO: Eliminate additional line
                 self.selected = self.viewModel.selectedLoginType
 
             } label: {
