@@ -6,7 +6,7 @@ target 'swiftui-starter' do
   use_frameworks!
 
   # Pods for swiftui-starter
-  pod 'SwiftGen', '~> 6.0'
+  pod 'SwiftGen', '~> 6.4.0'
   pod 'SwiftLint', '~> 0.45.0'
 
   target 'swiftui-starterTests' do

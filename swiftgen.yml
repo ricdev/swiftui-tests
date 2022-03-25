@@ -5,7 +5,16 @@ strings:
     templateName: structured-swift4
     output: swiftui-starter/Localization/Localizations.swift
 xcassets:
-    inputs: swiftui-starter/Assets.xcassets
-    outputs:
-        templateName: swift4
-        output: swiftui-starter/Globals/Styles/AppAssets.swift
+  inputs: swiftui-starter/Assets.xcassets
+  outputs:
+    templateName: swift4
+    output: swiftui-starter/Globals/Styles/AppAssets.swift
+fonts:
+  inputs:
+    - swiftui-starter/Asset/Fonts/BrilliantCutProB7
+    - swiftui-starter/Asset/Fonts/FancyCutCondProB7
+    - swiftui-starter/Asset/Fonts/FancyCutExtProB7
+    - swiftui-starter/Asset/Fonts/FancyCutProB7
+  outputs:
+    templatePath: stencils/fonts/fonts_swift5_swiftui.stencil
+    output: swiftui-starter/Globals/Styles/FontType.swift
