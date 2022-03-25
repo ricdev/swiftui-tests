@@ -81,13 +81,15 @@
 		0C4F465927DF459B0001BED9 /* TTProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4F465827DF459B0001BED9 /* TTProgressHUD */; };
 		0C4F465C27DF48600001BED9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F465B27DF48600001BED9 /* SplashView.swift */; };
 		0C4F466027DF4E150001BED9 /* bg-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F465F27DF4E150001BED9 /* bg-dark.json */; };
-		0C4F466527DF4EA60001BED9 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F466427DF4EA60001BED9 /* BackgroundView.swift */; };
 		0C4F466827DF4EDF0001BED9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4F466727DF4EDF0001BED9 /* Lottie */; };
 		0C4F466B27DF5AA80001BED9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F466A27DF5AA80001BED9 /* UIView+Extensions.swift */; };
 		0C4F466D27DF5AFA0001BED9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F466C27DF5AFA0001BED9 /* Utils.swift */; };
 		0C4F466F27DF5B280001BED9 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F466E27DF5B280001BED9 /* LottieView.swift */; };
 		0C4F467127DF5E860001BED9 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F467027DF5E860001BED9 /* TimerView.swift */; };
 		0C4F467427DF70CF0001BED9 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F467327DF70CF0001BED9 /* AsyncImage.swift */; };
+		0CF54F2827EDAE1E00B2F533 /* EntryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2727EDAE1E00B2F533 /* EntryField.swift */; };
+		0CF54F2B27EDBDFD00B2F533 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */; };
+		0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */; };
 		4BCEE27F76843E95DE7278EF /* Pods_swiftui_starter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE4EC86D7B436FD65966D38 /* Pods_swiftui_starter.framework */; };
 		6DF3FCF4191F24F882523881 /* Pods_swiftui_starterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC9E5D03F6F5F6B951B9436 /* Pods_swiftui_starterTests.framework */; };
 		9148703AA25A3DD007708CEF /* Pods_swiftui_starter_swiftui_starterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBBC9A244692181B171E13D /* Pods_swiftui_starter_swiftui_starterUITests.framework */; };
@@ -185,13 +187,15 @@
 		0C4F465127DF02680001BED9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0C4F465B27DF48600001BED9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		0C4F465F27DF4E150001BED9 /* bg-dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "bg-dark.json"; sourceTree = "<group>"; };
-		0C4F466427DF4EA60001BED9 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		0C4F466A27DF5AA80001BED9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		0C4F466C27DF5AFA0001BED9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		0C4F466E27DF5B280001BED9 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		0C4F467027DF5E860001BED9 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		0C4F467327DF70CF0001BED9 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		0C4F467827DF79E30001BED9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0CF54F2727EDAE1E00B2F533 /* EntryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryField.swift; sourceTree = "<group>"; };
+		0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
+		0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		1AC9E5D03F6F5F6B951B9436 /* Pods_swiftui_starterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftui_starterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABA4BA628AF77803D773733 /* Pods-swiftui-starterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-starterTests.release.xcconfig"; path = "Target Support Files/Pods-swiftui-starterTests/Pods-swiftui-starterTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FB4A4CE3601D09756993ADC /* Pods-swiftui-starter-swiftui-starterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-starter-swiftui-starterUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftui-starter-swiftui-starterUITests/Pods-swiftui-starter-swiftui-starterUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -429,6 +433,7 @@
 				0C388DFD27E0880F00EE07A4 /* Models */,
 				0C4F465A27DF46FA0001BED9 /* UI */,
 				0C4F466927DF5A8D0001BED9 /* Extensions */,
+				0CF54F2927EDB39B00B2F533 /* References */,
 				0C4F466327DF4E8C0001BED9 /* Components */,
 				0C4F465D27DF4DD30001BED9 /* Asset */,
 				0C4F462327DEFD060001BED9 /* ViewController.swift */,
@@ -464,7 +469,6 @@
 				0C303BC027E9DA180018CECE /* LoginOptionsView.swift */,
 				0C303B9F27E855DB0018CECE /* LoginView.swift */,
 				0C4F465127DF02680001BED9 /* ProfileView.swift */,
-				0C303BBC27E9C2970018CECE /* FontTypesView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -490,13 +494,13 @@
 			isa = PBXGroup;
 			children = (
 				0C4F464F27DF00B90001BED9 /* ImagePicker.swift */,
-				0C4F466427DF4EA60001BED9 /* BackgroundView.swift */,
 				0C4F466C27DF5AFA0001BED9 /* Utils.swift */,
 				0C4F466E27DF5B280001BED9 /* LottieView.swift */,
 				0C4F467027DF5E860001BED9 /* TimerView.swift */,
 				0C4F467327DF70CF0001BED9 /* AsyncImage.swift */,
-				0C15F72B27EC554A00BABE6D /* ToolboxView.swift */,
 				0C15F72D27EC801C00BABE6D /* Toast.swift */,
+				0CF54F2727EDAE1E00B2F533 /* EntryField.swift */,
+				0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -507,6 +511,16 @@
 				0C4F466A27DF5AA80001BED9 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0CF54F2927EDB39B00B2F533 /* References */ = {
+			isa = PBXGroup;
+			children = (
+				0C303BBC27E9C2970018CECE /* FontTypesView.swift */,
+				0C15F72B27EC554A00BABE6D /* ToolboxView.swift */,
+				0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */,
+			);
+			path = References;
 			sourceTree = "<group>";
 		};
 		5A6B36EF123BEF1CDAA9FDEF /* Pods */ = {
@@ -825,6 +839,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C303B8527E4BF840018CECE /* NetworkLogger.swift in Sources */,
+				0CF54F2827EDAE1E00B2F533 /* EntryField.swift in Sources */,
 				0C303B7B27E4BECB0018CECE /* NetworkManager.swift in Sources */,
 				0C303B7F27E4BF0E0018CECE /* Router.swift in Sources */,
 				0C303B8927E4BFB60018CECE /* URLParameterEncoding.swift in Sources */,
@@ -842,16 +857,17 @@
 				0C303B8327E4BF6E0018CECE /* HTTPTask.swift in Sources */,
 				0C303BA027E855DB0018CECE /* LoginView.swift in Sources */,
 				0C4F466D27DF5AFA0001BED9 /* Utils.swift in Sources */,
+				0CF54F2B27EDBDFD00B2F533 /* ColorPaletteView.swift in Sources */,
 				0C4F465027DF00B90001BED9 /* ImagePicker.swift in Sources */,
 				0C303BBF27E9D94C0018CECE /* AppColor.swift in Sources */,
 				0C4F467427DF70CF0001BED9 /* AsyncImage.swift in Sources */,
 				0C303BBD27E9C2970018CECE /* FontTypesView.swift in Sources */,
-				0C4F466527DF4EA60001BED9 /* BackgroundView.swift in Sources */,
 				0C4F467127DF5E860001BED9 /* TimerView.swift in Sources */,
 				0C303BC127E9DA180018CECE /* LoginOptionsView.swift in Sources */,
 				0C303B8B27E4BFD10018CECE /* JSONParameterEncoder.swift in Sources */,
 				0C303B8727E4BFA30018CECE /* ParameterEncoding.swift in Sources */,
 				0C4F462027DEFD060001BED9 /* AppDelegate.swift in Sources */,
+				0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */,
 				0C4F466F27DF5B280001BED9 /* LottieView.swift in Sources */,
 				0C4F466B27DF5AA80001BED9 /* UIView+Extensions.swift in Sources */,
 				0C4F465C27DF48600001BED9 /* SplashView.swift in Sources */,
