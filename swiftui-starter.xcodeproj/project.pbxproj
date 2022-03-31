@@ -90,6 +90,16 @@
 		0CF54F2827EDAE1E00B2F533 /* EntryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2727EDAE1E00B2F533 /* EntryField.swift */; };
 		0CF54F2B27EDBDFD00B2F533 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */; };
 		0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */; };
+		0CF54F2F27F2E3D700B2F533 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2E27F2E3D700B2F533 /* RadioButton.swift */; };
+		0CF54F3127F2F0AE00B2F533 /* RadioButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F3027F2F0AE00B2F533 /* RadioButtonGroup.swift */; };
+		0CF54F3327F2F81E00B2F533 /* CheckboxField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F3227F2F81E00B2F533 /* CheckboxField.swift */; };
+		0CF54F3527F2FD9B00B2F533 /* AccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F3427F2FD9B00B2F533 /* AccordionView.swift */; };
+		0CF54F3727F317EF00B2F533 /* ToggleField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F3627F317EF00B2F533 /* ToggleField.swift */; };
+		0CF54F3A27F31F4D00B2F533 /* CustomToggleField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F3927F31F4D00B2F533 /* CustomToggleField.swift */; };
+		0CF54F3C27F32E4F00B2F533 /* StacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F3B27F32E4F00B2F533 /* StacksView.swift */; };
+		0CF54F4027F4315A00B2F533 /* StylesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F3F27F4315A00B2F533 /* StylesView.swift */; };
+		0CF54F4227F4331300B2F533 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F4127F4331300B2F533 /* IntroView.swift */; };
+		0CF54F4427F46DC200B2F533 /* AtlasLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F4327F46DC200B2F533 /* AtlasLoginView.swift */; };
 		4BCEE27F76843E95DE7278EF /* Pods_swiftui_starter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE4EC86D7B436FD65966D38 /* Pods_swiftui_starter.framework */; };
 		6DF3FCF4191F24F882523881 /* Pods_swiftui_starterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC9E5D03F6F5F6B951B9436 /* Pods_swiftui_starterTests.framework */; };
 		9148703AA25A3DD007708CEF /* Pods_swiftui_starter_swiftui_starterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFBBC9A244692181B171E13D /* Pods_swiftui_starter_swiftui_starterUITests.framework */; };
@@ -196,6 +206,16 @@
 		0CF54F2727EDAE1E00B2F533 /* EntryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryField.swift; sourceTree = "<group>"; };
 		0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 		0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		0CF54F2E27F2E3D700B2F533 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		0CF54F3027F2F0AE00B2F533 /* RadioButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroup.swift; sourceTree = "<group>"; };
+		0CF54F3227F2F81E00B2F533 /* CheckboxField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxField.swift; sourceTree = "<group>"; };
+		0CF54F3427F2FD9B00B2F533 /* AccordionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionView.swift; sourceTree = "<group>"; };
+		0CF54F3627F317EF00B2F533 /* ToggleField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleField.swift; sourceTree = "<group>"; };
+		0CF54F3927F31F4D00B2F533 /* CustomToggleField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleField.swift; sourceTree = "<group>"; };
+		0CF54F3B27F32E4F00B2F533 /* StacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksView.swift; sourceTree = "<group>"; };
+		0CF54F3F27F4315A00B2F533 /* StylesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesView.swift; sourceTree = "<group>"; };
+		0CF54F4127F4331300B2F533 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		0CF54F4327F46DC200B2F533 /* AtlasLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasLoginView.swift; sourceTree = "<group>"; };
 		1AC9E5D03F6F5F6B951B9436 /* Pods_swiftui_starterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftui_starterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABA4BA628AF77803D773733 /* Pods-swiftui-starterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-starterTests.release.xcconfig"; path = "Target Support Files/Pods-swiftui-starterTests/Pods-swiftui-starterTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FB4A4CE3601D09756993ADC /* Pods-swiftui-starter-swiftui-starterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftui-starter-swiftui-starterUITests.debug.xcconfig"; path = "Target Support Files/Pods-swiftui-starter-swiftui-starterUITests/Pods-swiftui-starter-swiftui-starterUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -465,10 +485,10 @@
 		0C4F465A27DF46FA0001BED9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				0CF54F3E27F42A3100B2F533 /* Re */,
 				0C4F465B27DF48600001BED9 /* SplashView.swift */,
-				0C303BC027E9DA180018CECE /* LoginOptionsView.swift */,
-				0C303B9F27E855DB0018CECE /* LoginView.swift */,
-				0C4F465127DF02680001BED9 /* ProfileView.swift */,
+				0CF54F4127F4331300B2F533 /* IntroView.swift */,
+				0CF54F4327F46DC200B2F533 /* AtlasLoginView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -501,6 +521,12 @@
 				0C15F72D27EC801C00BABE6D /* Toast.swift */,
 				0CF54F2727EDAE1E00B2F533 /* EntryField.swift */,
 				0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */,
+				0CF54F2E27F2E3D700B2F533 /* RadioButton.swift */,
+				0CF54F3027F2F0AE00B2F533 /* RadioButtonGroup.swift */,
+				0CF54F3227F2F81E00B2F533 /* CheckboxField.swift */,
+				0CF54F3427F2FD9B00B2F533 /* AccordionView.swift */,
+				0CF54F3627F317EF00B2F533 /* ToggleField.swift */,
+				0CF54F3927F31F4D00B2F533 /* CustomToggleField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -519,8 +545,20 @@
 				0C303BBC27E9C2970018CECE /* FontTypesView.swift */,
 				0C15F72B27EC554A00BABE6D /* ToolboxView.swift */,
 				0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */,
+				0CF54F3B27F32E4F00B2F533 /* StacksView.swift */,
+				0CF54F3F27F4315A00B2F533 /* StylesView.swift */,
 			);
 			path = References;
+			sourceTree = "<group>";
+		};
+		0CF54F3E27F42A3100B2F533 /* Re */ = {
+			isa = PBXGroup;
+			children = (
+				0C303BC027E9DA180018CECE /* LoginOptionsView.swift */,
+				0C303B9F27E855DB0018CECE /* LoginView.swift */,
+				0C4F465127DF02680001BED9 /* ProfileView.swift */,
+			);
+			path = Re;
 			sourceTree = "<group>";
 		};
 		5A6B36EF123BEF1CDAA9FDEF /* Pods */ = {
@@ -844,12 +882,16 @@
 				0C303B7F27E4BF0E0018CECE /* Router.swift in Sources */,
 				0C303B8927E4BFB60018CECE /* URLParameterEncoding.swift in Sources */,
 				0C303B7927E4BE9E0018CECE /* EndPoint.swift in Sources */,
+				0CF54F3727F317EF00B2F533 /* ToggleField.swift in Sources */,
 				0C4F465227DF02680001BED9 /* ProfileView.swift in Sources */,
 				0C303BBB27E9B8480018CECE /* FontType.swift in Sources */,
 				0C303B9B27E4CF4B0018CECE /* AppAssets.swift in Sources */,
+				0CF54F3327F2F81E00B2F533 /* CheckboxField.swift in Sources */,
 				0C15F72C27EC554A00BABE6D /* ToolboxView.swift in Sources */,
 				0C303B9327E4CE940018CECE /* Localizations.swift in Sources */,
+				0CF54F3527F2FD9B00B2F533 /* AccordionView.swift in Sources */,
 				0C303B8D27E4C1980018CECE /* Boutiques.swift in Sources */,
+				0CF54F4427F46DC200B2F533 /* AtlasLoginView.swift in Sources */,
 				0C15F72E27EC801D00BABE6D /* Toast.swift in Sources */,
 				0C303B7D27E4BEFA0018CECE /* EndPointType.swift in Sources */,
 				0C303B8127E4BF470018CECE /* HTTPMethod.swift in Sources */,
@@ -865,10 +907,16 @@
 				0C4F467127DF5E860001BED9 /* TimerView.swift in Sources */,
 				0C303BC127E9DA180018CECE /* LoginOptionsView.swift in Sources */,
 				0C303B8B27E4BFD10018CECE /* JSONParameterEncoder.swift in Sources */,
+				0CF54F3A27F31F4D00B2F533 /* CustomToggleField.swift in Sources */,
+				0CF54F2F27F2E3D700B2F533 /* RadioButton.swift in Sources */,
+				0CF54F3C27F32E4F00B2F533 /* StacksView.swift in Sources */,
 				0C303B8727E4BFA30018CECE /* ParameterEncoding.swift in Sources */,
 				0C4F462027DEFD060001BED9 /* AppDelegate.swift in Sources */,
+				0CF54F4227F4331300B2F533 /* IntroView.swift in Sources */,
 				0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */,
+				0CF54F3127F2F0AE00B2F533 /* RadioButtonGroup.swift in Sources */,
 				0C4F466F27DF5B280001BED9 /* LottieView.swift in Sources */,
+				0CF54F4027F4315A00B2F533 /* StylesView.swift in Sources */,
 				0C4F466B27DF5AA80001BED9 /* UIView+Extensions.swift in Sources */,
 				0C4F465C27DF48600001BED9 /* SplashView.swift in Sources */,
 			);

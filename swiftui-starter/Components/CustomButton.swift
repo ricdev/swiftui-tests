@@ -202,7 +202,32 @@ struct CustomButton_Previews: PreviewProvider {
                     }
                 }.buttonStyle(GrowingButton())
 
+                Button(action: {}, label: {})
+                    .buttonStyle(SampleStyle(imageName: "plus.circle",
+                                             title: "Add new item"))
+
+                Button(action: {}, label: {})
+                    .buttonStyle(SampleStyle(imageName: "minus.circle",
+                                             title: "Remove item"))
+
             }.padding().preferredColorScheme($0)
+        }
+    }
+
+    struct SampleStyle: ButtonStyle {
+        let imageName: String
+        let title: String
+        func makeBody(configuration: Self.Configuration) -> some View {
+            HStack {
+                Image(systemName: imageName)
+                Text(title)
+            }
+            .padding(12)
+            .background(!configuration.isPressed ?
+                            Color(UIColor.systemIndigo) :
+                            Color(UIColor.systemYellow))
+            .foregroundColor(!configuration.isPressed ? .white : .black)
+            .cornerRadius(8)
         }
     }
 }

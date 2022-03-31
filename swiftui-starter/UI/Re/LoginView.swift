@@ -68,10 +68,16 @@ struct LoginView: View {
                             VStack {
                                 if let image = self.image {
                                     Image(uiImage: image)
+                                        .renderingMode(.original)
                                         .resizable()
-                                        .scaledToFill()
-                                        .frame(width: 128, height: 128, alignment: .center)
-                                        .cornerRadius(64)
+                                    
+//                                        .aspectRatio(contentMode: .fit)
+
+//
+//                                        .resizable()
+//                                        .scaledToFill()
+//                                        .frame(width: 128, height: 128, alignment: .center)
+//                                        .cornerRadius(64)
                                 } else {
                                     Image(systemName: "person.fill")
                                         .font(.system(size: 64))

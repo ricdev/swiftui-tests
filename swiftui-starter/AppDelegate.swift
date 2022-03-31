@@ -19,10 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
         self.configure()
 
-//        let splashViewModel: SplashViewModel = SplashViewModel(title: "Sample")
-//        let contentView = SplashView(viewModel: splashViewModel)
-        let contentView = LoginOptionsView()
+//        let contentView = SplashView(viewModel: SplashViewModel(title: "Demo"))
+        let contentView = IntroView(viewModel: IntroViewModel())
+//        let contentView = LoginOptionsView()
 //        let contentView = FontTypesView()
+//        let contentView = IntroView(viewModel: IntroViewModel())
         let rootViewController = UIHostingController(rootView: contentView)
 
         window = UIWindow(frame: UIScreen.main.bounds)
