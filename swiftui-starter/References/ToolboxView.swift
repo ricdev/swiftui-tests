@@ -49,16 +49,40 @@ struct ToolboxView2: View {
         VStack {
             AccordionView().frame(height: 200.0)
             Divider()
+
             Button {
                 showingAlert = true
             } label: {
                 HStack {
                     Spacer()
-                    Text("Modal Yes/No Invoker")
+                    Text("INACTIVE")
                     Spacer()
                 }
             }
-            .buttonStyle(OutlineButton())
+            .buttonStyle(PrimaryButtonStyle())
+            .disabled(true)
+
+            Button {
+                showingAlert = true
+            } label: {
+                HStack {
+                    Spacer()
+                    Text("PRIMARY")
+                    Spacer()
+                }
+            }
+            .buttonStyle(PrimaryButtonStyle())
+
+            Button {
+                showingAlert = true
+            } label: {
+                HStack {
+                    Spacer()
+                    Text("SECONDARY")
+                    Spacer()
+                }
+            }
+            .buttonStyle(PrimaryButtonStyle())
             .alert(isPresented: $showingAlert) {
                 Alert(
                     title: Text("Are you sure?"),

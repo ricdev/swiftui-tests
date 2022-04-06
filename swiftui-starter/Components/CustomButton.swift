@@ -81,7 +81,7 @@ struct OutlineButton: ButtonStyle {
     }
 }
 
-struct TheRedButtonStyle: ButtonStyle {
+struct PrimaryButtonStyle: ButtonStyle {
     var foreground = Color.white
     var background = Color.blue
 
@@ -99,13 +99,42 @@ struct TheRedButtonStyle: ButtonStyle {
                 .font(FontFamily.BrilliantCutProB7.bold.textStyle(.caption))
                 .padding(EdgeInsets(top: 16.0, leading: 7.0, bottom: 16.0, trailing: 7.0))
                 .frame(maxWidth: .infinity)
-                .foregroundColor(isEnabled ? .white : .gray)
-                .background(isEnabled ? Color(AppColor.red) : .clear)
+                .foregroundColor(isEnabled ? .white : Color.tertiaryLabel)
+                .background(isEnabled ? (!configuration.isPressed ? Color(AppColor.red) : .black) : .clear)
                 .background(
                     RoundedRectangle(
                         cornerRadius: 0,
                         style: .continuous
                     ).stroke(Color.tertiaryLabel))
+        }
+    }
+}
+
+struct SecondaryButtonStyle: ButtonStyle {
+    var foreground = Color.black
+    var background = Color.white
+
+    func makeBody(configuration: ButtonStyle.Configuration) -> some View {
+        MyButton(foreground: foreground, background: background, configuration: configuration)
+    }
+
+    struct MyButton: View {
+        var foreground: Color
+        var background: Color
+        let configuration: ButtonStyle.Configuration
+        @Environment(\.isEnabled) private var isEnabled: Bool
+        var body: some View {
+            configuration.label
+                .font(FontFamily.BrilliantCutProB7.bold.textStyle(.caption))
+                .padding(EdgeInsets(top: 16.0, leading: 7.0, bottom: 16.0, trailing: 7.0))
+                .frame(maxWidth: .infinity)
+                .foregroundColor(isEnabled ? (!configuration.isPressed ? .black : .red) : Color.tertiaryLabel)
+                .background(.clear)
+                .background(
+                    RoundedRectangle(
+                        cornerRadius: 0,
+                        style: .continuous
+                    ).stroke(isEnabled ? (!configuration.isPressed ? .black : .red) : Color.tertiaryLabel))
         }
     }
 }
@@ -204,7 +233,15 @@ struct CustomButton_Previews: PreviewProvider {
                         Text("Submit")
                         Spacer()
                     }
-                }.buttonStyle(RedButtonStyle())
+                }.buttonStyle(PrimaryButtonStyle())
+
+                Button { } label: {
+                    HStack {
+                        Spacer()
+                        Text("Submit")
+                        Spacer()
+                    }
+                }.buttonStyle(SecondaryButtonStyle())
 
 //                Button { } label: {
 //                    HStack {

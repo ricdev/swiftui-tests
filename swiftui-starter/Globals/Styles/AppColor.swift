@@ -8,14 +8,24 @@
 import UIKit
 
 struct AppColor {
+
+    // Common
     static let clear            =  #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0)
     static let red              =  #colorLiteral(red: 0.8199644685, green: 0, blue: 0, alpha: 1)           // BF0016 100%
     static let gray             =  #colorLiteral(red: 0.5215686275, green: 0.5490196078, blue: 0.5607843137, alpha: 1)           // 858C8F 100%
     static let gray1            =  #colorLiteral(red: 0.9529411765, green: 0.9529411765, blue: 0.9568627451, alpha: 1)           // 858C8F 1%
     static let gray10           =  #colorLiteral(red: 0.5215686275, green: 0.5490196078, blue: 0.5607843137, alpha: 0.1)           // 858C8F 10%
     static let charcoal         =  #colorLiteral(red: 0.07450980392, green: 0.09411764706, blue: 0.1019607843, alpha: 1)           // 13181A 100%
-    static let white            =  #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)           // FFFFFF 100%
 
+    // Project Pallete
+    static let themeRed         =  #colorLiteral(red: 0.7568627451, green: 0, blue: 0.0862745098, alpha: 1)           // C10016 100%
+    static let themeBlack       =  #colorLiteral(red: 0.05098039216, green: 0.05098039216, blue: 0.05098039216, alpha: 1)           // 0D0D0D 100%
+    static let themeWhite       =  #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)           // FFFFFF 100%
+    static let themeGold        =  #colorLiteral(red: 0.6745098039, green: 0.5960784314, blue: 0.3215686275, alpha: 1)           // AC9852 100%
+    static let themeBeige       =  #colorLiteral(red: 0.862745098, green: 0.8431372549, blue: 0.7921568627, alpha: 1)           // DCD7CA 100%
+    static let themeBeige2      =  #colorLiteral(red: 0.862745098, green: 0.8431372549, blue: 0.7921568627, alpha: 1)           // F6F5EF 100%
+
+    // Toast Alerts
     static let success          =  #colorLiteral(red: 0, green: 0.2509803922, blue: 0.5294117647, alpha: 1)           // 004087 100%
     static let success60        =  #colorLiteral(red: 0, green: 0.2509803922, blue: 0.5294117647, alpha: 0.6)           // 004087 60%
     static let success10        =  #colorLiteral(red: 0, green: 0.2519522309, blue: 0.5282014012, alpha: 0.1)           // 004087 10%

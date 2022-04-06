@@ -61,7 +61,7 @@ struct IntroView: View {
                                 Text("ATLAS LOGIN / REGISTRATION")
                                 Spacer()
                             }
-                        }.buttonStyle(TheRedButtonStyle())
+                        }.buttonStyle(PrimaryButtonStyle())
 
                         Button {
 //                                self.viewModel.setLoginOption(selectedLoginType: .faceTouch)
@@ -77,7 +77,7 @@ struct IntroView: View {
                                 Spacer()
                             }
                         }
-                        .buttonStyle(TheRedButtonStyle())
+                        .buttonStyle(PrimaryButtonStyle())
                         .alert(isPresented: $userRequiredAlert) {
                             Alert(
                                 title: Text("User not found."),

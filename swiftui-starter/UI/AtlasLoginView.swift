@@ -134,7 +134,7 @@ struct AtlasLoginView: View {
                                     Spacer()
                                 }
                             }
-                            .buttonStyle(TheRedButtonStyle())
+                            .buttonStyle(PrimaryButtonStyle())
                             .disabled(!viewModel.isLoginFormComplete)
                             .padding(.bottom, 60.0)
                             .alert(isPresented: $showingUseFaceTouchIDAlert) {
