@@ -22,6 +22,10 @@ internal typealias AssetImageTypeAlias = ImageAsset.Image
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
   internal static let accentColor = ColorAsset(name: "AccentColor")
+  internal static let iconFieldValidationError = ImageAsset(name: "icon-field-validation-error")
+  internal static let iconFieldValidationInfo = ImageAsset(name: "icon-field-validation-info")
+  internal static let imgButtonBackBlack = ImageAsset(name: "img_button_back-black")
+  internal static let imgButtonBack = ImageAsset(name: "img_button_back")
   internal static let imgLoginArtifact1 = ImageAsset(name: "img_login_artifact_1")
   internal static let imgLoginArtifact2 = ImageAsset(name: "img_login_artifact_2")
   internal static let imgLoginArtifact3 = ImageAsset(name: "img_login_artifact_3")

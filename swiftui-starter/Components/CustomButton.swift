@@ -66,16 +66,6 @@ struct ProgressButtonStyle: ButtonStyle {
     }
 }
 
-struct RedButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .padding(.vertical, 16)
-            .font(FontFamily.BrilliantCutProB7.bold.textStyle(.caption))
-            .foregroundColor(.white)
-            .background(Color(AppColor.red))
-    }
-}
-
 struct OutlineButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration
@@ -87,6 +77,60 @@ struct OutlineButton: ButtonStyle {
                     cornerRadius: 8,
                     style: .continuous
                 ).stroke(Color.accentColor)
+        )
+    }
+}
+
+struct TheRedButtonStyle: ButtonStyle {
+    var foreground = Color.white
+    var background = Color.blue
+
+    func makeBody(configuration: ButtonStyle.Configuration) -> some View {
+        MyButton(foreground: foreground, background: background, configuration: configuration)
+    }
+
+    struct MyButton: View {
+        var foreground: Color
+        var background: Color
+        let configuration: ButtonStyle.Configuration
+        @Environment(\.isEnabled) private var isEnabled: Bool
+        var body: some View {
+            configuration.label
+                .font(FontFamily.BrilliantCutProB7.bold.textStyle(.caption))
+                .padding(EdgeInsets(top: 16.0, leading: 7.0, bottom: 16.0, trailing: 7.0))
+                .frame(maxWidth: .infinity)
+                .foregroundColor(isEnabled ? .white : .gray)
+                .background(isEnabled ? Color(AppColor.red) : .clear)
+                .background(
+                    RoundedRectangle(
+                        cornerRadius: 0,
+                        style: .continuous
+                    ).stroke(Color.tertiaryLabel))
+        }
+    }
+}
+
+struct RedButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding(.vertical, 16)
+            .font(FontFamily.BrilliantCutProB7.bold.textStyle(.caption))
+            .foregroundColor(.white)
+            .background(Color(AppColor.red))
+    }
+}
+
+struct DisabledButton: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration
+            .label
+            .foregroundColor(configuration.isPressed ? .gray : .accentColor)
+            .padding()
+            .background(
+                RoundedRectangle(
+                    cornerRadius: 0,
+                    style: .continuous
+                ).stroke(Color.tertiaryLabel)
         )
     }
 }
@@ -162,6 +206,14 @@ struct CustomButton_Previews: PreviewProvider {
                     }
                 }.buttonStyle(RedButtonStyle())
 
+//                Button { } label: {
+//                    HStack {
+//                        Spacer()
+//                        Text("Submit")
+//                        Spacer()
+//                    }
+//                }.buttonStyle(DisabledButton())
+
                 Button { } label: {
                     HStack {
                         Spacer()
@@ -206,9 +258,9 @@ struct CustomButton_Previews: PreviewProvider {
                     .buttonStyle(SampleStyle(imageName: "plus.circle",
                                              title: "Add new item"))
 
-                Button(action: {}, label: {})
-                    .buttonStyle(SampleStyle(imageName: "minus.circle",
-                                             title: "Remove item"))
+//                Button(action: {}, label: {})
+//                    .buttonStyle(SampleStyle(imageName: "minus.circle",
+//                                             title: "Remove item"))
 
             }.padding().preferredColorScheme($0)
         }

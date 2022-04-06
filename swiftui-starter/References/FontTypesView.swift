@@ -165,7 +165,6 @@ struct FontListBrilliantCutProB7Medium: View {
     }
 }
 
-// swiftlint:disable line_length
 struct FontTypesView: View {
     var body: some View {
         NavigationView {

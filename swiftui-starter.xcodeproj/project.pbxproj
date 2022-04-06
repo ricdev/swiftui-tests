@@ -24,7 +24,6 @@
 		0C303B9627E4CE9B0018CECE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C303B9427E4CE9B0018CECE /* Localizable.strings */; };
 		0C303B9B27E4CF4B0018CECE /* AppAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B9A27E4CF4B0018CECE /* AppAssets.swift */; };
 		0C303B9D27E4D1050018CECE /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0C303B9C27E4D1050018CECE /* swiftgen.yml */; };
-		0C303BA027E855DB0018CECE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303B9F27E855DB0018CECE /* LoginView.swift */; };
 		0C303BA727E873D80018CECE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C303BA627E873D80018CECE /* GoogleService-Info.plist */; };
 		0C303BAA27E88D0D0018CECE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0C303BA927E88D0D0018CECE /* FirebaseAuth */; };
 		0C303BAC27E88D0D0018CECE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0C303BAB27E88D0D0018CECE /* FirebaseFirestore */; };
@@ -32,7 +31,6 @@
 		0C303BBB27E9B8480018CECE /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303BBA27E9B8470018CECE /* FontType.swift */; };
 		0C303BBD27E9C2970018CECE /* FontTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303BBC27E9C2970018CECE /* FontTypesView.swift */; };
 		0C303BBF27E9D94C0018CECE /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303BBE27E9D94C0018CECE /* AppColor.swift */; };
-		0C303BC127E9DA180018CECE /* LoginOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C303BC027E9DA180018CECE /* LoginOptionsView.swift */; };
 		0C388DA027E071F400EE07A4 /* FancyCutProB7-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */; };
 		0C388DA127E071F400EE07A4 /* FancyCutProB7-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */; };
 		0C388DA227E071F400EE07A4 /* FancyCutProB7-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */; };
@@ -77,7 +75,6 @@
 		0C4F464127DEFD080001BED9 /* swiftui_starterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F464027DEFD080001BED9 /* swiftui_starterUITests.swift */; };
 		0C4F464327DEFD080001BED9 /* swiftui_starterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F464227DEFD080001BED9 /* swiftui_starterUITestsLaunchTests.swift */; };
 		0C4F465027DF00B90001BED9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F464F27DF00B90001BED9 /* ImagePicker.swift */; };
-		0C4F465227DF02680001BED9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F465127DF02680001BED9 /* ProfileView.swift */; };
 		0C4F465927DF459B0001BED9 /* TTProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 0C4F465827DF459B0001BED9 /* TTProgressHUD */; };
 		0C4F465C27DF48600001BED9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F465B27DF48600001BED9 /* SplashView.swift */; };
 		0C4F466027DF4E150001BED9 /* bg-dark.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C4F465F27DF4E150001BED9 /* bg-dark.json */; };
@@ -87,6 +84,17 @@
 		0C4F466F27DF5B280001BED9 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F466E27DF5B280001BED9 /* LottieView.swift */; };
 		0C4F467127DF5E860001BED9 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F467027DF5E860001BED9 /* TimerView.swift */; };
 		0C4F467427DF70CF0001BED9 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F467327DF70CF0001BED9 /* AsyncImage.swift */; };
+		0CC110C227FC410F00753C8D /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC110C127FC410F00753C8D /* LandingView.swift */; };
+		0CC110C427FC4AA300753C8D /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC110C327FC4AA300753C8D /* CustomTabBarView.swift */; };
+		0CC110C627FC542B00753C8D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC110C527FC542B00753C8D /* HomeView.swift */; };
+		0CDF62C027FD4C1100BDE689 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62BF27FD4C1100BDE689 /* ModalView.swift */; };
+		0CDF62C227FD4E2A00BDE689 /* Binding+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62C127FD4E2A00BDE689 /* Binding+Extensions.swift */; };
+		0CDF62C427FD560400BDE689 /* BiometricsV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62C327FD560400BDE689 /* BiometricsV2.swift */; };
+		0CDF62C627FD565400BDE689 /* HasherAESGCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62C527FD565400BDE689 /* HasherAESGCM.swift */; };
+		0CDF62C827FD570700BDE689 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62C727FD570700BDE689 /* FirebaseManager.swift */; };
+		0CDF62CA27FD583700BDE689 /* AtlasLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62C927FD583700BDE689 /* AtlasLoginViewModel.swift */; };
+		0CDF62CC27FD5A3500BDE689 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62CB27FD5A3500BDE689 /* SplashViewModel.swift */; };
+		0CDF62CE27FD5A7100BDE689 /* IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62CD27FD5A7100BDE689 /* IntroViewModel.swift */; };
 		0CF54F2827EDAE1E00B2F533 /* EntryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2727EDAE1E00B2F533 /* EntryField.swift */; };
 		0CF54F2B27EDBDFD00B2F533 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */; };
 		0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */; };
@@ -140,12 +148,10 @@
 		0C303B9527E4CE9B0018CECE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0C303B9A27E4CF4B0018CECE /* AppAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssets.swift; sourceTree = "<group>"; };
 		0C303B9C27E4D1050018CECE /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
-		0C303B9F27E855DB0018CECE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0C303BA627E873D80018CECE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0C303BBA27E9B8470018CECE /* FontType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
 		0C303BBC27E9C2970018CECE /* FontTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTypesView.swift; sourceTree = "<group>"; };
 		0C303BBE27E9D94C0018CECE /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
-		0C303BC027E9DA180018CECE /* LoginOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginOptionsView.swift; sourceTree = "<group>"; };
 		0C388D9627E071F300EE07A4 /* FancyCutProB7-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-MediumItalic.otf"; sourceTree = "<group>"; };
 		0C388D9727E071F300EE07A4 /* FancyCutProB7-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-BoldItalic.otf"; sourceTree = "<group>"; };
 		0C388D9827E071F300EE07A4 /* FancyCutProB7-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FancyCutProB7-Light.otf"; sourceTree = "<group>"; };
@@ -194,7 +200,6 @@
 		0C4F464027DEFD080001BED9 /* swiftui_starterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_starterUITests.swift; sourceTree = "<group>"; };
 		0C4F464227DEFD080001BED9 /* swiftui_starterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_starterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0C4F464F27DF00B90001BED9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		0C4F465127DF02680001BED9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0C4F465B27DF48600001BED9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		0C4F465F27DF4E150001BED9 /* bg-dark.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "bg-dark.json"; sourceTree = "<group>"; };
 		0C4F466A27DF5AA80001BED9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -203,6 +208,17 @@
 		0C4F467027DF5E860001BED9 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		0C4F467327DF70CF0001BED9 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		0C4F467827DF79E30001BED9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0CC110C127FC410F00753C8D /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		0CC110C327FC4AA300753C8D /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		0CC110C527FC542B00753C8D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0CDF62BF27FD4C1100BDE689 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		0CDF62C127FD4E2A00BDE689 /* Binding+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extensions.swift"; sourceTree = "<group>"; };
+		0CDF62C327FD560400BDE689 /* BiometricsV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricsV2.swift; sourceTree = "<group>"; };
+		0CDF62C527FD565400BDE689 /* HasherAESGCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasherAESGCM.swift; sourceTree = "<group>"; };
+		0CDF62C727FD570700BDE689 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		0CDF62C927FD583700BDE689 /* AtlasLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasLoginViewModel.swift; sourceTree = "<group>"; };
+		0CDF62CB27FD5A3500BDE689 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		0CDF62CD27FD5A7100BDE689 /* IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewModel.swift; sourceTree = "<group>"; };
 		0CF54F2727EDAE1E00B2F533 /* EntryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryField.swift; sourceTree = "<group>"; };
 		0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 		0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -485,10 +501,15 @@
 		0C4F465A27DF46FA0001BED9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0CF54F3E27F42A3100B2F533 /* Re */,
 				0C4F465B27DF48600001BED9 /* SplashView.swift */,
+				0CDF62CB27FD5A3500BDE689 /* SplashViewModel.swift */,
 				0CF54F4127F4331300B2F533 /* IntroView.swift */,
+				0CDF62CD27FD5A7100BDE689 /* IntroViewModel.swift */,
 				0CF54F4327F46DC200B2F533 /* AtlasLoginView.swift */,
+				0CDF62C927FD583700BDE689 /* AtlasLoginViewModel.swift */,
+				0CC110C127FC410F00753C8D /* LandingView.swift */,
+				0CC110C527FC542B00753C8D /* HomeView.swift */,
+				0CC110C327FC4AA300753C8D /* CustomTabBarView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -513,6 +534,7 @@
 		0C4F466327DF4E8C0001BED9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				0CDF62BF27FD4C1100BDE689 /* ModalView.swift */,
 				0C4F464F27DF00B90001BED9 /* ImagePicker.swift */,
 				0C4F466C27DF5AFA0001BED9 /* Utils.swift */,
 				0C4F466E27DF5B280001BED9 /* LottieView.swift */,
@@ -527,6 +549,9 @@
 				0CF54F3427F2FD9B00B2F533 /* AccordionView.swift */,
 				0CF54F3627F317EF00B2F533 /* ToggleField.swift */,
 				0CF54F3927F31F4D00B2F533 /* CustomToggleField.swift */,
+				0CDF62C327FD560400BDE689 /* BiometricsV2.swift */,
+				0CDF62C527FD565400BDE689 /* HasherAESGCM.swift */,
+				0CDF62C727FD570700BDE689 /* FirebaseManager.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -535,6 +560,7 @@
 			isa = PBXGroup;
 			children = (
 				0C4F466A27DF5AA80001BED9 /* UIView+Extensions.swift */,
+				0CDF62C127FD4E2A00BDE689 /* Binding+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -549,16 +575,6 @@
 				0CF54F3F27F4315A00B2F533 /* StylesView.swift */,
 			);
 			path = References;
-			sourceTree = "<group>";
-		};
-		0CF54F3E27F42A3100B2F533 /* Re */ = {
-			isa = PBXGroup;
-			children = (
-				0C303BC027E9DA180018CECE /* LoginOptionsView.swift */,
-				0C303B9F27E855DB0018CECE /* LoginView.swift */,
-				0C4F465127DF02680001BED9 /* ProfileView.swift */,
-			);
-			path = Re;
 			sourceTree = "<group>";
 		};
 		5A6B36EF123BEF1CDAA9FDEF /* Pods */ = {
@@ -880,12 +896,15 @@
 				0CF54F2827EDAE1E00B2F533 /* EntryField.swift in Sources */,
 				0C303B7B27E4BECB0018CECE /* NetworkManager.swift in Sources */,
 				0C303B7F27E4BF0E0018CECE /* Router.swift in Sources */,
+				0CDF62C227FD4E2A00BDE689 /* Binding+Extensions.swift in Sources */,
 				0C303B8927E4BFB60018CECE /* URLParameterEncoding.swift in Sources */,
+				0CDF62C627FD565400BDE689 /* HasherAESGCM.swift in Sources */,
 				0C303B7927E4BE9E0018CECE /* EndPoint.swift in Sources */,
 				0CF54F3727F317EF00B2F533 /* ToggleField.swift in Sources */,
-				0C4F465227DF02680001BED9 /* ProfileView.swift in Sources */,
+				0CDF62C427FD560400BDE689 /* BiometricsV2.swift in Sources */,
 				0C303BBB27E9B8480018CECE /* FontType.swift in Sources */,
 				0C303B9B27E4CF4B0018CECE /* AppAssets.swift in Sources */,
+				0CDF62C827FD570700BDE689 /* FirebaseManager.swift in Sources */,
 				0CF54F3327F2F81E00B2F533 /* CheckboxField.swift in Sources */,
 				0C15F72C27EC554A00BABE6D /* ToolboxView.swift in Sources */,
 				0C303B9327E4CE940018CECE /* Localizations.swift in Sources */,
@@ -893,11 +912,13 @@
 				0C303B8D27E4C1980018CECE /* Boutiques.swift in Sources */,
 				0CF54F4427F46DC200B2F533 /* AtlasLoginView.swift in Sources */,
 				0C15F72E27EC801D00BABE6D /* Toast.swift in Sources */,
+				0CDF62C027FD4C1100BDE689 /* ModalView.swift in Sources */,
 				0C303B7D27E4BEFA0018CECE /* EndPointType.swift in Sources */,
+				0CC110C627FC542B00753C8D /* HomeView.swift in Sources */,
 				0C303B8127E4BF470018CECE /* HTTPMethod.swift in Sources */,
 				0C4F462427DEFD060001BED9 /* ViewController.swift in Sources */,
+				0CDF62CC27FD5A3500BDE689 /* SplashViewModel.swift in Sources */,
 				0C303B8327E4BF6E0018CECE /* HTTPTask.swift in Sources */,
-				0C303BA027E855DB0018CECE /* LoginView.swift in Sources */,
 				0C4F466D27DF5AFA0001BED9 /* Utils.swift in Sources */,
 				0CF54F2B27EDBDFD00B2F533 /* ColorPaletteView.swift in Sources */,
 				0C4F465027DF00B90001BED9 /* ImagePicker.swift in Sources */,
@@ -905,16 +926,19 @@
 				0C4F467427DF70CF0001BED9 /* AsyncImage.swift in Sources */,
 				0C303BBD27E9C2970018CECE /* FontTypesView.swift in Sources */,
 				0C4F467127DF5E860001BED9 /* TimerView.swift in Sources */,
-				0C303BC127E9DA180018CECE /* LoginOptionsView.swift in Sources */,
 				0C303B8B27E4BFD10018CECE /* JSONParameterEncoder.swift in Sources */,
 				0CF54F3A27F31F4D00B2F533 /* CustomToggleField.swift in Sources */,
 				0CF54F2F27F2E3D700B2F533 /* RadioButton.swift in Sources */,
 				0CF54F3C27F32E4F00B2F533 /* StacksView.swift in Sources */,
+				0CC110C227FC410F00753C8D /* LandingView.swift in Sources */,
 				0C303B8727E4BFA30018CECE /* ParameterEncoding.swift in Sources */,
 				0C4F462027DEFD060001BED9 /* AppDelegate.swift in Sources */,
+				0CC110C427FC4AA300753C8D /* CustomTabBarView.swift in Sources */,
 				0CF54F4227F4331300B2F533 /* IntroView.swift in Sources */,
 				0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */,
 				0CF54F3127F2F0AE00B2F533 /* RadioButtonGroup.swift in Sources */,
+				0CDF62CA27FD583700BDE689 /* AtlasLoginViewModel.swift in Sources */,
+				0CDF62CE27FD5A7100BDE689 /* IntroViewModel.swift in Sources */,
 				0C4F466F27DF5B280001BED9 /* LottieView.swift in Sources */,
 				0CF54F4027F4315A00B2F533 /* StylesView.swift in Sources */,
 				0C4F466B27DF5AA80001BED9 /* UIView+Extensions.swift in Sources */,

@@ -19,13 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
         self.configure()
 
-//        let contentView = SplashView(viewModel: SplashViewModel(title: "Demo"))
-        let contentView = IntroView(viewModel: IntroViewModel())
+        let contentView = SplashView(viewModel: SplashViewModel(title: "Demo"))
+//        let contentView = LandingView()
+//        let contentView = IntroView(viewModel: IntroViewModel())
 //        let contentView = LoginOptionsView()
 //        let contentView = FontTypesView()
 //        let contentView = IntroView(viewModel: IntroViewModel())
+//        let contentView = EntryField(systemName: "envelope", placeHolder: "Email", prompt: "Email is invalid.", field: .constant("user@gmail.com"))
+//        let contentView = EntryField(systemName: "envelope", placeHolder: "Email", prompt: "Email is invalid.", field: .constant(""))
         let rootViewController = UIHostingController(rootView: contentView)
-
         window = UIWindow(frame: UIScreen.main.bounds)
         window!.rootViewController = rootViewController
         window!.makeKeyAndVisible()

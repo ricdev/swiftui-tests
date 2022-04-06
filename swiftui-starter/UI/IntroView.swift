@@ -7,34 +7,20 @@
 
 import SwiftUI
 
-class IntroViewModel: ObservableObject {
-
-    enum LoginTypes: String {
-        case atlas
-        case faceTouch
-    }
-
-    @Published var selectedLoginType: LoginTypes?
-
-    func setLoginOption(selectedLoginType: LoginTypes) {
-        self.selectedLoginType = selectedLoginType
-        print("selected: ", selectedLoginType)
-    }
-}
-
 // swiftlint:disable line_length
 struct IntroView: View {
 
     @StateObject var viewModel: IntroViewModel
     @State private var selection: String?
     @State private var userRequiredAlert = false
+    @State private var showModal: Bool = false
 
     var body: some View {
         VStack {
             NavigationView {
                 VStack {
                     ZStack {
-                        Text("CNT\nJEWELRY\n\n\n\n").frame(maxWidth: .infinity, alignment: .leading).font(FontFamily.BrilliantCutProB7.regular.textStyle(.largeTitle)).padding()
+                        Text("CNT\nJEWELRY\n\n\n\n").frame(maxWidth: .infinity, alignment: .leading).font(FontFamily.BrilliantCutProB7.medium.textStyle(.largeTitle)).padding()
                         HStack {
                             Image(Asset.imgLoginArtifact1.name)
                                 .resizable()
@@ -75,11 +61,14 @@ struct IntroView: View {
                                 Text("ATLAS LOGIN / REGISTRATION")
                                 Spacer()
                             }
-                        }.buttonStyle(RedButtonStyle())
+                        }.buttonStyle(TheRedButtonStyle())
 
                         Button {
-//                                self.viewModel.se tLoginOption(selectedLoginType: .faceTouch)
+//                                self.viewModel.setLoginOption(selectedLoginType: .faceTouch)
 //                                self.selection = self.$viewModel.selectedLoginType.wrappedValue?.rawValue
+                            // todo: check if has logged in user
+                            // todo: check if touch/face id was activated
+                            // todo: show face/touch modal
                             self.userRequiredAlert = true
                         } label: {
                             HStack {
@@ -88,7 +77,7 @@ struct IntroView: View {
                                 Spacer()
                             }
                         }
-                        .buttonStyle(RedButtonStyle())
+                        .buttonStyle(TheRedButtonStyle())
                         .alert(isPresented: $userRequiredAlert) {
                             Alert(
                                 title: Text("User not found."),
@@ -97,6 +86,7 @@ struct IntroView: View {
                                     Text("Ok"), action: {
                                         print("Cancelled")
                                         self.userRequiredAlert = false
+                                        self.showModal.toggle()
                                     })
                             )
                         }
@@ -110,6 +100,7 @@ struct IntroView: View {
             }.background(.red)
             .navigationBarHidden(true)
             .edgesIgnoringSafeArea([.top, .bottom])
+            .overlay(ModalView(showModal: $showModal))
         }
     }
 }
