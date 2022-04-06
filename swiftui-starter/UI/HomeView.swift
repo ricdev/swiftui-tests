@@ -27,10 +27,12 @@ struct HomeView: View {
 
     var body: some View {
         TabView(selection: $currentTab) {
+            
             Text("icon-field-validation-error")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.primary.opacity(0.05))
                 .tag("icon-field-validation-error")
+                .scaledFont(name: "Georgia", size: 12)
             Text("profile-image-sample")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.primary.opacity(0.05))
