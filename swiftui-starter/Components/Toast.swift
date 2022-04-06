@@ -177,9 +177,9 @@ struct Toast_Previews: PreviewProvider {
             }
             .padding()
             .toast(isShowing: .constant(false), type: .error(message: "Success Message"))
-            .toast(isShowing: .constant(true), type: .success(message: "Information Message Information Message Information Message Information Message"))
+            .toast(isShowing: .constant(false), type: .success(message: "Information Message Information Message Information Message Information Message"))
             .toast(isShowing: .constant(false), type: .warning(message: "Warning Message"))
-            .toast(isShowing: .constant(false), type: .error(message: "Error Message"))
+            .toast(isShowing: .constant(true), type: .error(message: "Error Message"))
             .toast(isShowing: .constant(false), type: .light(message: "Light Message"))
             .toast(isShowing: .constant(false), type: .dark(message: "Dark Message"))
             .preferredColorScheme($0)

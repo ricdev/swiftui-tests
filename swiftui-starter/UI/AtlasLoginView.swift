@@ -23,6 +23,7 @@ struct AtlasLoginView: View {
     @State private var showingImagePicker = false
     @State private var image: UIImage?
     @State private var loginStatusMessage = ""
+    @State private var showingLoginErrorToast = false
     @State private var showingUseFaceTouchIDAlert = false
     @State private var showingUseFaceTouchIDNotConfiguredAlert = false
     @State private var showingUseFaceTouchIDNotConfigured2Alert = false
@@ -174,6 +175,7 @@ struct AtlasLoginView: View {
             .fullScreenCover(isPresented: $showingImagePicker, onDismiss: nil) {
                 ImagePicker(image: $image)
             }
+            .toastBlock(isShowing: $showingLoginErrorToast, type: .error(message: loginStatusMessage))
         }
     }
 }
@@ -221,6 +223,7 @@ extension AtlasLoginView {
             if let error = error {
                 print("Failed to login user:", error)
                 self.loginStatusMessage = "Failed to login user: \(error)"
+                self.showingLoginErrorToast.toggle()
                 return
             }
 
@@ -236,6 +239,7 @@ extension AtlasLoginView {
             if let error = error {
                 print("Failed to create user:", error)
                 self.loginStatusMessage = "Failed to create user: \(error)"
+                self.showingLoginErrorToast.toggle()
                 return
             }
 
@@ -266,16 +270,19 @@ extension AtlasLoginView {
         ref.putData(imageData, metadata: nil) { _, error in
             if let error = error {
                 self.loginStatusMessage = "Failed to upload image: \(error)"
+                self.showingLoginErrorToast.toggle()
                 return
             }
 
             ref.downloadURL { url, error in
                 if let error = error {
                     self.loginStatusMessage = "Failed to retrieve the profile image url: \(error)"
+                    self.showingLoginErrorToast.toggle()
                     return
                 }
 
                 self.loginStatusMessage = "profile image was successfully stored: \(url?.absoluteString ?? "" )"
+                self.showingLoginErrorToast.toggle()
                 print(self.loginStatusMessage)
 
                 guard let url = url else { return }
@@ -292,6 +299,7 @@ extension AtlasLoginView {
             if let error = error {
                 print(error)
                 self.loginStatusMessage = "\(error)"
+                self.showingLoginErrorToast.toggle()
                 return
             }
         }

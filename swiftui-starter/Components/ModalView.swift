@@ -40,7 +40,7 @@ struct ModalContentView: View { // the real modal content
 
     var body: some View {
         VStack {
-            Text("Modal Content")
+            Text("")
 
             Button(action: {
                 self.showModal.toggle()
@@ -48,7 +48,7 @@ struct ModalContentView: View { // the real modal content
                 HStack {
                     Image(systemName: "xmark.circle.fill")
                         .imageScale(.large)
-                    Text("Close Modal")
+                    Text("TODO: re-touch id")
                 }
             }
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
