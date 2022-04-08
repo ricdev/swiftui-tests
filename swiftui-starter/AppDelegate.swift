@@ -19,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
         self.configure()
 
-        let contentView = SplashView(viewModel: SplashViewModel(title: "Demo"))
+//        let contentView = SplashView(viewModel: SplashViewModel(title: "Demo"))
+        let contentView = ThemeView()
 //        let contentView = LandingView()
 //        let contentView = IntroView(viewModel: IntroViewModel())
 //        let contentView = LoginOptionsView()

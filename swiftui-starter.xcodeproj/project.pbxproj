@@ -96,6 +96,8 @@
 		0CDF62CC27FD5A3500BDE689 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62CB27FD5A3500BDE689 /* SplashViewModel.swift */; };
 		0CDF62CE27FD5A7100BDE689 /* IntroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62CD27FD5A7100BDE689 /* IntroViewModel.swift */; };
 		0CDF62D227FD9C9800BDE689 /* ToastBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62D127FD9C9800BDE689 /* ToastBlock.swift */; };
+		0CE0686D27FE8FCB00CE7137 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE0686C27FE8FCB00CE7137 /* Theme.swift */; };
+		0CE0686F27FEA2E100CE7137 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE0686E27FEA2E100CE7137 /* ThemeView.swift */; };
 		0CF54F2827EDAE1E00B2F533 /* EntryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2727EDAE1E00B2F533 /* EntryField.swift */; };
 		0CF54F2B27EDBDFD00B2F533 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */; };
 		0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */; };
@@ -221,6 +223,8 @@
 		0CDF62CB27FD5A3500BDE689 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
 		0CDF62CD27FD5A7100BDE689 /* IntroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewModel.swift; sourceTree = "<group>"; };
 		0CDF62D127FD9C9800BDE689 /* ToastBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastBlock.swift; sourceTree = "<group>"; };
+		0CE0686C27FE8FCB00CE7137 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0CE0686E27FEA2E100CE7137 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		0CF54F2727EDAE1E00B2F533 /* EntryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryField.swift; sourceTree = "<group>"; };
 		0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 		0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -576,6 +580,8 @@
 				0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */,
 				0CF54F3B27F32E4F00B2F533 /* StacksView.swift */,
 				0CF54F3F27F4315A00B2F533 /* ButtonStylesView.swift */,
+				0CE0686C27FE8FCB00CE7137 /* Theme.swift */,
+				0CE0686E27FEA2E100CE7137 /* ThemeView.swift */,
 			);
 			path = References;
 			sourceTree = "<group>";
@@ -929,6 +935,7 @@
 				0C4F467427DF70CF0001BED9 /* AsyncImage.swift in Sources */,
 				0C303BBD27E9C2970018CECE /* FontTypesView.swift in Sources */,
 				0C4F467127DF5E860001BED9 /* TimerView.swift in Sources */,
+				0CE0686F27FEA2E100CE7137 /* ThemeView.swift in Sources */,
 				0C303B8B27E4BFD10018CECE /* JSONParameterEncoder.swift in Sources */,
 				0CF54F3A27F31F4D00B2F533 /* CustomToggleField.swift in Sources */,
 				0CF54F2F27F2E3D700B2F533 /* RadioButton.swift in Sources */,
@@ -939,6 +946,7 @@
 				0CDF62D227FD9C9800BDE689 /* ToastBlock.swift in Sources */,
 				0CC110C427FC4AA300753C8D /* CustomTabBarView.swift in Sources */,
 				0CF54F4227F4331300B2F533 /* IntroView.swift in Sources */,
+				0CE0686D27FE8FCB00CE7137 /* Theme.swift in Sources */,
 				0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */,
 				0CF54F3127F2F0AE00B2F533 /* RadioButtonGroup.swift in Sources */,
 				0CDF62CA27FD583700BDE689 /* AtlasLoginViewModel.swift in Sources */,

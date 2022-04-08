@@ -66,6 +66,21 @@ struct ProgressButtonStyle: ButtonStyle {
     }
 }
 
+struct HeaderStyle: ViewModifier {
+    @ObservedObject var currentTheme: Theme
+    func body(content: Content) -> some View {
+        content
+            .font(currentTheme.bodyFont)
+            .foregroundColor(currentTheme.brandColor)
+            .padding(12)
+            .background(.thinMaterial)
+            .shadow(color: .black, radius: 12, x: 4, y: 4)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .shadow(color: .white.opacity(0.65), radius: 1, x: -1, y: -2)
+            .shadow(color: .black.opacity(0.65), radius: 2, x: 2, y: 2)
+    }
+}
+
 struct OutlineButton: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration

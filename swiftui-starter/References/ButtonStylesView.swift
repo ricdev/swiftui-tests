@@ -13,51 +13,59 @@ struct ThemedButtons: View {
     var body: some View {
         VStack {
 
-            Button {
-                showingAlert = true
-            } label: {
-                HStack {
-                    Spacer()
-                    Text("INACTIVE PRIMARY")
-                    Spacer()
-                }
-            }
-            .buttonStyle(PrimaryButtonStyle())
-            .disabled(true)
+            Group {
 
-            Button {
-                showingAlert = true
-            } label: {
-                HStack {
-                    Spacer()
-                    Text("PRIMARY")
-                    Spacer()
-                }
             }
-            .buttonStyle(PrimaryButtonStyle())
 
-            Button {
-                showingAlert = true
-            } label: {
-                HStack {
-                    Spacer()
-                    Text("INACTIVE SECONDARY")
-                    Spacer()
-                }
-            }
-            .buttonStyle(SecondaryButtonStyle())
-            .disabled(true)
+            Divider()
 
-            Button {
-                showingAlert = true
-            } label: {
-                HStack {
-                    Spacer()
-                    Text("SECONDARY")
-                    Spacer()
+            Group {
+                Button {
+                    showingAlert = true
+                } label: {
+                    HStack {
+                        Spacer()
+                        Text("INACTIVE PRIMARY")
+                        Spacer()
+                    }
                 }
+                .buttonStyle(PrimaryButtonStyle())
+                .disabled(true)
+
+                Button {
+                    showingAlert = true
+                } label: {
+                    HStack {
+                        Spacer()
+                        Text("PRIMARY")
+                        Spacer()
+                    }
+                }
+                .buttonStyle(PrimaryButtonStyle())
+
+                Button {
+                    showingAlert = true
+                } label: {
+                    HStack {
+                        Spacer()
+                        Text("INACTIVE SECONDARY")
+                        Spacer()
+                    }
+                }
+                .buttonStyle(SecondaryButtonStyle())
+                .disabled(true)
+
+                Button {
+                    showingAlert = true
+                } label: {
+                    HStack {
+                        Spacer()
+                        Text("SECONDARY")
+                        Spacer()
+                    }
+                }
+                .buttonStyle(SecondaryButtonStyle())
             }
-            .buttonStyle(SecondaryButtonStyle())
 
             Divider()
         }.padding()
