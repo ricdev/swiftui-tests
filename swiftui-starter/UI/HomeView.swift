@@ -20,6 +20,8 @@ struct HomeView: View {
     @State private var currentTab = "icon-field-validation-error"
     var bottomEdge: CGFloat
 
+    @State var hideBar = false
+
     init(bottomEdge: CGFloat) {
         self.bottomEdge = bottomEdge
         UITabBar.appearance().isHidden = true
@@ -27,16 +29,45 @@ struct HomeView: View {
 
     var body: some View {
         TabView(selection: $currentTab) {
-            Text("icon-field-validation-error")
+//            Text("icon-field-validation-error")
+            LandingView()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.primary.opacity(0.05))
                 .tag("icon-field-validation-error")
                 .scaledFont(name: "Georgia", size: 12)
-            Text("profile-image-sample")
+            Text("icon-black-add-takeaway")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.primary.opacity(0.05))
-                .tag("profile-image-sample")
-        }.overlay(CustomTabBarView(currentTab: $currentTab, bottomEdge: bottomEdge), alignment: .bottom )
+                .tag("icon-black-add-takeaway")
+        }.overlay(
+
+            VStack {
+                // FAB View
+//                Button {
+//                } label: {
+//                    HStack(spacing: 10) {
+//                        Image(systemName: "pencil")
+//                            .font(.title)
+//
+//                        Text("Compose")
+//                            .fontWeight(.semibold)
+//                    }
+//                    .foregroundColor(Color("Pink"))
+//                    .padding(.vertical, 12)
+//                    .padding(.horizontal)
+//                    .background(AppColor.gray.toColor(), in: Capsule())
+//                    .shadow(color: .primary.opacity(0.06), radius: 5, x: 5, y: 10)
+//                }
+//                .padding(.trailing)
+//                .offset(y: -15)
+//                .frame(maxWidth: .infinity, alignment: .trailing)
+//                .opacity(currentTab  == "Mail" ? 1 : 0)
+//                .animation(.none, value: currentTab)
+
+                // Tab View
+                CustomTabBarView(currentTab: $currentTab, bottomEdge: bottomEdge)
+
+            }, alignment: .bottom)
     }
 }
 

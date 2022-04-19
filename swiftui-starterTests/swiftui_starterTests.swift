@@ -60,7 +60,6 @@ class SwiftuiStarterTests: XCTestCase {
 
     func testAPI_getBoutiques() {
 
-        // swiftlint:disable empty_parentheses_with_trailing_closure
         let networkManager = NetworkManager()
         networkManager.getBoutiques() { boutiques, error in
             guard let boutiques = boutiques else { return }

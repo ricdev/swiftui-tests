@@ -2,6 +2,16 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "container:"
+      name = "apns">
+      <FileRef
+         location = "group:test-payload.json">
+      </FileRef>
+      <FileRef
+         location = "group:README.txt">
+      </FileRef>
+   </Group>
+   <Group
       location = "group:json"
       name = "json">
       <FileRef

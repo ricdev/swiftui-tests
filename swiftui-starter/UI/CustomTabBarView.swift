@@ -14,7 +14,7 @@ struct CustomTabBarView: View {
     var body: some View {
         HStack(spacing: 0) {
 
-            ForEach(["icon-field-validation-error", "profile-image-sample"], id: \.self) { image in
+            ForEach(["icon-field-validation-error", "icon-black-add-takeaway"], id: \.self) { image in
                 TabButtonView(image: image, currentTab: $currentTab, badge: 33)
             }
         }
@@ -63,6 +63,8 @@ struct TabButtonView: View {
 
 struct CustomTabBarView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomTabBarView(currentTab: .constant(""), bottomEdge: 0)
+        ForEach(ColorScheme.allCases, id: \.self) {
+            CustomTabBarView(currentTab: .constant(""), bottomEdge: 0).preferredColorScheme($0)
+        }
     }
 }

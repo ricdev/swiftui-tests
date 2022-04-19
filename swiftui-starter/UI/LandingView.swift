@@ -20,7 +20,7 @@ struct LandingView: View {
 //    @State private var currentTab = "Mail"
 
     init() {
-        UITabBar.appearance().isHidden = true
+        UITabBar.appearance().isHidden = false
     }
 
     var body: some View {
