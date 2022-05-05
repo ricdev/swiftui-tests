@@ -8,7 +8,6 @@
 import Foundation
 
 struct Boutiques {
-
     enum BoutiqueType: String, Decodable {
         case articleCard = "article_card"
         case briefArticleCard = "brief_article_card"
@@ -19,7 +18,6 @@ struct Boutiques {
 }
 
 extension Boutiques: Decodable {
-
     enum CodingKeys: String, CodingKey {
         case type
         case content
@@ -34,7 +32,6 @@ extension Boutiques: Decodable {
 }
 
 struct BoutiqueContent {
-
     enum BoutiqueContentType: String, Decodable {
         case immersive
     }
@@ -51,7 +48,6 @@ struct BoutiqueContent {
 }
 
 extension BoutiqueContent: Decodable {
-
     enum CodingKeys: String, CodingKey {
         case id
         case slug
@@ -80,13 +76,11 @@ extension BoutiqueContent: Decodable {
 }
 
 struct BoutiqueContentNote {
-
 //    let author: BoutiqueContentNoteAuthor
     let content: String
 }
 
 extension BoutiqueContentNote: Decodable {
-
     enum CodingKeys: String, CodingKey {
 //        case author = "author"
         case content
@@ -97,19 +91,16 @@ extension BoutiqueContentNote: Decodable {
 
 //        author = try container.decode(BoutiqueContentNoteAuthor.self, forKey: .author)
         content = try container.decode(String.self, forKey: .content)
-
     }
 }
 
 struct BoutiqueContentNoteAuthor {
-
     let firstName: String
     let lastName: String
     let jobTitle: String
 }
 
 extension BoutiqueContentNoteAuthor: Decodable {
-
     enum CodingKeys: String, CodingKey {
         case firstName = "first_name"
         case lastName = "last_name"
@@ -122,7 +113,6 @@ extension BoutiqueContentNoteAuthor: Decodable {
         firstName = try container.decode(String.self, forKey: .firstName)
         lastName = try container.decode(String.self, forKey: .lastName)
         jobTitle = try container.decode(String.self, forKey: .jobTitle)
-
     }
 }
 
@@ -131,7 +121,6 @@ struct BoutiquesApiResponseDTO {
 }
 
 extension BoutiquesApiResponseDTO: Decodable {
-
     private enum CodingKeys: String, CodingKey {
         case items
     }

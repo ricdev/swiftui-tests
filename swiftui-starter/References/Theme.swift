@@ -60,7 +60,9 @@ func getFont(name: Fonts) -> Font {
     case .quoteFont:
         let scaledSize = UIFontMetrics.default.scaledValue(for: 29)
         return .custom(FontFamily.FancyCutProB7.light.name, size: scaledSize)
-    case .timestampFont: return Font(uiFont: FontFamily.FancyCutProB7.bold.font(size: 12))
+    case .timestampFont:
+        return Font(uiFont: R.font.brilliantCutProB7Black(size: 40)!)
+//        return Font(uiFont: FontFamily.FancyCutProB7.bold.font(size: 12))
     case .ctaFont:
         let scaledSize = UIFontMetrics.default.scaledValue(for: 10)
         return .custom(FontFamily.BrilliantCutProB7.bold.name, size: scaledSize)
@@ -71,6 +73,7 @@ class Theme: ObservableObject {
     @Published var brandColor: Color
     @Published var backgroundColor: Color
     @Published var contrastBackgroundColor: Color
+    @Published var primaryColor: Color
     @Published var secondaryColor: Color
     @Published var shadowColor: Color
     @Published var bodyTextColor: Color
@@ -95,6 +98,7 @@ class Theme: ObservableObject {
     init(brandColor: Color,
          backgroundColor: Color,
          contrastBackgroundColor: Color,
+         primaryColor: Color,
          secondaryColor: Color,
          shadowColor: Color,
          bodyTextColor: Color,
@@ -119,6 +123,7 @@ class Theme: ObservableObject {
         self.brandColor = brandColor
         self.backgroundColor = backgroundColor
         self.contrastBackgroundColor = contrastBackgroundColor
+        self.primaryColor = primaryColor
         self.secondaryColor = secondaryColor
         self.shadowColor = shadowColor
         self.bodyTextColor = bodyTextColor
@@ -143,11 +148,11 @@ class Theme: ObservableObject {
 }
 
 var themes: [Theme] = [
-
     // Primary Theme
     Theme(brandColor: AppColor.themeRed.toColor(),
-          backgroundColor: AppColor.themeBlack.toColor(),
+          backgroundColor: UIColor.systemBackground.toColor(),
           contrastBackgroundColor: AppColor.gray.toColor(),
+          primaryColor: .primary,
           secondaryColor: .secondaryLabel,
           shadowColor: .tertiaryLabel,
           bodyTextColor: .primary,
@@ -167,13 +172,13 @@ var themes: [Theme] = [
 
           largeSpacing: 16.0,
           mediumSpacing: 12.0,
-          smallSpacing: 4.0
-         ),
+          smallSpacing: 4.0),
 
     // Secondary Theme
-    Theme(brandColor: AppColor.themeWhite.toColor(),
-          backgroundColor: AppColor.themeBlack.toColor(),
+    Theme(brandColor: AppColor.themeGold.toColor(),
+          backgroundColor: UIColor.systemBackground.toColor(),
           contrastBackgroundColor: AppColor.gray.toColor(),
+          primaryColor: AppColor.themeRed.toColor(),
           secondaryColor: .secondaryLabel,
           shadowColor: .tertiaryLabel,
           bodyTextColor: .primary,
@@ -191,17 +196,16 @@ var themes: [Theme] = [
           timestampFont: getFont(name: .timestampFont),
           ctaFont: getFont(name: .ctaFont),
 
-          largeSpacing: 16.0,
-          mediumSpacing: 6.0,
-          smallSpacing: 4.0
-         )
+          largeSpacing: 40.0,
+          mediumSpacing: 32.0,
+          smallSpacing: 8.0)
 ]
 
 extension Color {
     init(hex: Int, opacity: Double = 1.0) {
-        let red = Double((hex & 0xff0000) >> 16) / 255.0
-        let green = Double((hex & 0xff00) >> 8) / 255.0
-        let blue = Double((hex & 0xff) >> 0) / 255.0
+        let red = Double((hex & 0xFF0000) >> 16) / 255.0
+        let green = Double((hex & 0xFF00) >> 8) / 255.0
+        let blue = Double((hex & 0xFF) >> 0) / 255.0
         self.init(.sRGB, red: red, green: green, blue: blue, opacity: opacity)
     }
 }

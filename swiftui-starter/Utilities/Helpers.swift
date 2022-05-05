@@ -5,8 +5,8 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import SwiftUI
 import Combine
+import SwiftUI
 
 // MARK: - General
 
@@ -20,7 +20,8 @@ extension String {
     func localized(_ locale: Locale) -> String {
         let localeId = locale.shortIdentifier
         guard let path = Bundle.main.path(forResource: localeId, ofType: "lproj"),
-            let bundle = Bundle(path: path) else {
+              let bundle = Bundle(path: path)
+        else {
             return NSLocalizedString(self, comment: "")
         }
         return bundle.localizedString(forKey: self, value: nil, table: nil)

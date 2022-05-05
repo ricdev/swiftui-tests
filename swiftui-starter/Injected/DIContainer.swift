@@ -5,13 +5,12 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import SwiftUI
 import Combine
+import SwiftUI
 
 // MARK: - DIContainer
 
 struct DIContainer: EnvironmentKey {
-
     let appState: Store<AppState>
     let services: Services
 
@@ -30,9 +29,9 @@ struct DIContainer: EnvironmentKey {
 }
 
 #if DEBUG
-extension DIContainer {
-    static var preview: Self {
-        .init(appState: AppState.preview, services: .stub)
+    extension DIContainer {
+        static var preview: Self {
+            .init(appState: AppState.preview, services: .stub)
+        }
     }
-}
 #endif

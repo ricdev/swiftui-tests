@@ -5,8 +5,8 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import CoreData
 import Combine
+import CoreData
 
 protocol PersistentStore {
     typealias DBOperation<Result> = (NSManagedObjectContext) throws -> Result
@@ -18,14 +18,14 @@ protocol PersistentStore {
 }
 
 struct CoreDataStack: PersistentStore {
-
     private let container: NSPersistentContainer
     private let isStoreLoaded = CurrentValueSubject<Bool, Error>(false)
     private let bgQueue = DispatchQueue(label: "coredata")
 
     init(directory: FileManager.SearchPathDirectory = .documentDirectory,
          domainMask: FileManager.SearchPathDomainMask = .userDomainMask,
-         version vNumber: UInt) {
+         version vNumber: UInt)
+    {
         let version = Version(vNumber)
         container = NSPersistentContainer(name: version.modelName)
         if let url = version.dbFileURL(directory, domainMask) {
@@ -33,7 +33,7 @@ struct CoreDataStack: PersistentStore {
             container.persistentStoreDescriptions = [store]
         }
         bgQueue.async { [weak isStoreLoaded, weak container] in
-            container?.loadPersistentStores { (storeDescription, error) in
+            container?.loadPersistentStores { _, error in
                 DispatchQueue.main.async {
                     if let error = error {
                         isStoreLoaded?.send(completion: .failure(error))
@@ -62,7 +62,8 @@ struct CoreDataStack: PersistentStore {
     }
 
     func fetch<T, V>(_ fetchRequest: NSFetchRequest<T>,
-                     map: @escaping (T) throws -> V?) -> AnyPublisher<LazyList<V>, Error> {
+                     map: @escaping (T) throws -> V?) -> AnyPublisher<LazyList<V>, Error>
+    {
         assert(Thread.isMainThread)
         let fetch = Future<LazyList<V>, Error> { [weak container] promise in
             guard let context = container?.viewContext else { return }
@@ -144,7 +145,8 @@ extension CoreDataStack {
         }
 
         func dbFileURL(_ directory: FileManager.SearchPathDirectory,
-                       _ domainMask: FileManager.SearchPathDomainMask) -> URL? {
+                       _ domainMask: FileManager.SearchPathDomainMask) -> URL?
+        {
             return FileManager.default
                 .urls(for: directory, in: domainMask).first?
                 .appendingPathComponent(subpathToDB)

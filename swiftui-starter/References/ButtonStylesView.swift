@@ -12,10 +12,7 @@ struct ThemedButtons: View {
 
     var body: some View {
         VStack {
-
-            Group {
-
-            }
+            Group {}
 
             Divider()
 
@@ -73,7 +70,6 @@ struct ThemedButtons: View {
 }
 
 struct StylesView: View {
-
     var body: some View {
         VStack {
             ThemedButtons()

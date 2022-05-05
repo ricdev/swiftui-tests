@@ -5,8 +5,8 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import CoreData
 import Combine
+import CoreData
 
 protocol CountriesDBRepository {
     func hasLoadedCountries() -> AnyPublisher<Bool, Error>
@@ -20,7 +20,6 @@ protocol CountriesDBRepository {
 }
 
 struct RealCountriesDBRepository: CountriesDBRepository {
-
     let persistentStore: PersistentStore
 
     func hasLoadedCountries() -> AnyPublisher<Bool, Error> {
@@ -50,12 +49,13 @@ struct RealCountriesDBRepository: CountriesDBRepository {
     }
 
     func store(countryDetails: Country.Details.Intermediate,
-               for country: Country) -> AnyPublisher<Country.Details?, Error> {
+               for country: Country) -> AnyPublisher<Country.Details?, Error>
+    {
         return persistentStore
             .update { context in
                 let parentRequest = CountryMO.countries(alpha3codes: [country.alpha3Code])
                 guard let parent = try context.fetch(parentRequest).first
-                    else { return nil }
+                else { return nil }
                 let neighbors = CountryMO.countries(alpha3codes: countryDetails.borders)
                 let borders = try context.fetch(neighbors)
                 let details = countryDetails.store(in: context, country: parent, borders: borders)
@@ -77,7 +77,6 @@ struct RealCountriesDBRepository: CountriesDBRepository {
 // MARK: - Fetch Requests
 
 extension CountryMO {
-
     static func justOneCountry() -> NSFetchRequest<CountryMO> {
         let request = newFetchRequest()
         request.predicate = NSPredicate(format: "alpha3code == %@", "USA")
@@ -93,7 +92,7 @@ extension CountryMO {
             let localeId = locale.shortIdentifier
             let nameMatch = NSPredicate(format: "name CONTAINS[cd] %@", search)
             let localizedMatch = NSPredicate(format:
-            "(SUBQUERY(nameTranslations,$t,$t.locale == %@ AND $t.name CONTAINS[cd] %@).@count > 0)", localeId, search)
+                "(SUBQUERY(nameTranslations,$t,$t.locale == %@ AND $t.name CONTAINS[cd] %@).@count > 0)", localeId, search)
             request.predicate = NSCompoundPredicate(type: .or, subpredicates: [nameMatch, localizedMatch])
         }
         request.sortDescriptors = [NSSortDescriptor(key: "name", ascending: true)]

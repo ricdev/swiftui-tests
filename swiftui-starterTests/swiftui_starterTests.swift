@@ -5,11 +5,10 @@
 //  Created by Ricardo Monteverde on 3/14/22.
 //
 
-import XCTest
 @testable import swiftui_starter
+import XCTest
 
 class SwiftuiStarterTests: XCTestCase {
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -25,7 +24,7 @@ class SwiftuiStarterTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
@@ -40,7 +39,7 @@ class SwiftuiStarterTests: XCTestCase {
             "UserID": 1,
             "Name": "test",
             "Email": "test@gmail.com",
-            "Subscribe": true
+            "Subscribe": true,
         ]
 
         do {
@@ -53,15 +52,12 @@ class SwiftuiStarterTests: XCTestCase {
 
             let expectedURL = "https:www.google.com/?Name=test&Email=test%2540gmail.com&UserID=1&Subscribe=true"
             XCTAssertEqual(fullURL.absoluteString.sorted(), expectedURL.sorted())
-        } catch {
-
-        }
+        } catch {}
     }
 
     func testAPI_getBoutiques() {
-
         let networkManager = NetworkManager()
-        networkManager.getBoutiques() { boutiques, error in
+        networkManager.getBoutiques { boutiques, error in
             guard let boutiques = boutiques else { return }
             for boutique in boutiques {
                 print(" data: \(boutique)")
@@ -69,5 +65,4 @@ class SwiftuiStarterTests: XCTestCase {
             print("  error: \(String(describing: error))")
         }
     }
-
 }

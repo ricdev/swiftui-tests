@@ -5,13 +5,12 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import SwiftUI
 import Combine
+import SwiftUI
 
 typealias Store<State> = CurrentValueSubject<State, Never>
 
 extension Store {
-
     subscript<T>(keyPath: WritableKeyPath<Output, T>) -> T where T: Equatable {
         get { value[keyPath: keyPath] }
         set {
@@ -30,7 +29,8 @@ extension Store {
     }
 
     func updates<Value>(for keyPath: KeyPath<Output, Value>) ->
-        AnyPublisher<Value, Failure> where Value: Equatable {
+        AnyPublisher<Value, Failure> where Value: Equatable
+    {
         return map(keyPath).removeDuplicates().eraseToAnyPublisher()
     }
 }

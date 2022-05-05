@@ -14,7 +14,6 @@ protocol ImagesService {
 }
 
 struct RealImagesService: ImagesService {
-
     let webRepository: ImageWebRepository
 
     init(webRepository: ImageWebRepository) {
@@ -36,6 +35,5 @@ struct RealImagesService: ImagesService {
 }
 
 struct StubImagesService: ImagesService {
-    func load(image: LoadableSubject<UIImage>, url: URL?) {
-    }
+    func load(image _: LoadableSubject<UIImage>, url _: URL?) {}
 }

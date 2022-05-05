@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ThemeView: View {
-
     @State var currentTheme: Theme = themes[0]
 
     func changeTheme(name: ThemeName) {
@@ -20,7 +19,6 @@ struct ThemeView: View {
 
     var body: some View {
         VStack {
-
             Group {
                 Text("Article title - Lorem Ipsum dolor sit amet".uppercased())
                     .kerning(1.1)
@@ -109,6 +107,11 @@ struct ThemeView: View {
                     .setStyle(type: .ctaStyle(theme: currentTheme))
 
                 Divider()
+
+                Text("CTA - Lorem Ipsum dolor sit amet".uppercased())
+                    .kerning(1.1)
+                    .foregroundColor(currentTheme.brandColor)
+                    .setStyle(type: .ctaStyle(theme: currentTheme))
             }
 
             Button("Toggle Theme") {
@@ -141,36 +144,35 @@ struct AppStyle: ViewModifier {
     // swiftlint:disable:next cyclomatic_complexity
     func body(content: Content) -> some View {
         switch type {
-        case .articleTitleStyle(theme: let theme):
+        case let .articleTitleStyle(theme: theme):
             content.articleTitleStyle(theme: theme)
-        case .articleTitleCardStyle(theme: let theme):
+        case let .articleTitleCardStyle(theme: theme):
             content.articleTitleCardStyle(theme: theme)
-        case .eyebrowStyle(theme: let theme):
+        case let .eyebrowStyle(theme: theme):
             content.eyebrowStyle(theme: theme)
-        case .bodySmallStyle(theme: let theme):
+        case let .bodySmallStyle(theme: theme):
             content.bodySmallStyle(theme: theme)
-        case .chapterTitleStyle(theme: let theme):
+        case let .chapterTitleStyle(theme: theme):
             content.chapterTitleStyle(theme: theme)
-        case .bodyStyle(theme: let theme):
+        case let .bodyStyle(theme: theme):
             content.bodyStyle(theme: theme)
-        case .body2Style(theme: let theme):
+        case let .body2Style(theme: theme):
             content.body2Style(theme: theme)
-        case .body3Style(theme: let theme):
+        case let .body3Style(theme: theme):
             content.body3Style(theme: theme)
-        case .body4Style(theme: let theme):
+        case let .body4Style(theme: theme):
             content.body4Style(theme: theme)
-        case .quoteStyle(theme: let theme):
+        case let .quoteStyle(theme: theme):
             content.quoteStyle(theme: theme)
-        case .timestampStyle(theme: let theme):
+        case let .timestampStyle(theme: theme):
             content.timestampStyle(theme: theme)
-        case .ctaStyle(theme: let theme):
+        case let .ctaStyle(theme: theme):
             content.ctaStyle(theme: theme)
         }
     }
 }
 
 extension View {
-
     func setStyle(type: AppStyleType) -> some View {
         modifier(AppStyle(type: type))
     }
@@ -347,14 +349,12 @@ struct ScaledFont: ViewModifier {
 @available(iOS 13, macCatalyst 13, tvOS 13, watchOS 6, *)
 extension View {
     func scaledFont(name: String, size: CGFloat) -> some View {
-        return self.modifier(ScaledFont(name: name, size: size))
+        return modifier(ScaledFont(name: name, size: size))
     }
 }
 
 struct ThemeView_Previews: PreviewProvider {
-
     static var previews: some View {
-
         ForEach(ColorScheme.allCases, id: \.self) {
             HStack {
                 ThemeView()

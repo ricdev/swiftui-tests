@@ -5,8 +5,8 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import UIKit
 import Combine
+import UIKit
 
 protocol SystemEventsHandler {
     func sceneOpenURLContexts(_ urlContexts: Set<UIOpenURLContext>)
@@ -18,7 +18,6 @@ protocol SystemEventsHandler {
 }
 
 struct RealSystemEventsHandler: SystemEventsHandler {
-
     let container: DIContainer
     let deepLinksHandler: DeepLinksHandler
     let pushNotificationsHandler: PushNotificationsHandler
@@ -28,8 +27,8 @@ struct RealSystemEventsHandler: SystemEventsHandler {
     init(container: DIContainer,
          deepLinksHandler: DeepLinksHandler,
          pushNotificationsHandler: PushNotificationsHandler,
-         pushTokenWebRepository: PushTokenWebRepository) {
-
+         pushTokenWebRepository: PushTokenWebRepository)
+    {
         self.container = container
         self.deepLinksHandler = deepLinksHandler
         self.pushNotificationsHandler = pushNotificationsHandler
@@ -91,16 +90,17 @@ struct RealSystemEventsHandler: SystemEventsHandler {
         }
     }
 
-    func appDidReceiveRemoteNotification(payload: NotificationPayload,
-                                         fetchCompletion: @escaping FetchCompletion) {
+    func appDidReceiveRemoteNotification(payload _: NotificationPayload,
+                                         fetchCompletion: @escaping FetchCompletion)
+    {
         container.services.countriesService
             .refreshCountriesList()
             .sinkToResult { result in
                 switch result {
-                case .success(let value):
+                case let .success(value):
                     print("newData: \(value)")
                     fetchCompletion(.newData)
-                case .failure(let error):
+                case let .failure(error):
                     print(".failed \(error)")
                     fetchCompletion(.failed)
                 }

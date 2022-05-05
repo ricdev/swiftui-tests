@@ -16,7 +16,6 @@ protocol CountriesService {
 }
 
 struct RealCountriesService: CountriesService {
-
     let webRepository: CountriesWebRepository
     let dbRepository: CountriesDBRepository
     let appState: Store<AppState>
@@ -28,7 +27,6 @@ struct RealCountriesService: CountriesService {
     }
 
     func load(countries: LoadableSubject<LazyList<Country>>, search: String, locale: Locale) {
-
         let cancelBag = CancelBag()
         countries.wrappedValue.setIsLoading(cancelBag: cancelBag)
 
@@ -62,7 +60,6 @@ struct RealCountriesService: CountriesService {
     }
 
     func load(countryDetails: LoadableSubject<Country.Details>, country: Country) {
-
         let cancelBag = CancelBag()
         countryDetails.wrappedValue.setIsLoading(cancelBag: cancelBag)
 
@@ -95,14 +92,11 @@ struct RealCountriesService: CountriesService {
 }
 
 struct StubCountriesService: CountriesService {
-
     func refreshCountriesList() -> AnyPublisher<Void, Error> {
         return Just<Void>.withErrorType(Error.self)
     }
 
-    func load(countries: LoadableSubject<LazyList<Country>>, search: String, locale: Locale) {
-    }
+    func load(countries _: LoadableSubject<LazyList<Country>>, search _: String, locale _: Locale) {}
 
-    func load(countryDetails: LoadableSubject<Country.Details>, country: Country) {
-    }
+    func load(countryDetails _: LoadableSubject<Country.Details>, country _: Country) {}
 }

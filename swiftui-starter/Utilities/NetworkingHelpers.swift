@@ -5,19 +5,18 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import SwiftUI
 import Combine
 import Foundation
+import SwiftUI
 
 extension Just where Output == Void {
-    static func withErrorType<E>(_ errorType: E.Type) -> AnyPublisher<Void, E> {
+    static func withErrorType<E>(_: E.Type) -> AnyPublisher<Void, E> {
         return withErrorType((), E.self)
     }
 }
 
 extension Just {
-    static func withErrorType<E>(_ value: Output, _ errorType: E.Type
-    ) -> AnyPublisher<Output, E> {
+    static func withErrorType<E>(_ value: Output, _: E.Type) -> AnyPublisher<Output, E> {
         return Just(value)
             .setFailureType(to: E.self)
             .eraseToAnyPublisher()
@@ -25,7 +24,6 @@ extension Just {
 }
 
 extension Publisher {
-
     func sinkToResult(_ result: @escaping (Swift.Result<Output, Failure>) -> Void) -> AnyCancellable {
         return sink(receiveCompletion: { completion in
             switch completion {
@@ -74,7 +72,7 @@ extension Publisher {
 private extension Error {
     var underlyingError: Error? {
         let nsError = self as NSError
-        if nsError.domain == NSURLErrorDomain && nsError.code == -1009 {
+        if nsError.domain == NSURLErrorDomain, nsError.code == -1009 {
             // "The Internet connection appears to be offline."
             return self
         }

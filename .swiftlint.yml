@@ -1,0 +1,22 @@
+child_config: .swiftlint_refinement.yml
+parent_config: swiftui-starter/.swiftlint_base.yml
+
+excluded: # paths to ignore during linting. Takes precedence over `included`. # excluded: [Pods, Carthage, swiftui-starter/Globals/R.generated.swift]
+  - Carthage
+  - Pods
+  - swiftui-starter/Globals/R.generated.swift
+
+# implicitly 
+line_length: 110
+
+# identifier_name:
+#   allowed_symbols: "_"
+
+# type_name:
+#   allowed_symbols: "_"
+
+# whitelist_rules:
+# - generic_type_name #https://github.com/Apodini/corvus/blob/develop/.swiftlint.yml
+
+
+

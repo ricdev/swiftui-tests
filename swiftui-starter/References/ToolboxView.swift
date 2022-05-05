@@ -9,7 +9,6 @@ import SwiftUI
 
 // swiftlint:disable line_length
 struct ToolboxView1: View {
-
     var body: some View {
         VStack {
             EntryField(systemName: "envelope", placeHolder: "Email Address", prompt: "", field: .constant(""))
@@ -105,7 +104,6 @@ struct ToolboxView2: View {
 }
 
 struct ToolboxView: View {
-
     var body: some View {
         ScrollView {
             VStack {

@@ -8,9 +8,7 @@
 import Foundation
 
 class NetworkLogger {
-
     static func log(request: URLRequest) {
-
         print("\n - - - - - - - - - - OUTGOING - - - - - - - - - - \n")
         defer { print("\n - - - - - - - - - -  END - - - - - - - - - - \n") }
 
@@ -23,10 +21,10 @@ class NetworkLogger {
         let host = "\(urlComponents?.host ?? "")"
 
         var logOutput = """
-                        \(urlAsString) \n\n
-                        \(method) \(path)?\(query) HTTP/1.1 \n
-                        HOST: \(host)\n
-                        """
+        \(urlAsString) \n\n
+        \(method) \(path)?\(query) HTTP/1.1 \n
+        HOST: \(host)\n
+        """
         for (key, value) in request.allHTTPHeaderFields ?? [:] {
             logOutput += "\(key): \(value) \n"
         }
@@ -37,5 +35,5 @@ class NetworkLogger {
         print(logOutput)
     }
 
-    static func log(response: URLResponse) {}
+    static func log(response _: URLResponse) {}
 }

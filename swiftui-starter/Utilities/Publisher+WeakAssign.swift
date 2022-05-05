@@ -5,8 +5,8 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import Foundation
 import Combine
+import Foundation
 
 extension Publisher where Failure == Never {
     func weakAssign<T: AnyObject>(

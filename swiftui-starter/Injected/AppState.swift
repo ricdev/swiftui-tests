@@ -5,8 +5,8 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import SwiftUI
 import Combine
+import SwiftUI
 
 struct AppState: Equatable {
     var userData = UserData()
@@ -62,11 +62,11 @@ func == (lhs: AppState, rhs: AppState) -> Bool {
 }
 
 #if DEBUG
-extension AppState {
-    static var preview: AppState {
-        var state = AppState()
-        state.system.isActive = true
-        return state
+    extension AppState {
+        static var preview: AppState {
+            var state = AppState()
+            state.system.isActive = true
+            return state
+        }
     }
-}
 #endif

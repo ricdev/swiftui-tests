@@ -29,7 +29,6 @@ protocol UserPermissionsService: AnyObject {
 // MARK: - RealUserPermissionsService
 
 final class RealUserPermissionsService: UserPermissionsService {
-
     private let appState: Store<AppState>
     private let openAppSettings: () -> Void
 
@@ -79,7 +78,6 @@ extension UNAuthorizationStatus {
 }
 
 private extension RealUserPermissionsService {
-
     func pushNotificationsPermissionStatus(_ resolve: @escaping (Permission.Status) -> Void) {
         let center = UNUserNotificationCenter.current()
         center.getNotificationSettings { settings in
@@ -91,7 +89,7 @@ private extension RealUserPermissionsService {
 
     func requestPushNotificationsPermission() {
         let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.alert, .sound]) { (isGranted, error) in
+        center.requestAuthorization(options: [.alert, .sound]) { isGranted, _ in
             DispatchQueue.main.async {
                 self.appState[\.permissions.push] = isGranted ? .granted : .denied
             }
@@ -102,9 +100,7 @@ private extension RealUserPermissionsService {
 // MARK: -
 
 final class StubUserPermissionsService: UserPermissionsService {
+    func resolveStatus(for _: Permission) {}
 
-    func resolveStatus(for permission: Permission) {
-    }
-    func request(permission: Permission) {
-    }
+    func request(permission _: Permission) {}
 }

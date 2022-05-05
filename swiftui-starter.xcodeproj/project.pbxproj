@@ -81,9 +81,11 @@
 		0C4F466F27DF5B280001BED9 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F466E27DF5B280001BED9 /* LottieView.swift */; };
 		0C4F467127DF5E860001BED9 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F467027DF5E860001BED9 /* TimerView.swift */; };
 		0C4F467427DF70CF0001BED9 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F467327DF70CF0001BED9 /* AsyncImage.swift */; };
-		0CB4C40B280D9659004E16BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDF3AFD280D88BF009D0285 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		0CB4C40C280D9666004E16BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDF3AFD280D88BF009D0285 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		0CB4C40D280D98A6004E16BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDF3AFD280D88BF009D0285 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0CADA0AB28225BDC0067201A /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADA0AA28225BDC0067201A /* QuoteView.swift */; };
+		0CADA0AD28225BF70067201A /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADA0AC28225BF70067201A /* CarouselView.swift */; };
+		0CADA0B0282265E00067201A /* CardCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADA0AF282265E00067201A /* CardCarousel.swift */; };
+		0CADA0B2282299D70067201A /* QuoteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADA0B1282299D70067201A /* QuoteCardView.swift */; };
+		0CADA0B42822AFEA0067201A /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADA0B32822AFEA0067201A /* Quote.swift */; };
 		0CB4C40E280D98BF004E16BA /* XCTest.framework in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF3AFD280D88BF009D0285 /* XCTest.framework */; };
 		0CC110C227FC410F00753C8D /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC110C127FC410F00753C8D /* LandingView.swift */; };
 		0CC110C427FC4AA300753C8D /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC110C327FC4AA300753C8D /* CustomTabBarView.swift */; };
@@ -100,6 +102,10 @@
 		0CD92BA52805A1A7005F918A /* BriefingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD92BA42805A1A7005F918A /* BriefingViewModel.swift */; };
 		0CD92BA72805A29D005F918A /* FTUEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD92BA62805A29D005F918A /* FTUEView.swift */; };
 		0CD92BA92805A2AE005F918A /* FTUEViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD92BA82805A2AE005F918A /* FTUEViewModel.swift */; };
+		0CDB38312816BF3400AD8397 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 0CDB38302816BF3400AD8397 /* Rswift */; };
+		0CDB38332816C66A00AD8397 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB38322816C66A00AD8397 /* R.generated.swift */; };
+		0CDB38342816C66A00AD8397 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB38322816C66A00AD8397 /* R.generated.swift */; };
+		0CDB38352816C66A00AD8397 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB38322816C66A00AD8397 /* R.generated.swift */; };
 		0CDB8999280AA6DE00A8229C /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDB8998280AA6DD00A8229C /* AppEnvironment.swift */; };
 		0CDF3A9C280D16E1009D0285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF3A9B280D16E1009D0285 /* SceneDelegate.swift */; };
 		0CDF3A9F280D62BD009D0285 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF3A9E280D62BD009D0285 /* DIContainer.swift */; };
@@ -152,12 +158,18 @@
 		0CDF62D227FD9C9800BDE689 /* ToastBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF62D127FD9C9800BDE689 /* ToastBlock.swift */; };
 		0CE0686D27FE8FCB00CE7137 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE0686C27FE8FCB00CE7137 /* Theme.swift */; };
 		0CE0686F27FEA2E100CE7137 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE0686E27FEA2E100CE7137 /* ThemeView.swift */; };
+		0CE5D2D52819060A00AF543F /* KeyTakeaways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5D2D42819060A00AF543F /* KeyTakeaways.swift */; };
+		0CE5D2D72819127000AF543F /* KeyTakeawaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5D2D62819127000AF543F /* KeyTakeawaysView.swift */; };
+		0CE5D2D92819127800AF543F /* KeyTakeawayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5D2D82819127800AF543F /* KeyTakeawayView.swift */; };
+		0CE5D2DB2819579400AF543F /* KeyTakeawayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5D2DA2819579400AF543F /* KeyTakeawayRowView.swift */; };
 		0CE8EADB2806814200A022CE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0CE8EADA2806814200A022CE /* Podfile */; };
 		0CE8EAF9280694CC00A022CE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0CE8EAF8280694CC00A022CE /* FirebaseAuth */; };
 		0CE8EAFB280694CC00A022CE /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0CE8EAFA280694CC00A022CE /* FirebaseCrashlytics */; };
 		0CE8EAFD280694CC00A022CE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0CE8EAFC280694CC00A022CE /* FirebaseFirestore */; };
 		0CE8EAFF280694CC00A022CE /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0CE8EAFE280694CC00A022CE /* FirebaseMessaging */; };
 		0CE8EB01280694CC00A022CE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0CE8EB00280694CC00A022CE /* FirebaseStorage */; };
+		0CEAF94E28115B72001B02F1 /* EnvironmentOverrides in Frameworks */ = {isa = PBXBuildFile; productRef = 0CEAF94D28115B72001B02F1 /* EnvironmentOverrides */; };
+		0CEAF9D12811905E001B02F1 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 0CEAF9D02811905E001B02F1 /* ViewInspector */; };
 		0CF54F2827EDAE1E00B2F533 /* EntryField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2727EDAE1E00B2F533 /* EntryField.swift */; };
 		0CF54F2B27EDBDFD00B2F533 /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */; };
 		0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */; };
@@ -271,6 +283,11 @@
 		0C4F467027DF5E860001BED9 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		0C4F467327DF70CF0001BED9 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		0C4F467827DF79E30001BED9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0CADA0AA28225BDC0067201A /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		0CADA0AC28225BF70067201A /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		0CADA0AF282265E00067201A /* CardCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCarousel.swift; sourceTree = "<group>"; };
+		0CADA0B1282299D70067201A /* QuoteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCardView.swift; sourceTree = "<group>"; };
+		0CADA0B32822AFEA0067201A /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		0CC110C127FC410F00753C8D /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		0CC110C327FC4AA300753C8D /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		0CC110C527FC542B00753C8D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -286,6 +303,7 @@
 		0CD92BA42805A1A7005F918A /* BriefingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BriefingViewModel.swift; sourceTree = "<group>"; };
 		0CD92BA62805A29D005F918A /* FTUEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTUEView.swift; sourceTree = "<group>"; };
 		0CD92BA82805A2AE005F918A /* FTUEViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTUEViewModel.swift; sourceTree = "<group>"; };
+		0CDB38322816C66A00AD8397 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		0CDB8998280AA6DD00A8229C /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		0CDF3A9B280D16E1009D0285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0CDF3A9E280D62BD009D0285 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
@@ -339,8 +357,12 @@
 		0CDF62D127FD9C9800BDE689 /* ToastBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastBlock.swift; sourceTree = "<group>"; };
 		0CE0686C27FE8FCB00CE7137 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		0CE0686E27FEA2E100CE7137 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		0CE5D2D42819060A00AF543F /* KeyTakeaways.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTakeaways.swift; sourceTree = "<group>"; };
+		0CE5D2D62819127000AF543F /* KeyTakeawaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTakeawaysView.swift; sourceTree = "<group>"; };
+		0CE5D2D82819127800AF543F /* KeyTakeawayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTakeawayView.swift; sourceTree = "<group>"; };
+		0CE5D2DA2819579400AF543F /* KeyTakeawayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTakeawayRowView.swift; sourceTree = "<group>"; };
 		0CE8EAD9280670C000A022CE /* swiftui-starter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swiftui-starter.entitlements"; sourceTree = "<group>"; };
-		0CE8EADA2806814200A022CE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0CE8EADA2806814200A022CE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0CF54F2727EDAE1E00B2F533 /* EntryField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryField.swift; sourceTree = "<group>"; };
 		0CF54F2A27EDBDFD00B2F533 /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 		0CF54F2C27EDD7CD00B2F533 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
@@ -375,9 +397,10 @@
 				0CE8EAFF280694CC00A022CE /* FirebaseMessaging in Frameworks */,
 				0CE8EAFB280694CC00A022CE /* FirebaseCrashlytics in Frameworks */,
 				0C4F466827DF4EDF0001BED9 /* Lottie in Frameworks */,
+				0CDB38312816BF3400AD8397 /* Rswift in Frameworks */,
 				0CE8EB01280694CC00A022CE /* FirebaseStorage in Frameworks */,
 				0CE8EAF9280694CC00A022CE /* FirebaseAuth in Frameworks */,
-				0CB4C40D280D98A6004E16BA /* XCTest.framework in Frameworks */,
+				0CEAF94E28115B72001B02F1 /* EnvironmentOverrides in Frameworks */,
 				0CE8EAFD280694CC00A022CE /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,8 +409,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB4C40B280D9659004E16BA /* XCTest.framework in Frameworks */,
 				6DF3FCF4191F24F882523881 /* Pods_swiftui_starterTests.framework in Frameworks */,
+				0CEAF9D12811905E001B02F1 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +418,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB4C40C280D9666004E16BA /* XCTest.framework in Frameworks */,
 				9148703AA25A3DD007708CEF /* Pods_swiftui_starter_swiftui_starterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +486,7 @@
 		0C303B9827E4CF270018CECE /* Globals */ = {
 			isa = PBXGroup;
 			children = (
+				0CDB38322816C66A00AD8397 /* R.generated.swift */,
 				0C303B9927E4CF310018CECE /* Styles */,
 			);
 			path = Globals;
@@ -568,6 +591,8 @@
 		0C4F461327DEFD060001BED9 = {
 			isa = PBXGroup;
 			children = (
+				0CDB382B2816BA2500AD8397 /* Libraries */,
+				0CD61BB32812BCE800A18A4B /* Resources */,
 				0CE8EADA2806814200A022CE /* Podfile */,
 				0C303BA627E873D80018CECE /* GoogleService-Info.plist */,
 				0C4F467827DF79E30001BED9 /* MyPlayground.playground */,
@@ -593,6 +618,7 @@
 		0C4F461E27DEFD060001BED9 /* swiftui-starter */ = {
 			isa = PBXGroup;
 			children = (
+				0CE8EAD9280670C000A022CE /* swiftui-starter.entitlements */,
 				0CDF3AD9280D6BC5009D0285 /* Persistence */,
 				0CDB8997280AA54D00A8229C /* System */,
 				0CDF3AA0280D62F1009D0285 /* Utilities */,
@@ -600,7 +626,6 @@
 				0CDF3AC2280D66A9009D0285 /* Repositories */,
 				0CDF3ABB280D662F009D0285 /* Services */,
 				0C388DFD27E0880F00EE07A4 /* Models */,
-				0CE8EAD9280670C000A022CE /* swiftui-starter.entitlements */,
 				0C303B9827E4CF270018CECE /* Globals */,
 				0C303B8F27E4CE3D0018CECE /* Localization */,
 				0C303B7327E4BE3E0018CECE /* Networking */,
@@ -637,35 +662,10 @@
 		0C4F465A27DF46FA0001BED9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0C4F466327DF4E8C0001BED9 /* Components */,
-				0C4F465B27DF48600001BED9 /* SplashView.swift */,
-				0CDF62CB27FD5A3500BDE689 /* SplashViewModel.swift */,
-				0CF54F4127F4331300B2F533 /* IntroView.swift */,
-				0CDF62CD27FD5A7100BDE689 /* IntroViewModel.swift */,
-				0CF54F4327F46DC200B2F533 /* AtlasLoginView.swift */,
-				0CDF62C927FD583700BDE689 /* AtlasLoginViewModel.swift */,
-				0CC110C127FC410F00753C8D /* LandingView.swift */,
-				0CC110C527FC542B00753C8D /* HomeView.swift */,
-				0CC110C327FC4AA300753C8D /* CustomTabBarView.swift */,
-				0CD92B9228059A64005F918A /* SearchView.swift */,
-				0CD92B9428059ABE005F918A /* SearchViewModel.swift */,
-				0CD92B9628059E40005F918A /* ResourceView.swift */,
-				0CD92B9828059E4D005F918A /* ResourceViewModel.swift */,
-				0CD92B9C28059EB8005F918A /* ProductView.swift */,
-				0CD92B9A28059EAD005F918A /* ProductViewModel.swift */,
-				0CD92B9E2805A048005F918A /* ArticleDetailView.swift */,
-				0CD92BA02805A05A005F918A /* AticleDetailViewModel.swift */,
-				0CD92BA22805A18D005F918A /* BriefingView.swift */,
-				0CD92BA42805A1A7005F918A /* BriefingViewModel.swift */,
-				0CD92BA62805A29D005F918A /* FTUEView.swift */,
-				0CD92BA82805A2AE005F918A /* FTUEViewModel.swift */,
-				0CDF3AA9280D6444009D0285 /* CountryListViewModel.swift */,
-				0CDF3AAB280D6482009D0285 /* CountriesList.swift */,
-				0CDF3AD3280D6B0B009D0285 /* CountryDetails.swift */,
-				0CDF3AD5280D6B53009D0285 /* CountryDetailsViewModel.swift */,
-				0CDF3AE3280D6C9C009D0285 /* ModalDetailsView.swift */,
-				0CDF3AF3280D7269009D0285 /* RootViewModifier.swift */,
-				0CDF3AF5280D72BE009D0285 /* ContentView.swift */,
+				0CE5D2D12818FDFF00AF543F /* Screens */,
+				0CE5D2D02818FDEC00AF543F /* Cards */,
+				0CE5D2CF2818FDDC00AF543F /* Components */,
+				0CE5D2CE2818FC7800AF543F /* Archives */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -724,6 +724,31 @@
 				0C4F466A27DF5AA80001BED9 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0CADA0A928225AEC0067201A /* 04_Inline_Quote */ = {
+			isa = PBXGroup;
+			children = (
+				0CADA0B32822AFEA0067201A /* Quote.swift */,
+				0CADA0AA28225BDC0067201A /* QuoteView.swift */,
+				0CADA0AC28225BF70067201A /* CarouselView.swift */,
+				0CADA0B1282299D70067201A /* QuoteCardView.swift */,
+			);
+			path = 04_Inline_Quote;
+			sourceTree = "<group>";
+		};
+		0CD61BB32812BCE800A18A4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0CDB382B2816BA2500AD8397 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 		0CDB8997280AA54D00A8229C /* System */ = {
@@ -796,6 +821,85 @@
 			path = Persistence;
 			sourceTree = "<group>";
 		};
+		0CE5D2CE2818FC7800AF543F /* Archives */ = {
+			isa = PBXGroup;
+			children = (
+				0C4F466327DF4E8C0001BED9 /* Components */,
+				0CF54F4127F4331300B2F533 /* IntroView.swift */,
+				0CDF62CD27FD5A7100BDE689 /* IntroViewModel.swift */,
+				0CF54F4327F46DC200B2F533 /* AtlasLoginView.swift */,
+				0CDF62C927FD583700BDE689 /* AtlasLoginViewModel.swift */,
+				0CC110C127FC410F00753C8D /* LandingView.swift */,
+				0CC110C527FC542B00753C8D /* HomeView.swift */,
+				0CC110C327FC4AA300753C8D /* CustomTabBarView.swift */,
+				0CD92B9228059A64005F918A /* SearchView.swift */,
+				0CD92B9428059ABE005F918A /* SearchViewModel.swift */,
+				0CD92B9628059E40005F918A /* ResourceView.swift */,
+				0CD92B9828059E4D005F918A /* ResourceViewModel.swift */,
+				0CD92B9C28059EB8005F918A /* ProductView.swift */,
+				0CD92B9A28059EAD005F918A /* ProductViewModel.swift */,
+				0CD92B9E2805A048005F918A /* ArticleDetailView.swift */,
+				0CD92BA02805A05A005F918A /* AticleDetailViewModel.swift */,
+				0CD92BA22805A18D005F918A /* BriefingView.swift */,
+				0CD92BA42805A1A7005F918A /* BriefingViewModel.swift */,
+				0CD92BA62805A29D005F918A /* FTUEView.swift */,
+				0CD92BA82805A2AE005F918A /* FTUEViewModel.swift */,
+				0CDF3AA9280D6444009D0285 /* CountryListViewModel.swift */,
+				0CDF3AAB280D6482009D0285 /* CountriesList.swift */,
+				0CDF3AD3280D6B0B009D0285 /* CountryDetails.swift */,
+				0CDF3AD5280D6B53009D0285 /* CountryDetailsViewModel.swift */,
+				0CDF3AE3280D6C9C009D0285 /* ModalDetailsView.swift */,
+				0CDF3AF3280D7269009D0285 /* RootViewModifier.swift */,
+				0CDF3AF5280D72BE009D0285 /* ContentView.swift */,
+			);
+			path = Archives;
+			sourceTree = "<group>";
+		};
+		0CE5D2CF2818FDDC00AF543F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0CE5D2D02818FDEC00AF543F /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				0CADA0A928225AEC0067201A /* 04_Inline_Quote */,
+				0CE5D2D32819056000AF543F /* 05_Key_Takeaways */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		0CE5D2D12818FDFF00AF543F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5D2D22818FE2700AF543F /* Splash */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0CE5D2D22818FE2700AF543F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0C4F465B27DF48600001BED9 /* SplashView.swift */,
+				0CDF62CB27FD5A3500BDE689 /* SplashViewModel.swift */,
+				0CADA0AF282265E00067201A /* CardCarousel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0CE5D2D32819056000AF543F /* 05_Key_Takeaways */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5D2D42819060A00AF543F /* KeyTakeaways.swift */,
+				0CE5D2D62819127000AF543F /* KeyTakeawaysView.swift */,
+				0CE5D2D82819127800AF543F /* KeyTakeawayView.swift */,
+				0CE5D2DA2819579400AF543F /* KeyTakeawayRowView.swift */,
+			);
+			path = 05_Key_Takeaways;
+			sourceTree = "<group>";
+		};
 		0CF54F2927EDB39B00B2F533 /* References */ = {
 			isa = PBXGroup;
 			children = (
@@ -842,11 +946,13 @@
 			buildConfigurationList = 0C4F464627DEFD080001BED9 /* Build configuration list for PBXNativeTarget "swiftui-starter" */;
 			buildPhases = (
 				8237D980653E912BE724E8D0 /* [CP] Check Pods Manifest.lock */,
+				0CC6EE952812D6A600E99E7F /* Run R.Swift */,
 				0C4F461827DEFD060001BED9 /* Sources */,
 				0C4F461927DEFD060001BED9 /* Frameworks */,
 				0C4F461A27DEFD060001BED9 /* Resources */,
 				0C303B8E27E4CCD40018CECE /* Run Swiftgen */,
 				0C303B9E27E82DA80018CECE /* Run SwiftLint */,
+				476960A77FD9895E7CCAF2CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -861,6 +967,8 @@
 				0CE8EAFC280694CC00A022CE /* FirebaseFirestore */,
 				0CE8EAFE280694CC00A022CE /* FirebaseMessaging */,
 				0CE8EB00280694CC00A022CE /* FirebaseStorage */,
+				0CEAF94D28115B72001B02F1 /* EnvironmentOverrides */,
+				0CDB38302816BF3400AD8397 /* Rswift */,
 			);
 			productName = "swiftui-starter";
 			productReference = 0C4F461C27DEFD060001BED9 /* swiftui-starter.app */;
@@ -882,6 +990,7 @@
 			);
 			name = "swiftui-starterTests";
 			packageProductDependencies = (
+				0CEAF9D02811905E001B02F1 /* ViewInspector */,
 			);
 			productName = "swiftui-starterTests";
 			productReference = 0C4F463227DEFD080001BED9 /* swiftui-starterTests.xctest */;
@@ -895,6 +1004,7 @@
 				0C4F463827DEFD080001BED9 /* Sources */,
 				0C4F463927DEFD080001BED9 /* Frameworks */,
 				0C4F463A27DEFD080001BED9 /* Resources */,
+				50F18724D9F75C75A2FDE904 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -902,8 +1012,6 @@
 				0C4F463E27DEFD080001BED9 /* PBXTargetDependency */,
 			);
 			name = "swiftui-starterUITests";
-			packageProductDependencies = (
-			);
 			productName = "swiftui-starterUITests";
 			productReference = 0C4F463C27DEFD080001BED9 /* swiftui-starterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -944,6 +1052,9 @@
 				0C4F465727DF459A0001BED9 /* XCRemoteSwiftPackageReference "TTProgressHUD" */,
 				0C4F466627DF4EDF0001BED9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				0CE8EAF7280694CC00A022CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0CEAF94C28115B72001B02F1 /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */,
+				0CEAF9CF2811905E001B02F1 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+				0CDB382F2816BF3400AD8397 /* XCRemoteSwiftPackageReference "R.swift.Library" */,
 			);
 			productRefGroup = 0C4F461D27DEFD060001BED9 /* Products */;
 			projectDirPath = "";
@@ -1041,7 +1152,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$PODS_ROOT/SwiftGen/bin/swiftgen\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$PODS_ROOT/SwiftGen/bin/swiftgen\n\n";
 		};
 		0C303B9E27E82DA80018CECE /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1060,6 +1171,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		0CC6EE952812D6A600E99E7F /* Run R.Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run R.Swift";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/swiftui-starter/Globals/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/swiftui-starter/Globals/R.generated.swift\"\n\n\n";
 		};
 		3483FA5567821CB1C80FA102 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1081,6 +1212,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		476960A77FD9895E7CCAF2CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftui-starter/Pods-swiftui-starter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50F18724D9F75C75A2FDE904 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-starter-swiftui-starterUITests/Pods-swiftui-starter-swiftui-starterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftui-starter-swiftui-starterUITests/Pods-swiftui-starter-swiftui-starterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftui-starter-swiftui-starterUITests/Pods-swiftui-starter-swiftui-starterUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8045E5C220C820C8E53C035B /* [CP] Check Pods Manifest.lock */ = {
@@ -1138,6 +1303,7 @@
 				0C303B8527E4BF840018CECE /* NetworkLogger.swift in Sources */,
 				0CDF3A9F280D62BD009D0285 /* DIContainer.swift in Sources */,
 				0CDF3AEA280D6D79009D0285 /* PushNotificationsHandler.swift in Sources */,
+				0CADA0AD28225BF70067201A /* CarouselView.swift in Sources */,
 				0CDF3AEE280D6DFE009D0285 /* MockedData.swift in Sources */,
 				0CF54F2827EDAE1E00B2F533 /* EntryField.swift in Sources */,
 				0CDF3AAA280D6444009D0285 /* CountryListViewModel.swift in Sources */,
@@ -1156,6 +1322,7 @@
 				0CD92B9728059E40005F918A /* ResourceView.swift in Sources */,
 				0CDF3AD2280D6A94009D0285 /* NetworkingHelpers.swift in Sources */,
 				0CF54F3727F317EF00B2F533 /* ToggleField.swift in Sources */,
+				0CE5D2DB2819579400AF543F /* KeyTakeawayRowView.swift in Sources */,
 				0CDF62C427FD560400BDE689 /* BiometricsV2.swift in Sources */,
 				0CDF3AD0280D6A79009D0285 /* Publisher+WeakAssign.swift in Sources */,
 				0CDF3AEC280D6DCD009D0285 /* CountryCell.swift in Sources */,
@@ -1163,6 +1330,8 @@
 				0CDF3AC4280D66B7009D0285 /* CountriesDBRepository.swift in Sources */,
 				0CDF3AD4280D6B0B009D0285 /* CountryDetails.swift in Sources */,
 				0C303BBB27E9B8480018CECE /* FontType.swift in Sources */,
+				0CADA0B42822AFEA0067201A /* Quote.swift in Sources */,
+				0CE5D2D72819127000AF543F /* KeyTakeawaysView.swift in Sources */,
 				0CD92BA12805A05A005F918A /* AticleDetailViewModel.swift in Sources */,
 				0CDF3AC6280D66CA009D0285 /* CountriesWebRepository.swift in Sources */,
 				0CDF3AB6280D6574009D0285 /* LazyList.swift in Sources */,
@@ -1181,13 +1350,16 @@
 				0C15F72E27EC801D00BABE6D /* Toast.swift in Sources */,
 				0CDF3ADB280D6BD8009D0285 /* CoreDataStack.swift in Sources */,
 				0CDF62C027FD4C1100BDE689 /* ModalView.swift in Sources */,
+				0CDB38332816C66A00AD8397 /* R.generated.swift in Sources */,
 				0CDF3AD8280D6B89009D0285 /* ErrorView.swift in Sources */,
 				0CDF3AAC280D6482009D0285 /* CountriesList.swift in Sources */,
 				0CDF3AC8280D66E7009D0285 /* ImageWebRepository.swift in Sources */,
 				0C303B7D27E4BEFA0018CECE /* EndPointType.swift in Sources */,
+				0CADA0AB28225BDC0067201A /* QuoteView.swift in Sources */,
 				0CC110C627FC542B00753C8D /* HomeView.swift in Sources */,
 				0C303B8127E4BF470018CECE /* HTTPMethod.swift in Sources */,
 				0C4F462427DEFD060001BED9 /* ViewController.swift in Sources */,
+				0CE5D2D52819060A00AF543F /* KeyTakeaways.swift in Sources */,
 				0CD92B9B28059EAD005F918A /* ProductViewModel.swift in Sources */,
 				0CDF3ADD280D6BF0009D0285 /* CoreDataHelpers.swift in Sources */,
 				0CDF62CC27FD5A3500BDE689 /* SplashViewModel.swift in Sources */,
@@ -1219,12 +1391,14 @@
 				0CDF3ACC280D6A02009D0285 /* WebRepository.swift in Sources */,
 				0C4F462027DEFD060001BED9 /* AppDelegate.swift in Sources */,
 				0CDF3ABF280D665B009D0285 /* CountriesService.swift in Sources */,
+				0CADA0B0282265E00067201A /* CardCarousel.swift in Sources */,
 				0CDF62D227FD9C9800BDE689 /* ToastBlock.swift in Sources */,
 				0CC110C427FC4AA300753C8D /* CustomTabBarView.swift in Sources */,
 				0CF54F4227F4331300B2F533 /* IntroView.swift in Sources */,
 				0CDF3AD6280D6B53009D0285 /* CountryDetailsViewModel.swift in Sources */,
 				0CDF3AE4280D6C9C009D0285 /* ModalDetailsView.swift in Sources */,
 				0CDF3ABA280D660F009D0285 /* ServicesContainer.swift in Sources */,
+				0CE5D2D92819127800AF543F /* KeyTakeawayView.swift in Sources */,
 				0CE0686D27FE8FCB00CE7137 /* Theme.swift in Sources */,
 				0CDF3AA8280D639E009D0285 /* AppState.swift in Sources */,
 				0CF54F2D27EDD7CD00B2F533 /* CustomButton.swift in Sources */,
@@ -1239,6 +1413,7 @@
 				0CDF3AE2280D6C53009D0285 /* SVGImageView.swift in Sources */,
 				0CDF3AF0280D6E8A009D0285 /* SystemEventsHandler.swift in Sources */,
 				0C4F466B27DF5AA80001BED9 /* UIView+Extensions.swift in Sources */,
+				0CADA0B2282299D70067201A /* QuoteCardView.swift in Sources */,
 				0CD92BA72805A29D005F918A /* FTUEView.swift in Sources */,
 				0C4F465C27DF48600001BED9 /* SplashView.swift in Sources */,
 			);
@@ -1249,6 +1424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C4F463727DEFD080001BED9 /* swiftui_starterTests.swift in Sources */,
+				0CDB38342816C66A00AD8397 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1258,6 +1434,7 @@
 			files = (
 				0C4F464327DEFD080001BED9 /* swiftui_starterUITestsLaunchTests.swift in Sources */,
 				0C4F464127DEFD080001BED9 /* swiftui_starterUITests.swift in Sources */,
+				0CDB38352816C66A00AD8397 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1636,12 +1813,36 @@
 				kind = branch;
 			};
 		};
+		0CDB382F2816BF3400AD8397 /* XCRemoteSwiftPackageReference "R.swift.Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		0CE8EAF7280694CC00A022CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 8.0.0;
+			};
+		};
+		0CEAF94C28115B72001B02F1 /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/EnvironmentOverrides";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.4;
+			};
+		};
+		0CEAF9CF2811905E001B02F1 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = exactVersion;
+				version = 0.9.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -1656,6 +1857,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0C4F466627DF4EDF0001BED9 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		0CDB38302816BF3400AD8397 /* Rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CDB382F2816BF3400AD8397 /* XCRemoteSwiftPackageReference "R.swift.Library" */;
+			productName = Rswift;
 		};
 		0CE8EAF8280694CC00A022CE /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1681,6 +1887,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0CE8EAF7280694CC00A022CE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		0CEAF94D28115B72001B02F1 /* EnvironmentOverrides */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CEAF94C28115B72001B02F1 /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */;
+			productName = EnvironmentOverrides;
+		};
+		0CEAF9D02811905E001B02F1 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CEAF9CF2811905E001B02F1 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
 		};
 /* End XCSwiftPackageProductDependency section */
 

@@ -5,30 +5,26 @@
 //  Created by Ricardo Monteverde on 3/14/22.
 //
 
-import UIKit
 import Combine
-import SwiftUI
 import Firebase
 import FirebaseMessaging
+import SwiftUI
+import UIKit
 import UserNotifications
 
 typealias NotificationPayload = [AnyHashable: Any]
 typealias FetchCompletion = (UIBackgroundFetchResult) -> Void
 
+// swiftlint:disable line_length
 @UIApplicationMain
 final class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
     let gcmMessageIDKey = "gcm.message_id"
 
-    lazy var systemEventsHandler: SystemEventsHandler? = {
-        self.systemEventsHandler(UIApplication.shared)
-    }()
+    lazy var systemEventsHandler: SystemEventsHandler? = self.systemEventsHandler(UIApplication.shared)
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions
-        launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-        self.configure(application)
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        configure(application)
         return true
     }
 
@@ -38,77 +34,74 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
 
     private func sceneDelegate(_ application: UIApplication) -> SceneDelegate? {
         return application.windows
-            .compactMap({ $0.windowScene?.delegate as? SceneDelegate })
+            .compactMap { $0.windowScene?.delegate as? SceneDelegate }
             .first
     }
 }
 
 extension AppDelegate {
     func configure(_ application: UIApplication) {
-        self.registerForPushNotifications()
-        self.initializeFirebaseNotification(application)
-        self.initializeFonts()
+        registerForPushNotifications()
+        initializeFirebaseNotification(application)
+        initializeFonts()
     }
 
-    // swiftlint:disable redundant_discardable_let
     func initializeFonts() {
-        let _ = FontFamily.BrilliantCutProB7.medium.font(size: 16)
-        let _ = FontFamily.BrilliantCutProB7.bold.font(size: 16)
-        let _ = FontFamily.BrilliantCutProB7.regular.font(size: 16)
-        let _ = FontFamily.BrilliantCutProB7.black.font(size: 16)
-        let _ = FontFamily.BrilliantCutProB7.light.font(size: 16)
-        let _ = FontFamily.BrilliantCutProB7.thin.font(size: 16)
+        _ = FontFamily.BrilliantCutProB7.medium.font(size: 16)
+        _ = FontFamily.BrilliantCutProB7.bold.font(size: 16)
+        _ = FontFamily.BrilliantCutProB7.regular.font(size: 16)
+        _ = FontFamily.BrilliantCutProB7.black.font(size: 16)
+        _ = FontFamily.BrilliantCutProB7.light.font(size: 16)
+        _ = FontFamily.BrilliantCutProB7.thin.font(size: 16)
 
-        let _ = FontFamily.FancyCutProB7.light.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.lightItalic.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.medium.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.mediumItalic.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.regular.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.regularItalic.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.bold.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.boldItalic.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.thin.font(size: 16)
-        let _ = FontFamily.FancyCutProB7.thinItalic.font(size: 16)
+        _ = FontFamily.FancyCutProB7.light.font(size: 16)
+        _ = FontFamily.FancyCutProB7.lightItalic.font(size: 16)
+        _ = FontFamily.FancyCutProB7.medium.font(size: 16)
+        _ = FontFamily.FancyCutProB7.mediumItalic.font(size: 16)
+        _ = FontFamily.FancyCutProB7.regular.font(size: 16)
+        _ = FontFamily.FancyCutProB7.regularItalic.font(size: 16)
+        _ = FontFamily.FancyCutProB7.bold.font(size: 16)
+        _ = FontFamily.FancyCutProB7.boldItalic.font(size: 16)
+        _ = FontFamily.FancyCutProB7.thin.font(size: 16)
+        _ = FontFamily.FancyCutProB7.thinItalic.font(size: 16)
 
-        let _ = FontFamily.FancyCutExtProB7.light.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.lightItalic.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.medium.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.mediumItalic.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.regular.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.regularItalic.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.bold.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.boldItalic.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.thin.font(size: 16)
-        let _ = FontFamily.FancyCutExtProB7.thinItalic.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.light.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.lightItalic.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.medium.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.mediumItalic.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.regular.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.regularItalic.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.bold.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.boldItalic.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.thin.font(size: 16)
+        _ = FontFamily.FancyCutExtProB7.thinItalic.font(size: 16)
 
-        let _ = FontFamily.FancyCutCondProB7.light.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.lightItalic.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.medium.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.mediumItalic.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.regular.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.regularItalic.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.bold.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.boldItalic.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.thin.font(size: 16)
-        let _ = FontFamily.FancyCutCondProB7.thinItalic.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.light.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.lightItalic.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.medium.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.mediumItalic.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.regular.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.regularItalic.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.bold.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.boldItalic.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.thin.font(size: 16)
+        _ = FontFamily.FancyCutCondProB7.thinItalic.font(size: 16)
     }
 }
 
 // Cloud Messaging
 extension AppDelegate: MessagingDelegate {
-
     func registerForPushNotifications() {
         UNUserNotificationCenter.current()
-            .requestAuthorization(options: [.alert, .sound, .badge]) { (granted, _) in
+            .requestAuthorization(options: [.alert, .sound, .badge]) { granted, _ in
                 print("Permission granted: \(granted)")
-        }
+            }
     }
 
-    func application(_ application: UIApplication,
+    func application(_: UIApplication,
                      didReceiveRemoteNotification userInfo: [AnyHashable: Any],
                      fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult)
-                       -> Void) {
-
+                         -> Void) {
         systemEventsHandler?
             .appDidReceiveRemoteNotification(payload: userInfo, fetchCompletion: completionHandler)
 
@@ -122,13 +115,13 @@ extension AppDelegate: MessagingDelegate {
         completionHandler(UIBackgroundFetchResult.newData)
     }
 
-    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+    func application(_: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         systemEventsHandler?.handlePushRegistration(result: .failure(error))
 
         print(error)
     }
 
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+    func application(_: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         systemEventsHandler?.handlePushRegistration(result: .success(deviceToken))
 
         print(deviceToken)
@@ -153,14 +146,14 @@ extension AppDelegate: MessagingDelegate {
             )
         } else {
             let settings: UIUserNotificationSettings =
-            UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)
+                .init(types: [.alert, .badge, .sound], categories: nil)
             application.registerUserNotificationSettings(settings)
         }
         application.registerForRemoteNotifications()
     }
 
-    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
-      let dataDict: [String: String] = ["token": fcmToken ?? ""]
+    func messaging(_: Messaging, didReceiveRegistrationToken fcmToken: String?) {
+        let dataDict: [String: String] = ["token": fcmToken ?? ""]
         print("token: \(dataDict)")
     }
 }
@@ -168,8 +161,7 @@ extension AppDelegate: MessagingDelegate {
 // User Notification (In-app notification)
 @available(iOS 10, *)
 extension AppDelegate: UNUserNotificationCenterDelegate {
-
-    func userNotificationCenter(_ center: UNUserNotificationCenter,
+    func userNotificationCenter(_: UNUserNotificationCenter,
                                 willPresent notification: UNNotification,
                                 withCompletionHandler completionHandler:
                                 @escaping (UNNotificationPresentationOptions) -> Void) {
@@ -183,7 +175,7 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         completionHandler([[.banner, .badge, .sound]])
     }
 
-    func userNotificationCenter(_ center: UNUserNotificationCenter,
+    func userNotificationCenter(_: UNUserNotificationCenter,
                                 didReceive response: UNNotificationResponse,
                                 withCompletionHandler completionHandler: @escaping () -> Void) {
         let userInfo = response.notification.request.content.userInfo

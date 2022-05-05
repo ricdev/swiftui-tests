@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct StacksView: View {
-
     var body: some View {
         ZStack {
             Color.green.ignoresSafeArea(.all)

@@ -13,7 +13,8 @@ extension DIContainer {
 
         init(countriesService: CountriesService,
              imagesService: ImagesService,
-             userPermissionsService: UserPermissionsService) {
+             userPermissionsService: UserPermissionsService)
+        {
             self.countriesService = countriesService
             self.imagesService = imagesService
             self.userPermissionsService = userPermissionsService

@@ -16,7 +16,6 @@ public enum EndpointApi {
 }
 
 extension EndpointApi: EndPointType {
-
     var environmentBaseURL: String {
         switch NetworkManager.environment {
         case .development: return "https://raw.githubusercontent.com/ricdev/swiftui-tests/main/json/"
@@ -24,7 +23,7 @@ extension EndpointApi: EndPointType {
     }
 
     var baseURL: URL {
-        guard let url = URL(string: environmentBaseURL) else { fatalError("baseURL could not be configured.")}
+        guard let url = URL(string: environmentBaseURL) else { fatalError("baseURL could not be configured.") }
         return url
     }
 

@@ -5,13 +5,13 @@
 //  Created by Ricardo Monteverde on 4/18/22.
 //
 
-import Foundation
 import CoreData
+import Foundation
 
-extension CountryMO: ManagedEntity { }
-extension NameTranslationMO: ManagedEntity { }
-extension CountryDetailsMO: ManagedEntity { }
-extension CurrencyMO: ManagedEntity { }
+extension CountryMO: ManagedEntity {}
+extension NameTranslationMO: ManagedEntity {}
+extension CountryDetailsMO: ManagedEntity {}
+extension CurrencyMO: ManagedEntity {}
 
 extension Locale {
     static var backendDefault: Locale {
@@ -24,10 +24,9 @@ extension Locale {
 }
 
 extension Country.Details {
-
     init?(managedObject: CountryDetailsMO) {
         guard let capital = managedObject.capital
-            else { return nil }
+        else { return nil }
 
         let currencies = (managedObject.currencies ?? NSSet())
             .toArray(of: CurrencyMO.self)
@@ -43,12 +42,12 @@ extension Country.Details {
 }
 
 extension Country.Details.Intermediate {
-
     @discardableResult
     func store(in context: NSManagedObjectContext,
-               country: CountryMO, borders: [CountryMO]) -> CountryDetailsMO? {
+               country: CountryMO, borders: [CountryMO]) -> CountryDetailsMO?
+    {
         guard let details = CountryDetailsMO.insertNew(in: context)
-            else { return nil }
+        else { return nil }
         details.capital = capital
         let storedCurrencies = currencies.compactMap { $0.store(in: context) }
         details.currencies = NSSet(array: storedCurrencies)
@@ -59,18 +58,17 @@ extension Country.Details.Intermediate {
 }
 
 extension Country.Currency {
-
     init?(managedObject: CurrencyMO) {
         guard let code = managedObject.code,
-            let name = managedObject.name
-            else { return nil }
+              let name = managedObject.name
+        else { return nil }
         self.init(code: code, symbol: managedObject.symbol, name: name)
     }
 
     @discardableResult
     func store(in context: NSManagedObjectContext) -> CurrencyMO? {
         guard let currency = CurrencyMO.insertNew(in: context)
-            else { return nil }
+        else { return nil }
         currency.code = code
         currency.name = name
         currency.symbol = symbol
@@ -79,19 +77,18 @@ extension Country.Currency {
 }
 
 extension Country {
-
     @discardableResult
     func store(in context: NSManagedObjectContext) -> CountryMO? {
         guard let country = CountryMO.insertNew(in: context)
-            else { return nil }
+        else { return nil }
         country.name = name
         country.alpha3code = alpha3Code
         country.population = Int32(population)
         country.flagURL = flag?.absoluteString
         let translations = self.translations
-            .compactMap { (locale, name) -> NameTranslationMO? in
+            .compactMap { locale, name -> NameTranslationMO? in
                 guard let name = name,
-                    let translation = NameTranslationMO.insertNew(in: context)
+                      let translation = NameTranslationMO.insertNew(in: context)
                 else { return nil }
                 translation.name = name
                 translation.locale = locale
@@ -103,19 +100,19 @@ extension Country {
 
     init?(managedObject: CountryMO) {
         guard let nameTranslations = managedObject.nameTranslations
-            else { return nil }
+        else { return nil }
         let translations: [String: String?] = nameTranslations
             .toArray(of: NameTranslationMO.self)
-            .reduce([:], { (dict, record) -> [String: String?] in
+            .reduce([:]) { dict, record -> [String: String?] in
                 guard let locale = record.locale, let name = record.name
-                    else { return dict }
+                else { return dict }
                 var dict = dict
                 dict[locale] = name
                 return dict
-            })
+            }
         guard let name = managedObject.name,
-            let alpha3code = managedObject.alpha3code
-            else { return nil }
+              let alpha3code = managedObject.alpha3code
+        else { return nil }
 
         self.init(name: name, translations: translations,
                   population: Int(managedObject.population),
